@@ -11,14 +11,15 @@ import Toast from './components/Toast'
 import type { Prompt } from './types/prompt'
 
 export default function App() {
-  const { prompts, addPrompt, deletePrompt, toggleFavorite, resetAll } = usePrompts()
+  const { prompts, addPrompt, deletePrompt, toggleFavorite, resetAll, restoreDefaults } = usePrompts()
   const [query, setQuery] = useState('')
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
+  const [showFavoritesOnly, setShowFavoritesOnly] = useState(false)
   const [selectedPrompt, setSelectedPrompt] = useState<Prompt | null>(null)
   const [showAddModal, setShowAddModal] = useState(false)
   const [toast, setToast] = useState<string | null>(null)
 
-  const filteredPrompts = useSearch(prompts, query, activeCategory)
+  const filteredPrompts = useSearch(prompts, query, activeCategory, showFavoritesOnly)
 
   const categoryCounts = useMemo(() => {
     const counts: Record<string, number> = {}
@@ -44,17 +45,19 @@ export default function App() {
             </h1>
           </div>
           <div className="flex items-center gap-2">
-            <button
-              onClick={() => {
-                if (window.confirm('Er du sikker? Alle dine ændringer slettes og biblioteket nulstilles til standardprompts.')) {
-                  resetAll()
-                  handleToast('Biblioteket er nulstillet')
-                }
-              }}
-              className="text-gray-400 hover:text-gray-600 font-medium px-3 py-2 rounded-xl text-sm transition-colors cursor-pointer"
-            >
-              Nulstil
-            </button>
+            {prompts.length > 0 && (
+              <button
+                onClick={() => {
+                  if (window.confirm('Er du sikker? Alle prompts fjernes fra din visning. Du kan altid hente standardprompts tilbage igen.')) {
+                    resetAll()
+                    handleToast('Alle prompts er fjernet')
+                  }
+                }}
+                className="text-gray-400 hover:text-gray-600 font-medium px-3 py-2 rounded-xl text-sm transition-colors cursor-pointer"
+              >
+                Ryd bibliotek
+              </button>
+            )}
             <button
               onClick={() => setShowAddModal(true)}
               className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-xl text-sm transition-colors cursor-pointer flex items-center gap-1.5"
@@ -71,7 +74,13 @@ export default function App() {
       {/* Main */}
       <main className="max-w-5xl mx-auto px-4 sm:px-6 py-6">
         {prompts.length === 0 ? (
-          <EmptyState onAdd={() => setShowAddModal(true)} />
+          <EmptyState
+            onAdd={() => setShowAddModal(true)}
+            onRestoreDefaults={() => {
+              restoreDefaults()
+              handleToast('Standardprompts er hentet ind')
+            }}
+          />
         ) : (
           <>
             {/* Search + Filter */}
@@ -81,6 +90,9 @@ export default function App() {
                 activeCategory={activeCategory}
                 onSelect={setActiveCategory}
                 categoryCounts={categoryCounts}
+                showFavoritesOnly={showFavoritesOnly}
+                onToggleFavorites={() => setShowFavoritesOnly((v) => !v)}
+                favoritesCount={prompts.filter((p) => p.isFavorite).length}
               />
             </div>
 

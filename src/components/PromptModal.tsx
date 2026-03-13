@@ -25,7 +25,8 @@ export default function PromptModal({
   const handleOpenIn = async (platform: 'chatgpt' | 'claude' | 'gemini') => {
     const result = await openInPlatform(platform, prompt.text)
     if (result.copied) {
-      onToast('Prompt kopieret! Indsæt den i chatten.')
+      const name = platform === 'claude' ? 'Claude' : 'Gemini'
+      onToast(`Prompt kopieret! Indsæt den med Ctrl+V i ${name}.`)
     }
   }
 

@@ -18,7 +18,9 @@ export default function PromptCard({ prompt, onClick, onToggleFavorite }: Prompt
           e.stopPropagation()
           onToggleFavorite()
         }}
-        className="absolute top-4 right-4 text-lg opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer"
+        className={`absolute top-4 right-4 text-lg transition-opacity cursor-pointer ${
+          prompt.isFavorite ? 'text-amber-500 opacity-100' : 'opacity-0 group-hover:opacity-100 text-gray-400'
+        }`}
         title={prompt.isFavorite ? 'Fjern fra favoritter' : 'Tilføj til favoritter'}
       >
         {prompt.isFavorite ? '★' : '☆'}

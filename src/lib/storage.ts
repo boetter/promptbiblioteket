@@ -39,7 +39,14 @@ export function savePrompts(prompts: Prompt[]): void {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(prompts))
 }
 
-export function resetToDefaults(): void {
-  localStorage.removeItem(STORAGE_KEY)
-  localStorage.removeItem(INITIALIZED_KEY)
+export function resetToDefaults(): Prompt[] {
+  const prompts = generatePromptsFromDefaults()
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(prompts))
+  localStorage.setItem(INITIALIZED_KEY, '1')
+  return prompts
+}
+
+export function clearAll(): void {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify([]))
+  localStorage.setItem(INITIALIZED_KEY, '1')
 }

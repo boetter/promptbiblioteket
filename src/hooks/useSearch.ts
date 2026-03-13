@@ -1,36 +1,43 @@
 import { useMemo } from 'react'
-import Fuse from 'fuse.js'
 import type { Prompt } from '../types/prompt'
 
-export function useSearch(prompts: Prompt[], query: string, activeCategory: string | null) {
-  const fuse = useMemo(
-    () =>
-      new Fuse(prompts, {
-        keys: [
-          { name: 'title', weight: 2 },
-          { name: 'text', weight: 1 },
-          { name: 'tags', weight: 1.5 },
-          { name: 'category', weight: 1 },
-        ],
-        threshold: 0.4,
-        ignoreLocation: true,
-      }),
-    [prompts],
-  )
-
+export function useSearch(
+  prompts: Prompt[],
+  query: string,
+  activeCategory: string | null,
+  showFavoritesOnly: boolean,
+) {
   const results = useMemo(() => {
     let filtered = prompts
 
+    if (showFavoritesOnly) {
+      filtered = filtered.filter((p) => p.isFavorite)
+    }
+
     if (query.trim()) {
-      filtered = fuse.search(query).map((r) => r.item)
+      const q = query.trim().toLowerCase()
+      filtered = filtered.filter(
+        (p) =>
+          p.title.toLowerCase().includes(q) ||
+          p.text.toLowerCase().includes(q) ||
+          p.tags.some((t) => t.toLowerCase().includes(q)) ||
+          p.category.toLowerCase().includes(q),
+      )
     }
 
     if (activeCategory) {
       filtered = filtered.filter((p) => p.category === activeCategory)
     }
 
+    // Sort favorites to top
+    filtered = [...filtered].sort((a, b) => {
+      if (a.isFavorite && !b.isFavorite) return -1
+      if (!a.isFavorite && b.isFavorite) return 1
+      return 0
+    })
+
     return filtered
-  }, [prompts, query, activeCategory, fuse])
+  }, [prompts, query, activeCategory, showFavoritesOnly])
 
   return results
 }
