@@ -34,7 +34,10 @@ export default function App() {
     setToast(message)
   }, [])
 
-  // Deep-link: open prompt from URL hash on load
+  const handleTagClick = useCallback((tag: string) => {
+    setQuery(tag)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [])
   useEffect(() => {
     const hash = window.location.hash
     const match = hash.match(/^#\/prompt\/(.+)$/)
@@ -145,7 +148,7 @@ export default function App() {
                     prompt={prompt}
                     onClick={() => openPrompt(prompt)}
                     onToggleFavorite={() => toggleFavorite(prompt.id)}
-                    onTagClick={setQuery}
+                    onTagClick={handleTagClick}
                   />
                 ))}
               </div>
@@ -172,7 +175,7 @@ export default function App() {
         onDelete={deletePrompt}
         onUpdate={updatePrompt}
         onToggleFavorite={toggleFavorite}
-        onTagClick={setQuery}
+        onTagClick={handleTagClick}
         onToast={handleToast}
       />
       <Toast message={toast} onClose={() => setToast(null)} />
