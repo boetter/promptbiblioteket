@@ -5,9 +5,10 @@ interface PromptCardProps {
   prompt: Prompt
   onClick: () => void
   onToggleFavorite: () => void
+  onTagClick: (tag: string) => void
 }
 
-export default function PromptCard({ prompt, onClick, onToggleFavorite }: PromptCardProps) {
+export default function PromptCard({ prompt, onClick, onToggleFavorite, onTagClick }: PromptCardProps) {
   return (
     <div
       onClick={onClick}
@@ -48,12 +49,16 @@ export default function PromptCard({ prompt, onClick, onToggleFavorite }: Prompt
       {prompt.tags.length > 0 && (
         <div className="flex flex-wrap gap-1.5">
           {prompt.tags.slice(0, 3).map((tag) => (
-            <span
+            <button
               key={tag}
-              className="text-xs bg-gray-50 text-gray-500 px-2 py-0.5 rounded-md"
+              onClick={(e) => {
+                e.stopPropagation()
+                onTagClick(tag)
+              }}
+              className="text-xs bg-gray-50 text-gray-500 px-2 py-0.5 rounded-md hover:bg-indigo-50 hover:text-indigo-600 transition-colors cursor-pointer"
             >
               #{tag}
-            </span>
+            </button>
           ))}
           {prompt.tags.length > 3 && (
             <span className="text-xs text-gray-400">+{prompt.tags.length - 3}</span>

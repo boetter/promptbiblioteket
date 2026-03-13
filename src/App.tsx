@@ -1,6 +1,7 @@
-import { useState, useMemo, useCallback } from 'react'
+import { useState, useMemo, useCallback, useEffect } from 'react'
 import { usePrompts } from './hooks/usePrompts'
 import { useSearch } from './hooks/useSearch'
+import { toSlug } from './lib/slug'
 import SearchBar from './components/SearchBar'
 import TagFilter from './components/TagFilter'
 import PromptCard from './components/PromptCard'
@@ -31,6 +32,28 @@ export default function App() {
 
   const handleToast = useCallback((message: string) => {
     setToast(message)
+  }, [])
+
+  // Deep-link: open prompt from URL hash on load
+  useEffect(() => {
+    const hash = window.location.hash
+    const match = hash.match(/^#\/prompt\/(.+)$/)
+    if (match && prompts.length > 0) {
+      const slug = match[1]
+      const found = prompts.find((p) => toSlug(p.title) === slug)
+      if (found) setSelectedPrompt(found)
+    }
+  }, [prompts])
+
+  // Deep-link: update URL hash when prompt is opened/closed
+  const openPrompt = useCallback((prompt: Prompt) => {
+    setSelectedPrompt(prompt)
+    window.history.replaceState(null, '', `#/prompt/${toSlug(prompt.title)}`)
+  }, [])
+
+  const closePrompt = useCallback(() => {
+    setSelectedPrompt(null)
+    window.history.replaceState(null, '', window.location.pathname)
   }, [])
 
   return (
@@ -88,19 +111,26 @@ export default function App() {
               <SearchBar query={query} onChange={setQuery} />
               <TagFilter
                 activeCategory={activeCategory}
-                onSelect={setActiveCategory}
+                onSelect={(cat) => {
+                  setActiveCategory(cat)
+                  setShowFavoritesOnly(false)
+                }}
                 categoryCounts={categoryCounts}
                 showFavoritesOnly={showFavoritesOnly}
-                onToggleFavorites={() => setShowFavoritesOnly((v) => !v)}
+                onToggleFavorites={() => {
+                  setShowFavoritesOnly((v) => !v)
+                  setActiveCategory(null)
+                }}
                 favoritesCount={prompts.filter((p) => p.isFavorite).length}
               />
             </div>
 
             {/* Results info */}
-            {(query || activeCategory) && (
+            {(query || activeCategory || showFavoritesOnly) && (
               <p className="text-sm text-gray-500 mb-4">
                 {filteredPrompts.length}{' '}
                 {filteredPrompts.length === 1 ? 'prompt fundet' : 'prompts fundet'}
+                {showFavoritesOnly && ' i favoritter'}
                 {activeCategory && ` i "${activeCategory}"`}
                 {query && ` for "${query}"`}
               </p>
@@ -113,8 +143,9 @@ export default function App() {
                   <PromptCard
                     key={prompt.id}
                     prompt={prompt}
-                    onClick={() => setSelectedPrompt(prompt)}
+                    onClick={() => openPrompt(prompt)}
                     onToggleFavorite={() => toggleFavorite(prompt.id)}
+                    onTagClick={setQuery}
                   />
                 ))}
               </div>
@@ -137,10 +168,11 @@ export default function App() {
       />
       <PromptModal
         prompt={selectedPrompt}
-        onClose={() => setSelectedPrompt(null)}
+        onClose={closePrompt}
         onDelete={deletePrompt}
         onUpdate={updatePrompt}
         onToggleFavorite={toggleFavorite}
+        onTagClick={setQuery}
         onToast={handleToast}
       />
       <Toast message={toast} onClose={() => setToast(null)} />
