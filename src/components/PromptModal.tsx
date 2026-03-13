@@ -9,6 +9,7 @@ interface PromptModalProps {
   onDelete: (id: string) => void
   onUpdate: (id: string, data: Partial<Pick<Prompt, 'title' | 'text' | 'tags' | 'category'>>) => void
   onToggleFavorite: (id: string) => void
+  onTagClick: (tag: string) => void
   onToast: (message: string) => void
 }
 
@@ -18,6 +19,7 @@ export default function PromptModal({
   onDelete,
   onUpdate,
   onToggleFavorite,
+  onTagClick,
   onToast,
 }: PromptModalProps) {
   const [confirmDelete, setConfirmDelete] = useState(false)
@@ -195,12 +197,16 @@ export default function PromptModal({
             prompt.tags.length > 0 && (
               <div className="flex flex-wrap gap-1.5 mb-3">
                 {prompt.tags.map((tag) => (
-                  <span
+                  <button
                     key={tag}
-                    className="text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded-md"
+                    onClick={() => {
+                      onTagClick(tag)
+                      onClose()
+                    }}
+                    className="text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded-md hover:bg-indigo-50 hover:text-indigo-600 transition-colors cursor-pointer"
                   >
                     #{tag}
-                  </span>
+                  </button>
                 ))}
               </div>
             )
