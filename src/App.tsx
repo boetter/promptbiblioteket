@@ -81,7 +81,8 @@ export default function App() {
                 }}
                 className="text-gray-400 hover:text-gray-600 font-medium px-2 sm:px-3 py-2 rounded-xl text-xs sm:text-sm transition-colors cursor-pointer whitespace-nowrap"
               >
-                Ryd bibliotek
+                <span className="sm:hidden">Ryd</span>
+                <span className="hidden sm:inline">Ryd bibliotek</span>
               </button>
             )}
             <button
@@ -91,7 +92,8 @@ export default function App() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
               </svg>
-              Tilføj prompt
+              <span className="sm:hidden">Tilføj</span>
+              <span className="hidden sm:inline">Tilføj prompt</span>
             </button>
           </div>
         </div>
