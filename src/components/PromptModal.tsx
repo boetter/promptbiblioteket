@@ -155,7 +155,7 @@ export default function PromptModal({
               value={editText}
               onChange={(e) => setEditText(e.target.value)}
               rows={8}
-              className="w-full px-3 py-3 bg-gray-50 border border-gray-200 rounded-xl text-sm text-gray-700 leading-relaxed focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent resize-y mb-2"
+              className="w-full px-3 py-3 bg-gray-50 border border-gray-200 rounded-xl text-base text-gray-700 leading-relaxed focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent resize-y mb-2"
             />
           ) : (
             <div className="bg-gray-50/80 rounded-xl px-4 py-3 mb-2">
@@ -190,7 +190,7 @@ export default function PromptModal({
                 onChange={(e) => setEditTagInput(e.target.value)}
                 onKeyDown={handleTagKeyDown}
                 placeholder="Tilføj tags (tryk Enter)..."
-                className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
               />
             </div>
           ) : (
