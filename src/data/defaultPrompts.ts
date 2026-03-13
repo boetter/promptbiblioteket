@@ -14,7 +14,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Business Model Canvas",
@@ -34,7 +34,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Blenderen",
@@ -53,7 +53,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Læring"
+    "category": "Analyse"
   },
   {
     "title": "Eisenhower Matrix",
@@ -73,7 +73,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Synonymfinder",
@@ -137,7 +137,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "AI"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Etymolog",
@@ -174,7 +174,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Six Thinking Hats",
@@ -221,7 +221,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "AI"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Hård kritik",
@@ -241,7 +241,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Fremtidsforsker",
@@ -300,7 +300,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Skrivning"
+    "category": "HR"
   },
   {
     "title": "OKR-ekspert",
@@ -347,7 +347,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Fancy titelgenerator",
@@ -393,7 +393,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Kundeservicerollespil",
@@ -403,7 +403,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Mødeplanlægger",
@@ -440,7 +440,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "kommunikation"
     ],
-    "category": "Kreativitet"
+    "category": "Skrivning"
   },
   {
     "title": "Selvhjælpsbog",
@@ -459,7 +459,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Incident Manager",
@@ -469,7 +469,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Kundeservicetræner",
@@ -479,7 +479,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Social media influencer",
@@ -489,7 +489,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Personlighedstest",
@@ -498,7 +498,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Læring"
+    "category": "HR"
   },
   {
     "title": "Faktatjekker",
@@ -557,7 +557,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forhandling",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Beslutningsmatrix",
@@ -566,7 +566,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Projektleder",
@@ -576,7 +576,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Svar venligt og kortfattet på email",
@@ -594,7 +594,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Produktudvikling",
@@ -650,7 +650,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "HR"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Videnskabelig datavisualiseringsspecialist",
@@ -659,7 +659,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "analyse"
     ],
-    "category": "Læring"
+    "category": "Analyse"
   },
   {
     "title": "Excel-ekspert",
@@ -670,7 +670,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Minister",
@@ -689,7 +689,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Optimering af website",
@@ -699,7 +699,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Arbejdsmiljøkonsulent",
@@ -709,7 +709,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "sundhed"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Trendforsker",
@@ -719,7 +719,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Opfindsomhed med TRIZ",
@@ -747,7 +747,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "BI"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Skaber af nye sprog",
@@ -775,7 +775,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Cybersikkerhedsekspert",
@@ -785,7 +785,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-sikkerhed",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Utopi/dystopi",
@@ -804,7 +804,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "kommunikation"
     ],
-    "category": "Læring"
+    "category": "Analyse"
   },
   {
     "title": "Vækstrådgiver",
@@ -872,7 +872,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kommunikationsrådgiver",
@@ -893,7 +893,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Kolde e-mails",
@@ -903,7 +903,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "skrivning"
     ],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Titelgenerator",
@@ -912,7 +912,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "kommunikation"
     ],
-    "category": "Kreativitet"
+    "category": "Skrivning"
   },
   {
     "title": "MVP",
@@ -922,7 +922,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Brugerrejser",
@@ -932,7 +932,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "teknologi"
     ],
-    "category": "Kreativitet"
+    "category": "Tech"
   },
   {
     "title": "Promptgenerator",
@@ -1023,7 +1023,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "regnskab"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Social Media Manager",
@@ -1034,7 +1034,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Medarbejderhåndbog",
@@ -1044,7 +1044,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Matematiklærer",
@@ -1063,7 +1063,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "LinkedIn-profil forbedring",
@@ -1073,7 +1073,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Gap-analyse",
@@ -1084,7 +1084,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bæredygtighed",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Brugerresearch",
@@ -1094,7 +1094,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bank",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Filosof",
@@ -1145,7 +1145,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Musikanbefaler",
@@ -1215,7 +1215,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Markedsanalytiker",
@@ -1226,7 +1226,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Deskriptiv analyse",
@@ -1236,7 +1236,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Madplansekspert",
@@ -1254,7 +1254,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "kommunikation"
     ],
-    "category": "Kreativitet"
+    "category": "Andet"
   },
   {
     "title": "Kundetilfredshedsanalyse",
@@ -1264,7 +1264,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Konverteringsoptimering",
@@ -1274,7 +1274,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "AI Ethics Framework",
@@ -1285,7 +1285,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Feedback formular",
@@ -1295,7 +1295,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Forecasting",
@@ -1305,7 +1305,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Bibliotekar",
@@ -1333,7 +1333,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Vanecoach",
@@ -1362,7 +1362,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Ghostwriter",
@@ -1382,7 +1382,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Salgstræner",
@@ -1392,7 +1392,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Ren statistik",
@@ -1401,7 +1401,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Læring"
+    "category": "Analyse"
   },
   {
     "title": "First Principles",
@@ -1411,7 +1411,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "ledelse"
     ],
-    "category": "Læring"
+    "category": "Arbejde"
   },
   {
     "title": "Job interviewer",
@@ -1421,7 +1421,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Onboarding",
@@ -1431,7 +1431,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Brætspilsguru",
@@ -1468,7 +1468,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "kommunikation"
     ],
-    "category": "Kreativitet"
+    "category": "Læring"
   },
   {
     "title": "Retrospective",
@@ -1478,7 +1478,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Lærer",
@@ -1497,7 +1497,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "YouTube-videoanalytiker",
@@ -1507,7 +1507,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Programleder",
@@ -1518,7 +1518,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Tankestruktur",
@@ -1567,7 +1567,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Copywriter",
@@ -1638,7 +1638,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forhandling",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Rekruttering",
@@ -1649,7 +1649,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "cloud"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "SEO-rådgiver",
@@ -1659,7 +1659,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Short and sweet",
@@ -1679,7 +1679,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Filmanbefaler",
@@ -1698,7 +1698,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Positive affirmationer",
@@ -1729,7 +1729,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Produktbeskrivelse",
@@ -1781,7 +1781,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Brætspilsdesigner",
@@ -1802,7 +1802,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Pressemedarbejder",
@@ -1812,7 +1812,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Den kritiske sti",
@@ -1822,7 +1822,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Regex-generator",
@@ -1832,7 +1832,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Hul i markedet",
@@ -1843,7 +1843,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bank",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Intern kommunikation",
@@ -1905,7 +1905,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Quizmaster",
@@ -1952,7 +1952,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Krisekommunikation",
@@ -1974,7 +1974,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "offentlig sektor"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Karrierecoach",
@@ -1984,7 +1984,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Arkitekt",
@@ -2014,7 +2014,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Whitepaper",
@@ -2063,7 +2063,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Menu-forslag",
@@ -2143,7 +2143,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Lifehacker",
@@ -2171,7 +2171,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "STP-analyse af målgruppe",
@@ -2182,7 +2182,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "AI-etik",
@@ -2230,7 +2230,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Pitch coach",
@@ -2240,7 +2240,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Risiko-analytiker",
@@ -2251,7 +2251,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Hypotetisk deduktiv",
@@ -2272,7 +2272,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Rejseguide",
@@ -2302,7 +2302,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Samme stil",
@@ -2320,7 +2320,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "kommunikation"
     ],
-    "category": "Kreativitet"
+    "category": "Andet"
   },
   {
     "title": "Kontrafaktisk historie",
@@ -2359,7 +2359,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Checklister",
@@ -2369,7 +2369,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Filmanmelder",
@@ -2378,7 +2378,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "kommunikation"
     ],
-    "category": "Kreativitet"
+    "category": "Skrivning"
   },
   {
     "title": "Foredragsholder",
@@ -2388,7 +2388,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "teknologi"
     ],
-    "category": "Kreativitet"
+    "category": "Skrivning"
   },
   {
     "title": "Produktopfinder",
@@ -2407,7 +2407,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Personaer",
@@ -2416,7 +2416,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Citatfinder",
@@ -2435,7 +2435,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Out-of-office",
@@ -2464,7 +2464,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Ordsprogssamling",
@@ -2556,7 +2556,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "forsikring"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Teknologianmelder",
@@ -2584,7 +2584,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Søvncoach",
@@ -2603,7 +2603,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "digitalisering"
     ],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Cybersikkerhedsspecialist",
@@ -2614,7 +2614,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Pædagog",
@@ -2644,7 +2644,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Portrætfotograf",
@@ -2653,7 +2653,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "social"
     ],
-    "category": "Kreativitet"
+    "category": "Andet"
   },
   {
     "title": "Cynefin",
@@ -2663,7 +2663,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "ledelse"
     ],
-    "category": "Læring"
+    "category": "Arbejde"
   },
   {
     "title": "Alt som tabel",
@@ -2700,7 +2700,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Romanforfatter",
@@ -2719,7 +2719,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Kreativitet"
   },
   {
     "title": "Kode-forenkler",
@@ -2729,7 +2729,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Rapper",
@@ -2747,7 +2747,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "kommunikation"
     ],
-    "category": "Kreativitet"
+    "category": "Andet"
   },
   {
     "title": "Livscoach",
@@ -2765,7 +2765,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "social"
     ],
-    "category": "Andet"
+    "category": "Læring"
   },
   {
     "title": "Konsekvensanalyse",
@@ -2774,7 +2774,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Parforholdscoach",
@@ -2793,7 +2793,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Diagram forklaring",
@@ -2803,7 +2803,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "Excel"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Investeringsrådgiver",
@@ -2824,7 +2824,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Uddyb",
@@ -2852,7 +2852,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Jubilæumstaleskriver",
@@ -2861,7 +2861,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "kommunikation"
     ],
-    "category": "Andet"
+    "category": "Skrivning"
   },
   {
     "title": "Employee Experience",
@@ -2871,7 +2871,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Finansanalytiker",
@@ -2882,7 +2882,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Beslutningstræ",
@@ -2892,7 +2892,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Mundtlig tysk lærer",
@@ -2921,7 +2921,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Forslag til præsentation af data",
@@ -2932,7 +2932,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "BI"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Mental sundhedsrådgiver",
@@ -2996,7 +2996,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Ejendomsmægler",
@@ -3025,7 +3025,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Influencer marketing",
@@ -3035,7 +3035,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Tidsskriftsanmelder",
@@ -3121,7 +3121,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "HR"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Musikpsykolog",
@@ -3130,7 +3130,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "kommunikation"
     ],
-    "category": "Andet"
+    "category": "Læring"
   },
   {
     "title": "Historiefortæller",
@@ -3195,7 +3195,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "sundhed"
     ],
-    "category": "Andet"
+    "category": "Analyse"
   },
   {
     "title": "Samarbejdsfacilitator",
@@ -3205,7 +3205,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "HR"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Debatcoach",
@@ -3224,7 +3224,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Følelsesekspert",
@@ -3272,7 +3272,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Andet"
   },
   {
     "title": "Astronaut",
@@ -3291,7 +3291,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Tegneserietegner",
@@ -3330,7 +3330,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Lean manufacturing",
@@ -3369,7 +3369,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Tre kilder",
@@ -3397,7 +3397,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "IT-arkitektur"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Kundeservicemedarbejder",
@@ -3407,7 +3407,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Børnebogsforfatter",
@@ -3445,7 +3445,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Reklameekspert",
@@ -3455,7 +3455,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Foreslå visualiseringer",
@@ -3465,7 +3465,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Kontraktjurist",
@@ -3475,7 +3475,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Komponist",
@@ -3520,7 +3520,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "IT-arkitektur"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Dyreadfærdsspecialist",
@@ -3547,7 +3547,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "IT-arkitektur"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Afvis pænt",
@@ -3596,7 +3596,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "HR"
     ],
-    "category": "Skrivning"
+    "category": "HR"
   },
   {
     "title": "Klag konstruktivt",
@@ -3616,7 +3616,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "kommunikation"
     ],
-    "category": "Skrivning"
+    "category": "HR"
   },
   {
     "title": "Anmodning om ressourcer",
@@ -3665,7 +3665,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "skrivning"
     ],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Påmindelses-mail",
@@ -3695,7 +3695,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "skrivning"
     ],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Opsummér mailkæde",
@@ -3734,7 +3734,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "skrivning"
     ],
-    "category": "Skrivning"
+    "category": "HR"
   },
   {
     "title": "Reklamér over faktura",
@@ -3754,7 +3754,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Møde-prep brief",
@@ -3774,7 +3774,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "pædagogik"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Icebreaker-generator",
@@ -3793,7 +3793,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Facilitatorguide",
@@ -3803,7 +3803,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Gør mødet kortere",
@@ -3843,7 +3843,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Fjernmøde-guide",
@@ -3863,7 +3863,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "HR"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Opsummér møde til folk der ikke var med",
@@ -3873,7 +3873,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Retroguide til projekt",
@@ -3883,7 +3883,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Prioriteringsøvelse til møde",
@@ -3893,7 +3893,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Spørgeteknikker til møder",
@@ -3920,7 +3920,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Forbedringsforslag til mødekultur",
@@ -3940,7 +3940,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Jobopslag-skribent",
@@ -3950,7 +3950,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Interview-spørgsmål",
@@ -3960,7 +3960,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "360-graders feedback-skabelon",
@@ -3971,7 +3971,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Onboarding-program",
@@ -3981,7 +3981,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Udviklingsplan til medarbejder",
@@ -3991,7 +3991,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Svær samtale – forberedelse",
@@ -4002,7 +4002,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Personalepolitik-udkast",
@@ -4012,7 +4012,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kultur-audit spørgsmål",
@@ -4023,7 +4023,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Rekrutteringsproces-design",
@@ -4033,7 +4033,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Lønramme-analyse",
@@ -4044,7 +4044,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Offboarding-tjekliste",
@@ -4054,7 +4054,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Exit-interview spørgsmål",
@@ -4065,7 +4065,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kompetenceprofil",
@@ -4075,7 +4075,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Trivselsmåling – analyse af svar",
@@ -4086,7 +4086,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Læringsaktivitet-designer",
@@ -4097,7 +4097,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "pædagogik",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Advarsels-brev",
@@ -4108,7 +4108,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Stillingsanalyse",
@@ -4119,7 +4119,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Psykologisk tryghed – teamøvelse",
@@ -4130,7 +4130,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Diversitets- og inklusionspolitik",
@@ -4141,7 +4141,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Mentor-program design",
@@ -4152,7 +4152,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Tilbudsskabelon",
@@ -4162,7 +4162,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Salgspitch på 60 sekunder",
@@ -4172,7 +4172,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Indsigelseshåndtering",
@@ -4182,7 +4182,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forhandling",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Kundeanalyse før salgsmøde",
@@ -4192,7 +4192,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Mersalgsmuligheder",
@@ -4202,7 +4202,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Salgsbrev",
@@ -4212,7 +4212,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Pristabel-generator",
@@ -4222,7 +4222,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Pipeline-analyse",
@@ -4233,7 +4233,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Referencecases",
@@ -4243,7 +4243,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Forhandlingsstrategi",
@@ -4263,7 +4263,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Salgstale til intern godkendelse",
@@ -4273,7 +4273,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Reaktiver kolde leads",
@@ -4283,7 +4283,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Kundens beslutningskriterier",
@@ -4293,7 +4293,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Konkurrentsammenligning til salg",
@@ -4303,7 +4303,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Deal-lukning teknikker",
@@ -4313,7 +4313,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Kontrakt-opsummering til kunde",
@@ -4324,7 +4324,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Salgsmål-breakdown",
@@ -4334,7 +4334,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "FAQ til hjemmeside",
@@ -4344,7 +4344,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Klagebehandlingsproces",
@@ -4354,7 +4354,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Chatbot-svar-skabeloner",
@@ -4364,7 +4364,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "AI"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Net Promoter Score analyse",
@@ -4375,7 +4375,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Kundeservicemanual",
@@ -4385,7 +4385,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Kundecitat til markedsføring",
@@ -4395,7 +4395,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Eskaleringsmatriks",
@@ -4405,7 +4405,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Genvind tabt kunde",
@@ -4415,7 +4415,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Serviceaftale-gennemgang",
@@ -4425,7 +4425,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Takkemail efter køb",
@@ -4435,7 +4435,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Analyse af kundehenvendelser",
@@ -4446,7 +4446,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Proaktiv servicekommunikation",
@@ -4456,7 +4456,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Onboarding-email sekvens til ny kunde",
@@ -4466,7 +4466,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Service recovery script",
@@ -4476,7 +4476,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Kundetilfredshedsundersøgelse",
@@ -4486,7 +4486,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Content kalender",
@@ -4496,7 +4496,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Hashtag-strategi",
@@ -4507,7 +4507,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Pressemeddelelses-skribent",
@@ -4517,7 +4517,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Annonce-tekst til digitale kanaler",
@@ -4527,7 +4527,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Brandingmanifest",
@@ -4537,7 +4537,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Blogartikel-outline",
@@ -4547,7 +4547,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Landingsside-tekst",
@@ -4557,7 +4557,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Employer branding tekst",
@@ -4567,7 +4567,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Retargeting-kampagne",
@@ -4577,7 +4577,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Branded content ide-generator",
@@ -4597,7 +4597,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "skrivning"
     ],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Kampagnekoncept",
@@ -4617,7 +4617,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "kommunikation"
     ],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Social proof-samlinger",
@@ -4627,7 +4627,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Newsletter-serie",
@@ -4637,7 +4637,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "kommunikation"
     ],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Persona-baseret budskab",
@@ -4647,7 +4647,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Konkurrenters indhold-analyse",
@@ -4657,7 +4657,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Produktlancerings-plan",
@@ -4667,7 +4667,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Budgetafvigelse-analyse",
@@ -4678,7 +4678,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Break-even analyse",
@@ -4689,7 +4689,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Investeringsvurdering",
@@ -4711,7 +4711,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "regnskab"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Finansiel prognose",
@@ -4754,7 +4754,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Finansiel risikomatrix",
@@ -4787,7 +4787,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "bank"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Finansiel due diligence-tjekliste",
@@ -4852,7 +4852,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Datarensning-guide",
@@ -4883,7 +4883,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Nøgletals-definition",
@@ -4904,7 +4904,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "BI"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Automatiser Excel-opgave",
@@ -4915,7 +4915,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "VLOOKUP alternativ",
@@ -4947,7 +4947,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Databeskyttelse i praksis",
@@ -4958,7 +4958,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "SQL-forespørgsel hjælper",
@@ -4969,7 +4969,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Datahistorie til præsentation",
@@ -4980,7 +4980,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Fejl i data-finder",
@@ -4990,7 +4990,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Benchmark-analyse",
@@ -5001,7 +5001,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "A/B-test analyse",
@@ -5012,7 +5012,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Slide-struktur designer",
@@ -5044,7 +5044,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Præsentationsopener",
@@ -5084,7 +5084,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Præsentation til various formater",
@@ -5145,7 +5145,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Forandringspræsentation",
@@ -5176,7 +5176,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forhandling",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "GDPR-tjekliste til ny aktivitet",
@@ -5187,7 +5187,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Fortrolighedserklæring-udkast",
@@ -5198,7 +5198,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forhandling",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Servicevilkår-gennemgang",
@@ -5208,7 +5208,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Compliance-tjek",
@@ -5219,7 +5219,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Udbudsresponsskriver",
@@ -5230,7 +5230,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Ansættelseskontrakt-tjek",
@@ -5241,7 +5241,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Persondatapolitik-udkast",
@@ -5252,7 +5252,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Risikovurdering af kontrakt",
@@ -5263,7 +5263,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forhandling",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Opsigelsesvarsel og -brev",
@@ -5274,7 +5274,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Cookie-politik-udkast",
@@ -5285,7 +5285,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Leverandøraftale-udkast",
@@ -5296,7 +5296,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forhandling",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Anti-hvidvask-forklaring",
@@ -5307,7 +5307,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Brugervilkår-opsummering",
@@ -5317,7 +5317,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Internkontrol-manual",
@@ -5328,7 +5328,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Digitaliseringsplan",
@@ -5339,7 +5339,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-system sammenligning",
@@ -5350,7 +5350,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "IT-arkitektur"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Change management til IT-projekt",
@@ -5361,7 +5361,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "IT-kravspecifikation",
@@ -5372,7 +5372,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "IT-arkitektur"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Fejlmelding-analyse",
@@ -5382,7 +5382,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "IT-sikkerhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-sikkerhedspolitik",
@@ -5393,7 +5393,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "GDPR",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Procesautomations-ideer",
@@ -5404,7 +5404,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "AI"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "API-integration forklaring",
@@ -5414,7 +5414,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Cloud-strategi guide",
@@ -5425,7 +5425,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Brugervejledning-skriver",
@@ -5447,7 +5447,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Softwareanskaffelses-vurdering",
@@ -5458,7 +5458,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-projekt status-rapport",
@@ -5469,7 +5469,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Digitale compentencer-assessment",
@@ -5480,7 +5480,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Teknisk gæld-analyse",
@@ -5491,7 +5491,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Leder-feedback til medarbejder",
@@ -5502,7 +5502,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "1-til-1 møde guide",
@@ -5513,7 +5513,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Situationsbestemt ledelse",
@@ -5535,7 +5535,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Delegering-tjekliste",
@@ -5590,7 +5590,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Coaching-samtale guide",
@@ -5601,7 +5601,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Ledelsesbrev til teamet",
@@ -5622,7 +5622,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Succession planning",
@@ -5633,7 +5633,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Adfærdskodeks-udkast",
@@ -5644,7 +5644,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Lederuddannelses-program",
@@ -5655,7 +5655,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Tillidsmåling i teamet",
@@ -5666,7 +5666,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Leder som underviser",
@@ -5677,7 +5677,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "pædagogik",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Forandringsmodstand-håndtering",
@@ -5699,7 +5699,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Gantt-plan beskrivelse",
@@ -5709,7 +5709,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Scope creep-håndtering",
@@ -5719,7 +5719,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Risikoregister",
@@ -5729,7 +5729,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Ressourceplanlægning",
@@ -5739,7 +5739,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Interessent-kommunikationsplan",
@@ -5749,7 +5749,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Projekt-review",
@@ -5759,7 +5759,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Prioriteringsmodel",
@@ -5770,7 +5770,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Projekt-kommunikationsplan",
@@ -5780,7 +5780,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Projektets business case",
@@ -5791,7 +5791,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Agil sprint-planlægning",
@@ -5802,7 +5802,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Milepæls-rapport",
@@ -5813,7 +5813,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Projektmodel-valg",
@@ -5823,7 +5823,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Projekt-lukning-rapport",
@@ -5834,7 +5834,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Afhængighedskortlægning",
@@ -5844,7 +5844,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Lektioner lært-database",
@@ -5855,7 +5855,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Mikrolearning-modul",
@@ -5905,7 +5905,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "uddannelse"
     ],
-    "category": "Læring"
+    "category": "Skrivning"
   },
   {
     "title": "Undervisningsplan",
@@ -5955,7 +5955,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "uddannelse"
     ],
-    "category": "Læring"
+    "category": "Skrivning"
   },
   {
     "title": "Refleksionsspørgsmål",
@@ -5996,7 +5996,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "uddannelse",
       "pædagogik"
     ],
-    "category": "Læring"
+    "category": "HR"
   },
   {
     "title": "Fagord-forklarer",
@@ -6026,7 +6026,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "forretning"
     ],
-    "category": "Kreativitet"
+    "category": "Projektledelse"
   },
   {
     "title": "Fremtidens kunde",
@@ -6037,7 +6037,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Platvormsstrategiovervejelse",
@@ -6089,7 +6089,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Forretningsmodel-innovation",
@@ -6140,7 +6140,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Differentierings-strategi",
@@ -6161,7 +6161,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "projektledelse"
     ],
-    "category": "Kreativitet"
+    "category": "Arbejde"
   },
   {
     "title": "Data-drevet strategi",
@@ -6205,7 +6205,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Forhandlingsberedning til indkøb",
@@ -6237,7 +6237,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Leverandørkontrakt-tjek",
@@ -6247,7 +6247,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Indkøbspolitik-udkast",
@@ -6279,7 +6279,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Besparelses-case",
@@ -6290,7 +6290,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Etisk leverandørscreening",
@@ -6311,7 +6311,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Vendor management system-krav",
@@ -6322,7 +6322,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Spend-analyse",
@@ -6333,7 +6333,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Onboarding af ny leverandør",
@@ -6375,7 +6375,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Cirkulær økonomi-ideer",
@@ -6408,7 +6408,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "bæredygtighed"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "CSRD-forberedelse",
@@ -6441,7 +6441,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "SDG-kortlægning",
@@ -6473,7 +6473,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bæredygtighed",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Stresshåndteringsplan",
@@ -6502,7 +6502,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "sundhed"
     ],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Indbakke nul-strategi",
@@ -6774,7 +6774,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "digitalisering"
     ],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Sæt ord på komplekst",
@@ -6854,7 +6854,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Årsberetnings-tekst",
@@ -6875,7 +6875,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Townhall-forberedelse",
@@ -6916,7 +6916,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Læring"
+    "category": "Analyse"
   },
   {
     "title": "Rapportstruktur-designer",
@@ -6937,7 +6937,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Kundeinterviewguide",
@@ -6947,7 +6947,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Spørgeskema-designer",
@@ -6957,7 +6957,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "HR"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Trend-analyse",
@@ -6968,7 +6968,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Konklusionsskriver",
@@ -6988,7 +6988,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Evidenshierarki-vurdering",
@@ -6998,7 +6998,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "uddannelse",
       "rapportskrivning"
     ],
-    "category": "Læring"
+    "category": "Analyse"
   },
   {
     "title": "Markedsundersøgelses-design",
@@ -7009,7 +7009,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Analyse af konkurrenters strategi",
@@ -7020,7 +7020,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Indsigts-synthese",
@@ -7031,7 +7031,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "AI-prompt forfiner",
@@ -7041,7 +7041,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "kommunikation"
     ],
-    "category": "Andet"
+    "category": "Tech"
   },
   {
     "title": "AI use case-identifikator",
@@ -7052,7 +7052,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Prompt-bibliotek til afdeling",
@@ -7062,7 +7062,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "AI-output kvalitetstjek",
@@ -7072,7 +7072,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "AI i møder – forberedelse",
@@ -7092,7 +7092,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Andet"
+    "category": "Tech"
   },
   {
     "title": "AI-implementeringsplan",
@@ -7104,7 +7104,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Etisk AI-brug vurdering",
@@ -7115,7 +7115,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "AI-politikudkast",
@@ -7136,7 +7136,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Faglig dansk-til-engelsk",
@@ -7271,7 +7271,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Politikdokument-udkast",
@@ -7282,7 +7282,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Hvidbog-udkast",
@@ -7314,7 +7314,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Produktivitets-audit",
@@ -7369,7 +7369,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "GDPR"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Rådgivningsreferat",
@@ -7424,7 +7424,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "MiFID II-egnethedstest forklaring",
@@ -7435,7 +7435,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Hvidvasksignal – analyse",
@@ -7446,7 +7446,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Klagehåndtering – finansiel virksomhed",
@@ -7468,7 +7468,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forsikring",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Bankens ESG-eksponering",
@@ -7491,7 +7491,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Kundebrief til erhvervsrådgiver",
@@ -7524,7 +7524,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Fusion og opkøb – due diligence brief",
@@ -7547,7 +7547,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Forsikringsbehovsanalyse",
@@ -7588,7 +7588,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "cybersikkerhed"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Pensionsopsparing-gennemgang",
@@ -7632,7 +7632,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Erstatningsudregning – forklaring",
@@ -7654,7 +7654,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Skadestatistik-analyse",
@@ -7665,7 +7665,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Forsikringsdækning ved cyberangreb",
@@ -7719,7 +7719,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Aktuar-notat til leder",
@@ -7772,7 +7772,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Aftalevilkår – forhandlingstaktik",
@@ -7783,7 +7783,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Ansvarsbegrænsningsklausul – forklaring",
@@ -7793,7 +7793,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Samhandelsvilkår – udkast",
@@ -7803,7 +7803,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Misligholdelse – brev til modpart",
@@ -7813,7 +7813,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Lovfortolkning – praktisk vejledning",
@@ -7823,7 +7823,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Retssag-risikovurdering",
@@ -7833,7 +7833,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Boliglejekontraktgennemgang",
@@ -7843,7 +7843,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Opsigelse af erhvervslejekontrakt",
@@ -7853,7 +7853,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Konkurrenceklausul – gyldighed",
@@ -7864,7 +7864,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Direktørkontrakt – nøglepunkter",
@@ -7875,7 +7875,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Handelsbetingelser – CISG vs. dansk ret",
@@ -7885,7 +7885,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Incassoforløb – guide",
@@ -7895,7 +7895,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Produktansvar – risikovurdering",
@@ -7905,7 +7905,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Samejeaftale – udkast",
@@ -7915,7 +7915,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Forbrugerklagecenter – svarskrivelse",
@@ -7925,7 +7925,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Databehandleraftale – tjek",
@@ -7936,7 +7936,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Immaterielle rettigheder – virksomhedsopkøb",
@@ -7946,7 +7946,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Strafansvar i virksomheder",
@@ -7956,7 +7956,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Vikarloven – rettigheder og pligter",
@@ -7966,7 +7966,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Selvangivelse-forklaring til virksomhed",
@@ -7977,7 +7977,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Moms-tjekliste til virksomhed",
@@ -7987,7 +7987,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Transfer pricing-forklaring",
@@ -7998,7 +7998,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Revisor-spørgsmål – forberedelse",
@@ -8008,7 +8008,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Goodwill-beregning – forklaring",
@@ -8070,7 +8070,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Regnskabspolitik-udkast",
@@ -8158,7 +8158,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Regnskabsfejl – korrektionsstrategi",
@@ -8181,7 +8181,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "regnskab"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Tilsynssag – intern forberedelse",
@@ -8192,7 +8192,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Reaktion på tilsynspåbud",
@@ -8203,7 +8203,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Risikobaseret tilgang – implementering",
@@ -8215,7 +8215,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Intern politikoverholdelse – audit",
@@ -8226,7 +8226,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Whistleblower-ordning – design",
@@ -8237,7 +8237,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Sanktionsliste-screening – guide",
@@ -8248,7 +8248,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "DORA-forberedelse for finansvirksomhed",
@@ -8260,7 +8260,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "ESG-rapportering – GRI vs. ESRS",
@@ -8282,7 +8282,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Ny EU-regulering – impact-analyse",
@@ -8293,7 +8293,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Consent management – GDPR",
@@ -8304,7 +8304,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Dataminimering – implementeringsguide",
@@ -8315,7 +8315,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Retten til sletning – håndteringsguide",
@@ -8326,7 +8326,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Finanstilsynets principper – vejledning",
@@ -8348,7 +8348,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Tredjepartsstyring – oversight-framework",
@@ -8359,7 +8359,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Markedsmisbrug – eksempel-quiz",
@@ -8370,7 +8370,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bank",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Lovændring – internt nyhedsbrev",
@@ -8381,7 +8381,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "HR"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Compliance-træningsprogram",
@@ -8392,7 +8392,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Second line of defence – rolle og ansvar",
@@ -8414,7 +8414,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "skrivning"
     ],
-    "category": "Skrivning"
+    "category": "Jura"
   },
   {
     "title": "Klagevejledning til borger",
@@ -8425,7 +8425,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "skrivning"
     ],
-    "category": "Skrivning"
+    "category": "Jura"
   },
   {
     "title": "Borgerhenvendelse – professionelt svar",
@@ -8456,7 +8456,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Offentlighedsloven – aktindsigtsanmodning",
@@ -8466,7 +8466,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Strategi for borgerinddragelse",
@@ -8488,7 +8488,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "offentlig sektor"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Partnerskabsaftale – offentlig-privat",
@@ -8499,7 +8499,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Kommunikationsplan – krisesituation i kommune",
@@ -8521,7 +8521,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Offentlig licitation – tilbudsevaluering",
@@ -8532,7 +8532,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Effektmåling i offentlig sektor",
@@ -8543,7 +8543,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Visitationsnotat",
@@ -8576,7 +8576,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Statusrapport til tilsynsmyndighed",
@@ -8609,7 +8609,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "kommunikation"
     ],
-    "category": "Skrivning"
+    "category": "Jura"
   },
   {
     "title": "Digital selvbetjening – kommunikation",
@@ -8631,7 +8631,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Årsberetning – offentlig institution",
@@ -8653,7 +8653,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Inddragelse af civilsamfund",
@@ -8675,7 +8675,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Patientinformation – letlæselig",
@@ -8708,7 +8708,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "social"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Plejeplan – struktureret",
@@ -8774,7 +8774,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "offentlig sektor"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Forebyggelsesprogram-design",
@@ -8785,7 +8785,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "social"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Magtanvendelse – dokumentation",
@@ -8807,7 +8807,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Informeret samtykke – formular",
@@ -8818,7 +8818,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "offentlig sektor"
     ],
-    "category": "Skrivning"
+    "category": "Jura"
   },
   {
     "title": "Kostplan – tilpasset institution",
@@ -8839,7 +8839,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "sundhed",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Rehabiliteringsplan",
@@ -8883,7 +8883,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "sundhed"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Sundhedsfaglig artikel – intern vidensdeling",
@@ -8959,7 +8959,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "social"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Inklusionsstrategi",
@@ -9002,7 +9002,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Lærlingeguide – daglig vejledning",
@@ -9023,7 +9023,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Klasseledelse – konkrete strategier",
@@ -9044,7 +9044,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "uddannelse",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Kollegial supervision – guide",
@@ -9055,7 +9055,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Digital læringsplatform – intro til elever",
@@ -9099,7 +9099,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "uddannelse",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "EUD-forløb – opbygning",
@@ -9109,7 +9109,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "uddannelse",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Butiksoplevelse-forbedring",
@@ -9120,7 +9120,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Salgsteknik til butikspersonale",
@@ -9131,7 +9131,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "uddannelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Vagtplan-optimering",
@@ -9142,7 +9142,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kundeprogram-design",
@@ -9153,7 +9153,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Sortimentsbeslutning – analyse",
@@ -9164,7 +9164,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Åbning af ny afdeling – plan",
@@ -9175,7 +9175,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Prissammenligning – konkurrentanalyse",
@@ -9186,7 +9186,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Reklamationshåndtering – guide",
@@ -9196,7 +9196,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Medarbejder-onboarding i butik",
@@ -9206,7 +9206,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Black Friday – kampagneplanlægning",
@@ -9217,7 +9217,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Butiksdesign – forbedring af layout",
@@ -9227,7 +9227,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Franchisemanual – uddrag",
@@ -9237,7 +9237,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "E-commerce produktbeskrivelse",
@@ -9248,7 +9248,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Restaurantanmeldelse-svar",
@@ -9280,7 +9280,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Servicepolitik – skriftlig formulation",
@@ -9290,7 +9290,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Franchiseansøgning – motivationsbrev",
@@ -9312,7 +9312,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Webshop-kundeanmeldelse – professionelt svar",
@@ -9322,7 +9322,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Driftsbudget for ny afdeling",
@@ -9344,7 +9344,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Onboarding-plan for sæsonmedarbejder",
@@ -9354,7 +9354,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Lærlingekontrakt – kontrolpunkter",
@@ -9366,7 +9366,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Rygepolitik – intern formulering",
@@ -9377,7 +9377,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kostprisberegning – produktionsvirksomhed",
@@ -9387,7 +9387,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Messedeltagelse – plan og ROI",
@@ -9398,7 +9398,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Virksomhedsbesøg – velkomstprogram",
@@ -9418,7 +9418,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Interviewguide – kompetencebaseret",
@@ -9428,7 +9428,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Krisekommunikation – produktfejl",
@@ -9450,7 +9450,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Arbejdsskade – rapportskrivning",
@@ -9461,7 +9461,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Miljøledelse – ISO 14001-tjekliste",
@@ -9484,7 +9484,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Årsrapport – ledelsens gennemgang",
@@ -9495,7 +9495,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Prospekt-analyse – obligationsudstedelse",
@@ -9506,7 +9506,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Fondsvedtægt – fortolkning",
@@ -9517,7 +9517,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Offentlig rapport – kritisk læsning",
@@ -9528,7 +9528,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Konsulentrapport – intern evaluering",
@@ -9539,7 +9539,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "EU-reguleringstekst – praktisk oversættelse",
@@ -9550,7 +9550,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Udbudsmateriale – tilbudsgivers analyse",
@@ -9561,7 +9561,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Aktionæroverenskomst – nøglepunkter",
@@ -9573,7 +9573,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Analyserapport – sammenfatning til leder",
@@ -9584,7 +9584,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Driftsaftale – kritiske klausuler",
@@ -9595,7 +9595,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Tilsynsrapport – intern opfølgning",
@@ -9606,7 +9606,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Miljøredegørelse – analyse og gaps",
@@ -9617,7 +9617,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bæredygtighed",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Investeringsmemo – kritisk gennemgang",
@@ -9629,7 +9629,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Pressemeddelelses-analyse",
@@ -9640,7 +9640,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Koncessionsaftale – risikovurdering",
@@ -9651,7 +9651,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Bestyrelsesbilag – kort og slagkraftigt",
@@ -9662,7 +9662,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Ministersvar – udkast",
@@ -9737,7 +9737,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "rapportskrivning"
     ],
-    "category": "Skrivning"
+    "category": "Jura"
   },
   {
     "title": "Kommunikationsplan – ny strategi",
@@ -9748,7 +9748,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "strategi"
     ],
-    "category": "Skrivning"
+    "category": "Arbejde"
   },
   {
     "title": "Invitation – professionelt forretningsbrev",
@@ -9821,7 +9821,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "NDA-forhandling – strategi",
@@ -9833,7 +9833,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Konsulentkontrakt – best practice",
@@ -9843,7 +9843,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Lejekontrakt – erhvervslokaler, risikovurdering",
@@ -9853,7 +9853,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Byggekontrakt – AB 18-analyse",
@@ -9863,7 +9863,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Distributionsaftale – eksklusivitet og risici",
@@ -9874,7 +9874,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "IT-kontrakt – leverandøransvar og SLA",
@@ -9885,7 +9885,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Samarbejdsaftale – joint venture",
@@ -9897,7 +9897,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Ansættelseskontrakt – direktørspecifikke klausuler",
@@ -9909,7 +9909,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Licensaftale – software IP-rettigheder",
@@ -9920,7 +9920,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Rammeaftale – offentlig sektor, strukturering",
@@ -9931,7 +9931,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Opsigelse af kontrakt – juridisk fremgangsmåde",
@@ -9941,7 +9941,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Samhandelsvilkår – revision",
@@ -9952,7 +9952,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Overdragelsesaftale – virksomhedssalg",
@@ -9964,7 +9964,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Garantidokument – formulering",
@@ -9974,7 +9974,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Projektstatusrapport – PMO-standard",
@@ -9984,7 +9984,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Due diligence-rapport – finansiel",
@@ -9995,7 +9995,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "regnskab"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Risikorapport – COSO-rammen",
@@ -10006,7 +10006,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Bæredygtighedsrapport – CSRD-format",
@@ -10029,7 +10029,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Salgsprognose-rapport",
@@ -10040,7 +10040,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Halvårsrapport – operationel leder",
@@ -10063,7 +10063,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Tilfredshedsundersøgelse – analyse",
@@ -10074,7 +10074,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Konferencerapport – vidensdeling internt",
@@ -10084,7 +10084,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Incident-rapport – IT-sikkerhed",
@@ -10096,7 +10096,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Implementeringsrapport – forandringsprojekt",
@@ -10107,7 +10107,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Strategirapport – markedsindtræden",
@@ -10119,7 +10119,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Analyse af kundesegmenter",
@@ -10130,7 +10130,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Markedsanalyse-rapport – ny produktkategori",
@@ -10141,7 +10141,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Komplekst juridisk sprog – tilpasning til borger",
@@ -10183,7 +10183,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "social"
     ],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Akademisk tekst – tilpasning til erhvervspublikum",
@@ -10215,7 +10215,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Videnskabelig abstract – dansk sammenfatning",
@@ -10246,7 +10246,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Høringssvaret – faglig argumentation",
@@ -10268,7 +10268,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "forretning"
     ],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Vidensartikel – intern wiki",
@@ -10290,7 +10290,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Talemanuskript – intern præsentation",
@@ -10310,7 +10310,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Politisk memo – beslutningsgrundlag",
@@ -10371,7 +10371,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Projektbeskrivelse – fondsansøgning",
@@ -10392,7 +10392,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kronik – sundhedsøkonomisk perspektiv",
@@ -10424,7 +10424,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bæredygtighed",
       "regnskab"
     ],
-    "category": "Skrivning"
+    "category": "Arbejde"
   },
   {
     "title": "Onlinekursus – læringsmålsformulering",
@@ -10466,7 +10466,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "salg"
     ],
-    "category": "Skrivning"
+    "category": "Arbejde"
   },
   {
     "title": "Forretningsplan – SMV-standard",
@@ -10488,7 +10488,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "kommunikation"
     ],
-    "category": "Skrivning"
+    "category": "HR"
   },
   {
     "title": "Reklamation – B2B leverandørbrev",
@@ -10499,7 +10499,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "forretning"
     ],
-    "category": "Skrivning"
+    "category": "Jura"
   },
   {
     "title": "Bestyrelsesprotokol – korrekt udformning",
@@ -10510,7 +10510,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "kontrakt"
     ],
-    "category": "Skrivning"
+    "category": "Jura"
   },
   {
     "title": "Erfaringsopsamling – projektafslutning",
@@ -10520,7 +10520,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Strategisk kommunikation – ny bestyrelse",
@@ -10553,7 +10553,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "skrivning"
     ],
-    "category": "Skrivning"
+    "category": "HR"
   },
   {
     "title": "Vidnesbyrd og reference – medarbejder",
@@ -10564,7 +10564,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "jura"
     ],
-    "category": "Skrivning"
+    "category": "HR"
   },
   {
     "title": "Forhandlingsforberedelse – leverandørkontrakt",
@@ -10586,7 +10586,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Prisforhandling – salgsperspektiv",
@@ -10597,7 +10597,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Forhandling med fagforening",
@@ -10609,7 +10609,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Forhandling med offentlig myndighed",
@@ -10748,7 +10748,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Ledelsesudvikling – feedback-plan",
@@ -10759,7 +10759,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Organisationsdesign – ny struktur",
@@ -10792,7 +10792,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Afskedigelsessamtale – forberedelse",
@@ -10803,7 +10803,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "MUS-forberedelse – leder",
@@ -10814,7 +10814,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Lønpolitik – design og implementering",
@@ -10825,7 +10825,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Psykologisk tryghed – teamudvikling",
@@ -10836,7 +10836,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Ny direktør – 100-dages plan",
@@ -10868,7 +10868,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Remote-team ledelse – spilleregler",
@@ -10879,7 +10879,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "HR"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Innovationskultur – praktiske tiltag",
@@ -10900,7 +10900,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Burnout-forebyggelse – lederens ansvar",
@@ -10911,7 +10911,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "sundhed"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Bestyrelsesevaluering – struktur",
@@ -10932,7 +10932,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Hybrid arbejdsmodel – politikdesign",
@@ -10943,7 +10943,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Business model canvas – ny idé",
@@ -10964,7 +10964,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "MVP-definition – iterativ produktudvikling",
@@ -10975,7 +10975,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Produkt-roadmap – prioritering",
@@ -10985,7 +10985,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Partnerskabsstrategi – ecosystem-design",
@@ -11007,7 +11007,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Platform-strategi – tobenet marked",
@@ -11029,7 +11029,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Scenarieplanlægning – 3 fremtider",
@@ -11050,7 +11050,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Ecosystem-kortlægning – interessenter",
@@ -11060,7 +11060,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Design thinking – facilitering",
@@ -11070,7 +11070,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Kreativitet"
   },
   {
     "title": "Ekspansionsstrategi – organisk vs. M&A",
@@ -11092,7 +11092,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Kundechurn – analyse og forebyggelse",
@@ -11103,7 +11103,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "OKR-implementering – praktisk guide",
@@ -11113,7 +11113,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Bæredygtig forretningsmodel – transition",
@@ -11156,7 +11156,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Likviditetsbudget – 13-ugers rullende",
@@ -11200,7 +11200,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "Excel"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Forsyningskrisehåndtering – beredskabsplan",
@@ -11232,7 +11232,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Budgetafvigelsesvurdering – dybdegående",
@@ -11243,7 +11243,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Exit-strategi – finansiel planlægning",
@@ -11265,7 +11265,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "Excel"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Kreditpolitik – design for SMV",
@@ -11298,7 +11298,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Aktieoptionsprogram – design",
@@ -11309,7 +11309,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Regnskabsanalyse – konkurrentsammenligning",
@@ -11320,7 +11320,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Incitamentsprogram – design og kommunikation",
@@ -11332,7 +11332,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Fraværspolitik – implementering og kommunikation",
@@ -11344,7 +11344,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Arbejdsmiljøpolitik – psykisk arbejdsmiljø",
@@ -11356,7 +11356,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Ansættelsesbrev – juridisk korrekt",
@@ -11368,7 +11368,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Ligebehandling – klagehåndtering",
@@ -11380,7 +11380,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Personalejura – varslet ændring af vilkår",
@@ -11392,7 +11392,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Rekruttering – struktureret udvælgelsesproces",
@@ -11404,7 +11404,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Ledelsesgruppedynamik – teameffektivitet",
@@ -11427,7 +11427,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "uddannelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Diversitet og inklusion – strategi",
@@ -11439,7 +11439,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Onboarding-program – strategisk design",
@@ -11451,7 +11451,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kompetencegab-analyse",
@@ -11463,7 +11463,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kulturintegration – M&A",
@@ -11487,7 +11487,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Internationalt udsendelse – HR-guide",
@@ -11499,7 +11499,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "økonomi",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "SWOT-analyse – strategisk afdeling",
@@ -11546,7 +11546,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Strategisk narrativ – ekstern kommunikation",
@@ -11674,7 +11674,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Phishing-simulering – medarbejdertræning",
@@ -11686,7 +11686,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Sikkerhedspolitik – adgangsstyring",
@@ -11697,7 +11697,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Ransomware-beredskab – responsplan",
@@ -11709,7 +11709,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "forsikring"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "NIS2-gap-analyse",
@@ -11721,7 +11721,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Penetrationstest – scope og briefing",
@@ -11732,7 +11732,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Tredjepartssikkerhed – leverandørvurdering",
@@ -11744,7 +11744,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Zero Trust – implementeringstrin",
@@ -11756,7 +11756,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cybersikkerhed",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "GDPR × cybersikkerhed – overlap-analyse",
@@ -11768,7 +11768,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Security awareness-program – årsplan",
@@ -11779,7 +11779,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "uddannelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Cloud-sikkerhedsarkitektur – AWS/Azure/GCP",
@@ -11790,7 +11790,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cloud",
       "cybersikkerhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Incident response – tabletop-øvelse",
@@ -11801,7 +11801,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Sikkerhedsmåling – KPI'er for CISO",
@@ -11813,7 +11813,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Darkweb-overvågning – setup",
@@ -11825,7 +11825,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "DMARC/DKIM/SPF – e-mailsikkerhed",
@@ -11836,7 +11836,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Forretningskontinuitetsplan – IT-kritisk system",
@@ -11848,7 +11848,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Sårbarhedshåndtering – patch management",
@@ -11859,7 +11859,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Insider threat – forebyggelsesprogram",
@@ -11871,7 +11871,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "GDPR",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Cyberforsikring – dækning og krav",
@@ -11894,7 +11894,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "BI-rapport-design – ledelsesdashboard",
@@ -11906,7 +11906,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "AI use case-evaluering",
@@ -11918,7 +11918,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Prompt engineering – avanceret guide",
@@ -11941,7 +11941,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "GDPR"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Machine learning-projekt – scope og risici",
@@ -11953,7 +11953,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "AI-implementering – forandringsledelse",
@@ -11977,7 +11977,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Datadeling – intern API-strategi",
@@ -11989,7 +11989,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "IT-arkitektur"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Statistisk analyse – tolkning for leder",
@@ -12000,7 +12000,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Dataetik – AI-anvendelse i HR",
@@ -12012,7 +12012,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Data warehouse – designprincipper",
@@ -12024,7 +12024,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "AI-risikovurdering – EU AI Act",
@@ -12036,7 +12036,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "GDPR"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Dataanalyse-opgave – Python-prompt",
@@ -12047,7 +12047,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Realtidsdata – streaming-arkitektur",
@@ -12059,7 +12059,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Master data management – implementering",
@@ -12071,7 +12071,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Selvbetjenings-analytics – opbygning",
@@ -12083,7 +12083,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Kundedata-platform – CDP-design",
@@ -12095,7 +12095,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Predictive analytics – churn-model",
@@ -12107,7 +12107,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Datakontrakt – definition og implementering",
@@ -12119,7 +12119,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "AI-assistent – virksomhedsspecifik konfiguration",
@@ -12131,7 +12131,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "GDPR"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "DataOps – pipeline-kvalitet",
@@ -12142,7 +12142,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "IT-arkitektur"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-strategi – 3-årig roadmap",
@@ -12154,7 +12154,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Legacy-modernisering – migrationsstrategi",
@@ -12166,7 +12166,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Microservices vs. monolit – arkitekturvalg",
@@ -12177,7 +12177,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-sourcing – make/buy/partner-beslutning",
@@ -12200,7 +12200,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Softwareanskaffelse – kravspecifikation",
@@ -12212,7 +12212,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "DevSecOps – sikkerhed i CI/CD",
@@ -12223,7 +12223,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "IT-arkitektur"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Digitaliseringsmodenhed – assessment",
@@ -12235,7 +12235,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "RPA/automatisering – use case-screening",
@@ -12247,7 +12247,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-governance – COBIT-ramme",
@@ -12258,7 +12258,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Cloudomkostninger – FinOps-optimering",
@@ -12270,7 +12270,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-kontrakt ved outsourcing – SLA-design",
@@ -12282,7 +12282,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "IT-projektportfoliostyring",
@@ -12293,7 +12293,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Digitalisering af papirproces",
@@ -12304,7 +12304,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "analyse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Teknologievaluering – markedsscanning",
@@ -12316,7 +12316,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "IT-arkitektur"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Informationsarkitektur – intranet",
@@ -12327,7 +12327,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-helpdesk – optimering",
@@ -12338,7 +12338,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "ERP-implementering – risikoplan",
@@ -12350,7 +12350,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "IT-arkitektur"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Digital transformation – business case",
@@ -12374,7 +12374,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "uddannelse",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Teknisk gæld – håndteringsstrategi",
@@ -12385,7 +12385,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Generativ AI – politik for virksomhed",
@@ -12397,7 +12397,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Chatbot-design – kundeservice",
@@ -12408,7 +12408,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Teknologiscanning – emergerende teknologier",
@@ -12420,7 +12420,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "IoT-implementering – industrielt",
@@ -12432,7 +12432,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cybersikkerhed",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Digital tvilling – forretningscase",
@@ -12444,7 +12444,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Platformmigrering – kommunikationsplan",
@@ -12455,7 +12455,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Softwareudvikling – sprint review-forberedelse",
@@ -12466,7 +12466,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Teknisk dokumentation – API-reference",
@@ -12488,7 +12488,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Informationssikkerhedspolitik – komplet",
@@ -12499,7 +12499,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "AI-assistent til mødeforberedelse",
@@ -12521,7 +12521,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Automatiseret rapportering – Power Automate",
@@ -12533,7 +12533,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Præsentationsstruktur – persuasiv",
@@ -12544,7 +12544,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Mødeeffektivitet – redesign",
@@ -12587,7 +12587,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Fagbogs-learning – kerneindsigter",
@@ -12618,7 +12618,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Inbox-zero – system design",
@@ -12637,7 +12637,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Afrapportering til topledelsen – automatiseret",
@@ -12649,7 +12649,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "AI-workflow – personlig produktivitet",
@@ -12660,7 +12660,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Andet"
   },
   {
     "title": "Virksomhedsbesøg – læringsopsamling",
@@ -12680,7 +12680,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Ekspertvurdering – second opinion",
@@ -12690,7 +12690,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Personlig karriereplanlægning",
@@ -12701,7 +12701,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "uddannelse",
       "ledelse"
     ],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Netværksmøde – opfølgning",
@@ -12723,7 +12723,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "API-integration – fejlfinding",
@@ -12734,7 +12734,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Datamigration – projektplan",
@@ -12745,7 +12745,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Softwaretest – teststrategidokument",
@@ -12756,7 +12756,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Brugerrejse – UX-kortlægning",
@@ -12767,7 +12767,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "marketing"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Teknisk kravspecifikation – integrationsprojekt",
@@ -12778,7 +12778,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Accessibilitykrav – digital løsning",
@@ -12789,7 +12789,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Datasikkerhed – DPIA-udkast",
@@ -12800,7 +12800,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-sikkerhed",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Teknologistrategi – AI-roadmap",
@@ -12812,6 +12812,6 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "forretning"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   }
 ]
