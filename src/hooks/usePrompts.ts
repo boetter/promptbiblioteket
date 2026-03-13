@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 import type { Prompt } from '../types/prompt'
-import { loadPrompts, savePrompts } from '../lib/storage'
+import { loadPrompts, savePrompts, resetToDefaults } from '../lib/storage'
 import { categorizePrompt } from '../lib/categorize'
 
 export function usePrompts() {
@@ -51,5 +51,10 @@ export function usePrompts() {
     )
   }, [])
 
-  return { prompts, addPrompt, updatePrompt, deletePrompt, toggleFavorite }
+  const resetAll = useCallback(() => {
+    resetToDefaults()
+    setPrompts(loadPrompts())
+  }, [])
+
+  return { prompts, addPrompt, updatePrompt, deletePrompt, toggleFavorite, resetAll }
 }
