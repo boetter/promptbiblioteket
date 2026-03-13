@@ -53,7 +53,9 @@ export function usePrompts() {
 
   const resetAll = useCallback(() => {
     resetToDefaults()
-    setPrompts(loadPrompts())
+    const defaults = loadPrompts()
+    setPrompts(defaults)
+    savePrompts(defaults)
   }, [])
 
   return { prompts, addPrompt, updatePrompt, deletePrompt, toggleFavorite, resetAll }

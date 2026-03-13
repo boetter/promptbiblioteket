@@ -5,10 +5,7 @@ export interface DefaultPrompt {
   category: string
 }
 
-// Seed-data: brugeren leverer JSON-prompts som indsættes her
-export const DEFAULT_PROMPTS: DefaultPrompt[] = []
-
-[
+export const DEFAULT_PROMPTS: DefaultPrompt[] = [
   {
     "title": "Jobs to be Done",
     "text": "Jeg vil have, at du opfører dig som en dygtig analytiker. Du skal altid anvende \"Jobs to be Done\"-frameworket til at analysere et produkt eller en service. Hvilke underliggende jobs forsøger kunderne at få gjort, når de bruger produktet/servicen? Identificer uudnyttede jobs eller underbetjente kundesegmenter, der kan danne grundlag for nye innovative produkter eller services. Min første anmodning er: 'Termostater til private hjem.'",
