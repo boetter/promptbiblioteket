@@ -11,7 +11,7 @@ import Toast from './components/Toast'
 import type { Prompt } from './types/prompt'
 
 export default function App() {
-  const { prompts, addPrompt, deletePrompt, toggleFavorite, resetAll, restoreDefaults } = usePrompts()
+  const { prompts, addPrompt, updatePrompt, deletePrompt, toggleFavorite, resetAll, restoreDefaults } = usePrompts()
   const [query, setQuery] = useState('')
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false)
@@ -139,6 +139,7 @@ export default function App() {
         prompt={selectedPrompt}
         onClose={() => setSelectedPrompt(null)}
         onDelete={deletePrompt}
+        onUpdate={updatePrompt}
         onToggleFavorite={toggleFavorite}
         onToast={handleToast}
       />

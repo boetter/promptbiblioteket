@@ -1,4 +1,4 @@
-type AIPlatform = 'chatgpt' | 'claude' | 'gemini'
+type AIPlatform = 'chatgpt' | 'claude' | 'mistral'
 
 export async function openInPlatform(
   platform: AIPlatform,
@@ -12,14 +12,12 @@ export async function openInPlatform(
       return { copied: false }
     }
     case 'claude': {
-      await navigator.clipboard.writeText(promptText)
-      window.open('https://claude.ai/new', '_blank')
-      return { copied: true }
+      window.open(`https://claude.ai/new?q=${encoded}`, '_blank')
+      return { copied: false }
     }
-    case 'gemini': {
-      await navigator.clipboard.writeText(promptText)
-      window.open('https://gemini.google.com/app', '_blank')
-      return { copied: true }
+    case 'mistral': {
+      window.open(`https://chat.mistral.ai/chat?q=${encoded}`, '_blank')
+      return { copied: false }
     }
   }
 }
@@ -30,5 +28,5 @@ export const PLATFORM_INFO: Record<
 > = {
   chatgpt: { name: 'ChatGPT', color: 'bg-[#10a37f] hover:bg-[#0d8c6d]', icon: '↗' },
   claude: { name: 'Claude', color: 'bg-[#d97706] hover:bg-[#b45309]', icon: '↗' },
-  gemini: { name: 'Gemini', color: 'bg-[#4285f4] hover:bg-[#3367d6]', icon: '↗' },
+  mistral: { name: 'Mistral', color: 'bg-[#f97316] hover:bg-[#ea580c]', icon: '↗' },
 }
