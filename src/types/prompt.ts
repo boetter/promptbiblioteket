@@ -16,6 +16,11 @@ export const CATEGORIES = [
   'Kreativitet',
   'Læring',
   'Arbejde',
+  'HR',
+  'Marketing',
+  'Jura',
+  'Tech',
+  'Projektledelse',
   'Andet',
 ] as const
 
@@ -28,5 +33,10 @@ export const CATEGORY_COLORS: Record<string, string> = {
   Kreativitet: 'bg-purple-100 text-purple-700',
   Læring: 'bg-rose-100 text-rose-700',
   Arbejde: 'bg-slate-100 text-slate-700',
+  HR: 'bg-teal-100 text-teal-700',
+  Marketing: 'bg-pink-100 text-pink-700',
+  Jura: 'bg-indigo-100 text-indigo-700',
+  Tech: 'bg-violet-100 text-violet-700',
+  Projektledelse: 'bg-orange-100 text-orange-700',
   Andet: 'bg-gray-100 text-gray-600',
 }
