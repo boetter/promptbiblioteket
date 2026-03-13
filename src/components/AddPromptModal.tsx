@@ -84,7 +84,7 @@ export default function AddPromptModal({ isOpen, onClose, onSave }: AddPromptMod
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
                 placeholder="Giv din prompt et kort navn..."
-                className="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                className="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 autoFocus
               />
             </div>
@@ -98,7 +98,7 @@ export default function AddPromptModal({ isOpen, onClose, onSave }: AddPromptMod
                 onChange={(e) => setText(e.target.value)}
                 placeholder="Indsæt din prompt her..."
                 rows={6}
-                className="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent resize-y"
+                className="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent resize-y"
               />
             </div>
 
@@ -149,7 +149,7 @@ export default function AddPromptModal({ isOpen, onClose, onSave }: AddPromptMod
                 onChange={(e) => setTagInput(e.target.value)}
                 onKeyDown={handleTagKeyDown}
                 placeholder="Tilføj tags (tryk Enter)..."
-                className="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                className="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
               />
             </div>
           </div>
