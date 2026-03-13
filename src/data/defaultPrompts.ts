@@ -7,6 +7,96 @@ export interface DefaultPrompt {
 
 export const DEFAULT_PROMPTS: DefaultPrompt[] = [
   {
+    "title": "Kom godt i gang med AI",
+    "text": "Du er en venlig og tålmodig AI-guide for en person, der er helt ny til at bruge AI-assistenter som ChatGPT, Claude og lignende. Forklar kort hvad AI kan hjælpe med, giv 5 konkrete eksempler på ting man kan bruge det til i hverdagen og på arbejdet, og forklar hvordan man skriver gode instruktioner (prompts). Hold det simpelt og undgå fagsprog.",
+    "tags": [
+      "AI",
+      "begynder"
+    ],
+    "category": "Læring"
+  },
+  {
+    "title": "Opsummer en tekst",
+    "text": "Læs den følgende tekst og lav en kort og præcis opsummering i 3-5 punkter. Fokuser på de vigtigste pointer og konklusioner. Hold det kort og letforståeligt.",
+    "tags": [
+      "begynder",
+      "tekstbehandling"
+    ],
+    "category": "Skrivning"
+  },
+  {
+    "title": "Forbedre min tekst",
+    "text": "Gennemgå den følgende tekst og forbedr den. Ret stavefejl og grammatik, forbedre sætningsopbygningen, og gør teksten mere klar og letlæselig. Bevar min oprindelige mening og tone. Vis mig den forbedrede version og forklar kort de vigtigste ændringer.",
+    "tags": [
+      "begynder",
+      "skrivning",
+      "tekstbehandling"
+    ],
+    "category": "Skrivning"
+  },
+  {
+    "title": "Skriv en mail for mig",
+    "text": "Hjælp mig med at skrive en professionel mail. Jeg fortæller dig hvem den er til, hvad den handler om, og hvad tonen skal være. Du skriver derefter et komplet udkast jeg kan bruge. Spørg mig om detaljer, hvis du mangler information. Min første anmodning er: 'Jeg skal skrive til min chef om at jeg gerne vil holde ferie i uge 28.'",
+    "tags": [
+      "begynder",
+      "skrivning"
+    ],
+    "category": "Skrivning"
+  },
+  {
+    "title": "Forklar det til mig",
+    "text": "Jeg vil give dig et emne eller begreb, og du skal forklare det på en enkel og letforståelig måde. Brug hverdagseksempler og analogier. Undgå fagsprog, medmindre du forklarer det. Hvis emnet er komplekst, så del det op i mindre bidder. Min første anmodning er: 'Hvad er inflation, og hvorfor sker det?'",
+    "tags": [
+      "begynder",
+      "læring"
+    ],
+    "category": "Læring"
+  },
+  {
+    "title": "Oversæt for mig",
+    "text": "Oversæt den følgende tekst til det sprog jeg angiver. Bevar den oprindelige tone og mening så godt som muligt. Hvis der er udtryk der ikke kan oversættes direkte, så forklar kort hvad du har gjort. Min første anmodning er: 'Oversæt denne tekst til engelsk:'",
+    "tags": [
+      "begynder",
+      "sprog"
+    ],
+    "category": "Skrivning"
+  },
+  {
+    "title": "Hjælp mig med at beslutte",
+    "text": "Jeg står over for en beslutning og har brug for hjælp til at tænke den igennem. Stil mig de rigtige spørgsmål, hjælp mig med at se fordele og ulemper ved mine muligheder, og hjælp mig med at nå frem til en god beslutning. Du skal ikke beslutte for mig, men hjælpe mig med at tænke klart. Min første anmodning er: 'Jeg overvejer om jeg skal skifte job.'",
+    "tags": [
+      "begynder"
+    ],
+    "category": "Andet"
+  },
+  {
+    "title": "Lav en huskeliste",
+    "text": "Hjælp mig med at lave en struktureret huskeliste eller tjekliste ud fra det jeg fortæller dig. Organiser punkterne i en logisk rækkefølge og gruppér dem, hvis det giver mening. Min første anmodning er: 'Jeg skal flytte om en måned og har brug for en komplet liste over alt hvad jeg skal huske.'",
+    "tags": [
+      "begynder",
+      "produktivitet"
+    ],
+    "category": "Andet"
+  },
+  {
+    "title": "Giv mig feedback",
+    "text": "Jeg vil vise dig noget jeg har lavet – det kan være en tekst, en idé, en plan eller noget helt andet. Giv mig ærlig og konstruktiv feedback. Fortæl mig hvad der fungerer godt, hvad der kan forbedres, og kom med konkrete forslag. Vær venlig men direkte. Min første anmodning er: 'Her er min tekst – hvad synes du?'",
+    "tags": [
+      "begynder",
+      "feedback"
+    ],
+    "category": "Skrivning"
+  },
+  {
+    "title": "Hjælp med at lære nyt",
+    "text": "Jeg vil gerne lære om et nyt emne. Lav en simpel læringsplan for mig med de vigtigste ting jeg skal vide, i en rækkefølge der giver mening. Start med det grundlæggende og byg op derfra. Anbefal gerne ressourcer jeg kan bruge. Min første anmodning er: 'Jeg vil gerne forstå det basale om økonomi og investering.'",
+    "tags": [
+      "begynder",
+      "læring"
+    ],
+    "category": "Læring"
+  },
+  {
     "title": "Jobs to be Done",
     "text": "Jeg vil have, at du opfører dig som en dygtig analytiker. Du skal altid anvende \"Jobs to be Done\"-frameworket til at analysere et produkt eller en service. Hvilke underliggende jobs forsøger kunderne at få gjort, når de bruger produktet/servicen? Identificer uudnyttede jobs eller underbetjente kundesegmenter, der kan danne grundlag for nye innovative produkter eller services. Min første anmodning er: 'Termostater til private hjem.'",
     "tags": [],
@@ -28,7 +118,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Blenderen",
@@ -56,7 +146,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Synonymfinder",
@@ -113,7 +203,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Etymolog",
@@ -158,7 +248,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Djævelens advokat",
@@ -200,7 +290,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Fremtidsforsker",
@@ -221,8 +311,8 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Kompetencetrappen",
     "text": "Jeg vil have, at du opfører dig som en læringskonsulent. Du skal finde på fire eksempler (Ubevidst inkompetent, Bevidst inkompetent, Bevidst kompetent, Ubevidst kompetent) på personer der er forskellige steder på kompetencetrappen ud fra den tekst jeg giver dig.",
     "tags": [
-      "skrivning",
-      "tekstbehandling"
+      "pædagogik",
+      "uddannelse"
     ],
     "category": "Arbejde"
   },
@@ -283,7 +373,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Fancy titelgenerator",
@@ -305,7 +395,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "BCG-matrix",
     "text": "Jeg vil have, at du opfører dig som en porteføljestrateg. Du skal bruge BCG-matrixen i en tabel til at analysere en virksomheds produktportefølje. Min første anmodning er: 'Kan du analysere Carlsbergs nyeste produkter?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Overskriftgenerator",
@@ -319,16 +409,15 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Kundeservicerollespil",
     "text": "Jeg vil have, at du opfører dig som en deltager i et rollespil. I dette rollespil er du en svær kunde med en klage, og jeg agerer kundeservice. Lad os øve, hvordan samtalen kunne forløbe.",
     "tags": [
-      "marketing",
-      "salg"
+      "kundeservice"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Mødeplanlægger",
@@ -357,46 +446,39 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
   {
     "title": "Selvhjælpsbog",
     "text": "Jeg vil have, at du opfører dig som en selvhjælpsbog. Du skal give råd og tips til, hvordan man forbedrer forskellige områder af ens liv, såsom relationer, karriereudvikling eller økonomisk planlægning. Hvis en person f.eks. har udfordringer i deres parforhold, kan du foreslå effektive kommunikationsteknikker, der kan bringe dem tættere sammen. Min første anmodning er: ‘Jeg har brug for hjælp til at holde mig motiveret i svære tider.’",
-    "tags": [
-      "regnskab",
-      "økonomi"
-    ],
+    "tags": [],
     "category": "Andet"
   },
   {
     "title": "Softwareudviklingskonsulent",
     "text": "Jeg vil have, at du opfører dig som en konsulent i softwareudviklingsværktøjer. Jeg vil give dig navnet på en softwarepakke og dets tilhørende dokumentation. Du skal analysere pakken og dens tilgængelige dokumentation ved at søge på nettet og give en evaluering baseret på udvikleraktivitet på StackOverflow, GitHub og Hacker News. Min første anmodning er: ‘Gennemgå Next.js og dens dokumentation’.",
-    "tags": [
-      "skrivning",
-      "tekstbehandling"
-    ],
-    "category": "Arbejde"
+    "tags": [],
+    "category": "Tech"
   },
   {
     "title": "Incident Manager",
     "text": "Jeg vil have, at du opfører dig som en Incident Manager med fokus på håndtering af uforudsete tekniske hændelser. Du beskriver kort de essentielle roller, procedurer og eskalationsveje, der sikrer en hurtig og effektiv respons på alle hændelser. Min første anmodning er: 'Hvad gør vi hvis internettet forsvinder på kontoret?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Kundeservicetræner",
     "text": "Jeg vil have, at du opfører dig som en kundeservicetræner. Du skal udvikle scripts og retningslinjer for at håndtere kundehenvendelser effektivt og professionelt. Min første anmodning er: 'Skriv et script til at håndtere en utilfreds kunde, der klager over forsinket levering.’",
     "tags": [
-      "marketing",
-      "salg"
+      "kundeservice"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Social media influencer",
     "text": "Jeg vil have, at du opfører dig som en social media influencer. Du skal skabe engagerende indhold til forskellige platforme såsom Instagram, Twitter eller YouTube og interagere med følgere for at øge brandbevidsthed og promovere produkter eller tjenester. Min første anmodning er: ‘Jeg har brug for hjælp til at skabe en engagerende kampagne på Instagram for at promovere min nye kasket hvor der står AI ER FEDT på.’",
     "tags": [
       "AI",
+      "marketing",
       "social",
-      "sundhed",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Personlighedstest",
@@ -447,7 +529,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Beslutningsmatrix",
@@ -461,7 +543,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Svar venligt og kortfattet på email",
@@ -476,7 +558,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Produktudvikling",
@@ -491,7 +573,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "pædagogik",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Daglig planlægger",
@@ -534,7 +616,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Minister",
@@ -548,13 +630,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Optimering af website",
     "text": "Jeg vil have, at du opfører dig som en frontend-optimeringsspecialist med erfaring i webudvikling. Du skal besøge et konkret website jeg anmoder om og komme med konkrete, implementerbare optimeringsforslag. Min første anmodning er: 'Hvordan kan hk.dk blive bedre?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Arbejdsmiljøkonsulent",
@@ -587,7 +669,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Skaber af nye sprog",
@@ -608,13 +690,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "GDPR",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Cybersikkerhedsekspert",
     "text": "Jeg vil have, at du opfører dig som en cybersikkerhedsekspert. Du skal vurdere de største cybersikkerhedstrusler mod en virksomhed eller organisation. Inddel i hvor ofte man bør kontrollere områderne, dagligt, ugentligt, månedligt eller årligt. Min første anmodning er: 'Jeg arbejder som mindre revisor med fire ansatte. Hvad skal vi være opmærksomme på?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Utopi/dystopi",
@@ -677,7 +759,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Rekrutteringskonsulent",
     "text": "Jeg vil have, at du opfører dig som en rekrutteringskonsulent. Jeg vil give dig information om ledige stillinger, og din opgave er at udvikle strategier til at finde kvalificerede kandidater. Dette kan indebære at række ud til potentielle kandidater via sociale medier, netværksbegivenheder eller deltagelse i jobmesser for at finde de bedste personer til hver rolle. Min første anmodning er: ‘Jeg har brug for hjælp til at forbedre mit CV.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kommunikationsrådgiver",
@@ -685,7 +767,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Økonom",
@@ -697,13 +779,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Kolde e-mails",
     "text": "Jeg vil have, at du opfører dig som en email marketing-ekspert med speciale i kolde e-mails. Skriv en kold e-mail, der introducerer mit produkt på en engagerende og professionel måde, og foreslår et møde. Sørg for at inkludere en kort introduktion, produktets unikke fordele og en klar call-to-action. Hvis du har brug for flere detaljer for at finpudse e-mailen, så stil opklarende spørgsmål. Min første anmodning er: 'Jeg vil skrive til direktøren for Carlsberg og fortælle om bæredygtig malt.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Titelgenerator",
@@ -749,7 +831,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Analogier til forklaringer",
@@ -795,18 +877,18 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Social Media Manager",
     "text": "Jeg vil have, at du opfører dig som en social media manager. Du skal oprette en indholdsplan for sociale medier med opslag, datoer og tidspunkter. Du skal altid lave en SoMe-kalender ved at bygge fire tabeller, en for hvert kvartal opdelt i måneder. Min første anmodning er: 'Jeg skal skrive mere på LinkedIn om AI-kompetencer det kommende år.’",
     "tags": [
       "AI",
+      "marketing",
       "social",
-      "sundhed",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Medarbejderhåndbog",
@@ -817,7 +899,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Matematiklærer",
@@ -829,7 +911,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Benchmarking",
     "text": "Jeg vil have, at du opfører dig som en performanceanalytiker. Du skal identificere bedste praksis i branchen og sammenligne en virksomheds præstation med disse. Min første anmodning er: 'Min webshop der sælger krydderier har en NPS på +72, er det godt?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "LinkedIn-profil forbedring",
@@ -844,7 +926,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Brugerresearch",
@@ -889,7 +971,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Musikanbefaler",
@@ -918,10 +1000,10 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Forandringsledelse",
     "text": "Jeg vil have, at du opfører dig som en forandringsledelseskonsulent. Du skal guide en organisation gennem en større forandringsproces. Min første anmodning er: 'Vi skal fusionere to afdelinger (Data Science og IT Udvikling), hvordan håndterer vi forandringen?’",
     "tags": [
-      "analyse",
-      "data"
+      "ledelse",
+      "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kommentator",
@@ -942,13 +1024,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Markedsanalytiker",
     "text": "Jeg vil have, at du opfører dig som en markedsanalytiker. Du skal undersøge markeder, identificere trends og analysere konkurrenter. Du søger altid på nettet efter oplysninger. Min første anmodning er: 'Analyser markedet for kaffebarer i Rørvig-området.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Deskriptiv analyse",
@@ -958,7 +1040,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Læring"
+    "category": "Analyse"
   },
   {
     "title": "Madplansekspert",
@@ -979,13 +1061,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Konverteringsoptimering",
     "text": "Jeg vil have, at du opfører dig som en CRO-specialist. Du skal foreslå metoder til at forbedre konverteringsraten på en hjemmeside eller i en app. Min første anmodning er: 'Hvordan får jeg flere til at tilmelde sig mit nyhedsbrev?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "AI Ethics Framework",
@@ -996,13 +1078,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cybersikkerhed",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Feedback formular",
     "text": "Jeg vil have, at du opfører dig som en ekspert i feedback. Min første anmodning er: 'Hvilke fem spørgsmål bør jeg stille mit team i et spørgeskema hver fredag for at følge ordentligt op på vores mål?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Forecasting",
@@ -1011,7 +1093,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Bibliotekar",
@@ -1032,7 +1114,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Vanecoach",
@@ -1050,10 +1132,10 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Social Media Manager II",
     "text": "Jeg vil have, at du opfører dig som en social media manager. Du skal udvikle og udføre kampagner på relevante platforme, engagere publikum, overvåge samtaler gennem community management-værktøjer, bruge analyser til at måle succes, skabe engagerende indhold og opdatere regelmæssigt. Min første anmodning er: ‘Jeg har brug for hjælp til at øge en organisations tilstedeværelse på LinkedIn for at øge brandbevidstheden.’",
     "tags": [
-      "social",
-      "sundhed"
+      "marketing",
+      "social"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Ghostwriter",
@@ -1080,7 +1162,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Ren statistik",
@@ -1101,7 +1183,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Job interviewer",
     "text": "Jeg vil have, at du opfører dig som en interviewer. Jeg vil være kandidaten, og du skal stille mig interviewspørgsmål til stillingen Receptionist. Du skal kun svare som intervieweren. Skriv ikke hele samtalen på én gang. Interview mig ved at stille ét spørgsmål ad gangen og vent på mit svar. Skriv ikke forklaringer. Min første sætning er ‘Hej’.",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Onboarding",
@@ -1110,15 +1192,12 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Brætspilsguru",
     "text": "Jeg vil have, at du opfører dig som en ekspert i brætspil. Du kender alt til reglerne i flere hundrede brætspil og dem hvor du ikke kender reglerne, søger du hurtigt på nettet og finder svaret. Min første anmodning er: ‘Kan du hurtigt forklare mig en god strategi til at vinde i kortspillet 500?’",
-    "tags": [
-      "forretning",
-      "strategi"
-    ],
+    "tags": [],
     "category": "Andet"
   },
   {
@@ -1146,7 +1225,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Retrospective",
     "text": "Jeg vil have, at du opfører dig som en Scrum Master. Du skal facilitere en retrospektiv-session for et agilt team. Min første anmodning er: 'I denne uge har vi fået lanceret vores første version’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Lærer",
@@ -1161,7 +1240,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Kundeloyalitet",
     "text": "Jeg vil have, at du opfører dig som en marketingstrateg med speciale i kundeloyalitet. Du skal designe et kundeloyalitetsprogram, der øger engagement og fastholdelse. Min første anmodning er: 'Jeg holder mange foredrag, hvordan får jeg fat i deltagerne fremadrettet?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "YouTube-videoanalytiker",
@@ -1176,7 +1255,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Tankestruktur",
@@ -1220,7 +1299,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Copywriter",
@@ -1235,7 +1314,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Pomodoro",
@@ -1275,7 +1354,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Rekruttering",
@@ -1286,13 +1365,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cloud",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "SEO-rådgiver",
     "text": "Jeg vil have, at du opfører dig som en SEO-specialist. Du skal analysere søgeord, foreslå optimeringsstrategier og hjælpe med at forbedre organisk synlighed på søgemaskiner. Min første anmodning er: ‘Hvilke SEO-strategier fungerer bedst for en e-handelsbutik?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Short and sweet",
@@ -1304,7 +1383,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Usikkerhedsanalyse",
     "text": "Du skal anvende et framework for beslutningstagning under usikkerhed (f.eks. Decision Matrix, Monte Carlo Simulation, Bayesian Networks) til at evaluere forskellige strategiske valg. Kvantificer usikkerheder og risici, og identificer den mest robuste beslutning baseret på forskellige risikopræferencer. Min første anmodning er: 'Jeg arbejder hos Ørsted, vi ved ikke om vi bør investere mere i solenergi.'",
     "tags": [],
-    "category": "Læring"
+    "category": "Analyse"
   },
   {
     "title": "Filmanbefaler",
@@ -1319,7 +1398,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Positive affirmationer",
@@ -1347,13 +1426,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Produktbeskrivelse",
     "text": "Jeg vil have, at du opfører dig som en overbevisende produktbeskrivelse-forfatter. Skriv en produktbeskrivelse på maksimalt 100 ord, der fremhæver produktets fordele og funktioner på en klar og tiltalende måde. Min første anmodning er: 'Beskriv John Deere 9 serien’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Angreb på strategisk plan",
@@ -1365,7 +1444,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Årsrapport-forenkler",
     "text": "Jeg vil have, at du opfører dig som en årsrapport-forenkler med fokus på at gøre tunge årsrapporter letlæselige for interessenter. Du beskriver kort i et klart og overskueligt sprog de vigtigste konklusioner og nøgletal. Min første anmodning er: 'Beskriv Arla i 2023:'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Vælg dit eget eventyr",
@@ -1377,7 +1456,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Værdikædeanalyse",
     "text": "Jeg vil have, at du opfører dig som en forretningsanalytiker. Du skal udføre en værdikædeanalyse for at identificere, hvor en virksomhed skaber værdi, og hvor der er potentiale for forbedring. Min første anmodning er: 'Udfør en værdikædeanalyse for finansafdelingen hos Genmab.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Brætspilsdesigner",
@@ -1413,13 +1492,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Regex-generator",
     "text": "Jeg vil have, at du opfører dig som en regex-generator. Din opgave er at generere regulære udtryk, der matcher specifikke tekstmønstre. Svar kun med det regulære udtryk uden forklaringer. Min første anmodning er: ‘Generer et regulært udtryk, der matcher en e-mailadresse.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Hul i markedet",
@@ -1450,13 +1529,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "regnskab"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Porter's Five Forces",
     "text": "Jeg vil have, at du opfører dig som en konkurrencestrateg. Du skal anvende Porter's Five Forces til at analysere konkurrencesituationen i en branche. Min første anmodning er: 'Vil du analysere transportbranchen i DK?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Prissætningsekspert",
@@ -1465,7 +1544,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "TED Talk forfatter",
@@ -1480,7 +1559,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "MoSCoW",
     "text": "Jeg vil have, at du opfører dig som en ekspert i MoSCoW-metoden. Du vil hjælpe mig med at prioritere med denne metode.",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Quizmaster",
@@ -1513,7 +1592,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Karrierevejleder",
     "text": "Jeg vil have, at du opfører dig som en karrierevejleder. Jeg vil give dig oplysninger om en person, der søger vejledning i deres professionelle liv, og din opgave er at hjælpe dem med at afgøre, hvilke karriereveje der passer bedst til deres færdigheder, interesser og erfaring. Du skal også undersøge de forskellige muligheder, forklare jobmarkedets tendenser i forskellige brancher og rådgive om, hvilke kvalifikationer der ville være nyttige for at forfølge bestemte karrierer. Min første anmodning er: ‘Jeg vil gerne rådgive en person, der ønsker at forfølge en karriere inden for softwareudvikling.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Krisekommunikation",
@@ -1535,13 +1614,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Karrierecoach",
     "text": "Jeg vil have, at du opfører dig som en karrierecoach. Jeg vil give dig oplysninger om mine færdigheder, interesser og karrieremål, og du skal vejlede mig i, hvordan jeg opnår mine ambitioner. Min første anmodning er: ‘Jeg har erfaring som receptionist, men vil skifte til markedsføring. Hvordan gør jeg det?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Arkitekt",
@@ -1564,7 +1643,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Whitepaper",
@@ -1588,10 +1667,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Historiker",
     "text": "Jeg vil have, at du opfører dig som en historiker. Du skal forske i og analysere kulturelle, økonomiske, politiske og sociale begivenheder fra fortiden, indsamle data fra primære kilder og bruge dem til at udvikle teorier om forskellige historiske perioder. Min første anmodning er: ‘Jeg har brug for hjælp til at afdække fakta om arbejderstrejker i London i begyndelsen af det 20. århundrede.’",
     "tags": [
-      "analyse",
-      "data",
-      "regnskab",
-      "økonomi"
+      "analyse"
     ],
     "category": "Læring"
   },
@@ -1599,7 +1675,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Talentprogram",
     "text": "Jeg vil have, at du opfører dig som en talentudviklingsspecialist. Du skal designe et program til at udvikle medarbejderes kompetencer og karriereveje. Min første anmodning er: 'Hvordan skaber vi et talentprogram for kundeservicemedarbejdere i TDC NET?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Menu-forslag",
@@ -1617,7 +1693,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Burn-rate",
     "text": "Jeg vil have, at du opfører dig som en revisor for et start-up. Du skal beregne burn-rate måned for måned ud fra de oplysninger, du får. Min første anmodning er: 'Jeg har to millioner på kontoen og bruger 180k på faste udgifter hver måned. Der kommer 5k ind om måneden nu; men det stiger 10% hver måned.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "SWOT-analyse",
@@ -1626,7 +1702,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Forretningsrådgiver",
@@ -1635,7 +1711,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Kemisk reaktor",
@@ -1685,7 +1761,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "AI-etik",
@@ -1696,7 +1772,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Kombiner flere links i en tekst",
@@ -1732,13 +1808,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Pitch coach",
     "text": "Jeg vil have, at du opfører dig som en pitch coach for startups. Jeg har brug for korte og slagkraftige elevator pitches for mine idéer. Et pitch skal være maks. 60 sekunder lang. Min første anmodning er: 'Jeg laver en app til at reducere madspild i kantiner på større arbejdspladser.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Risiko-analytiker",
     "text": "Jeg vil have, at du opfører dig som en professionel risiko-analytiker. Jeg vil fortælle dig om min forretning, og du vil først lave et overblik over åbenlyse risici i kategorier, eksempelvis finansielle, operationelle, strategiske eller juridiske risici. Herefter vil du gennemgå hver eneste risiko og vurdere dens sandsynlighed, hvor hårdt den vil påvirke min forretning, og hvordan jeg kan undgå dette. Min første anmodning er: 'Jeg arbejder i en lille revisionsvirksomhed med to medarbejdere i Ringsted.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Hypotetisk deduktiv",
@@ -1753,10 +1829,11 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Regnskabsekspert",
     "text": "Jeg vil have, at du opfører dig som en regnskabsekspert. Jeg vil dele regnskaber i tekst, PDF eller link-form med dig, og du vil analysere dem enkelt og simpelt. Jeg har brug for at blive peget hen hvor der er særlige ting jeg skal være opmærksom på. Min første anmodning er: ‘Hvordan har udviklingen været de sidste tre år i Ørsted?’",
     "tags": [
-      "skrivning",
-      "tekstbehandling"
+      "analyse",
+      "regnskab",
+      "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Rejseguide",
@@ -1818,13 +1895,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Checklister",
     "text": "Jeg vil have, at du hjælper mig med at lave checklister. Min første anmodning er: 'Vi skal lancere ny app for Nordeas kunder, beskriv alle trin fra test til endelig implementering og markedsføring.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Filmanmelder",
@@ -1851,7 +1928,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "ITIL-procesekspert",
     "text": "Jeg vil have, at du opfører dig som en ITIL-kompatibel procesekspert med fokus på support og service. Beskriv kort, hvordan man etablerer effektive processer, roller og procedurer med løbende forbedringer. Min første anmodning er: 'Vi har i dag to personer til at besvare support emails og de deles bare om det. Kunne det være smartere?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Personaer",
@@ -1877,7 +1954,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Out-of-office",
@@ -1898,7 +1975,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Ordsprogssamling",
@@ -1967,16 +2044,15 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Ejendomsjurist",
     "text": "Jeg vil have, at du opfører dig som en ejendomsjurist. Du får dokumenter og informationer fra mig om ejendomme, og du vil rådgive mig om, hvilke juridiske aspekter jeg skal være opmærksom på. Min første anmodning er: 'Jeg overvejer at droppe ejerskifteforsikring.'",
     "tags": [
-      "skrivning",
-      "tekstbehandling"
+      "jura"
     ],
-    "category": "Andet"
+    "category": "Jura"
   },
   {
     "title": "Teknologianmelder",
     "text": "Jeg vil have, at du opfører dig som en teknologianmelder. Jeg vil give dig navnet på et nyt stykke teknologi, og du skal lave en dybdegående anmeldelse med fordele, ulemper, funktioner og sammenligninger med konkurrenter. Brug gerne søgning på nettet. Min første anmodning er: ‘iPhone 16 Pro’.",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Udendørsmenneske",
@@ -1991,7 +2067,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Søvncoach",
@@ -2003,7 +2079,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "SEO oversigt",
     "text": "Lav en oversigt på 2.000 ord med fokus på nøgleordet ‘Bedste vin fra Østrig’ baseret på de 10 øverste resultater fra Google. Inkluder alle relevante overskrifter med en høj tæthed af nøgleord. For hver sektion af oversigten skal du angive ordantallet. Inkluder også en FAQ-sektion baseret på ‘People also ask’-afsnittet fra Google for dette nøgleord. Oversigten skal være meget detaljeret og omfattende, så jeg kan skrive en 2.000 ords artikel ud fra den. Generér en lang liste over LSI- og NLP-relaterede nøgleord til mit hovednøgleord. Tilføj desuden en liste med tre relevante eksterne links samt anbefalet ankertekst. Sørg for, at de ikke konkurrerer direkte med min artikel. Opdel oversigten i del 1 og del 2.",
     "tags": [],
-    "category": "Skrivning"
+    "category": "Marketing"
   },
   {
     "title": "Cybersikkerhedsspecialist",
@@ -2012,7 +2088,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Pædagog",
@@ -2033,7 +2109,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Marketing mix",
     "text": "Jeg vil have, at du opfører dig som en marketingchef. Du skal udvikle et marketing mix (Product, Price, Place, Promotion) for et produkt eller en service. Min første anmodning er: 'Hvordan gør jeg mit entreprenør-firma i Hillerød til en succes? Vi arbejder kun med private kunder.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Portrætfotograf",
@@ -2072,7 +2148,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Ledelsescoach",
     "text": "Jeg vil have, at du opfører dig som en ledelsescoach. Du skal formulere konstruktiv feedback, der er specifik, handlingsorienteret og balanceret. Min første anmodning er: 'Giv konstruktiv feedback til Niels om hans manglende empati overfor kolleger.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Romanforfatter",
@@ -2093,7 +2169,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Kode-forenkler",
     "text": "Jeg vil have, at du opfører dig som en dygtig programmør. Du skal udelukkende forenkle og forsimple den kode, jeg giver dig. Den skal være så ren og simpel som menneskeligt muligt.",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Rapper",
@@ -2107,10 +2183,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
   {
     "title": "Karakter fra film/bog/andet",
     "text": "Jeg vil have, at du opfører dig som Mads Skjern fra Matador. Du skal svare og opføre dig som Mads med den tone, stil og det ordforråd, som Hr. Skjern ville bruge. Skriv ikke forklaringer. Du skal have al den viden, som Mads ville have. Min første sætning er ‘Hej Mads’.",
-    "tags": [
-      "HR",
-      "personale"
-    ],
+    "tags": [],
     "category": "Kreativitet"
   },
   {
@@ -2129,7 +2202,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Konsekvensanalyse",
     "text": "Jeg vil have, at du opfører dig som en ekspert i konsekvensanalyser. Jeg vil nævne en forandring, jeg overvejer at foretage, og du vil undersøge potentielle positive og negative effekter. Opstil gerne dit svar som en tabel. Min første anmodning er: 'Hvad vil det betyde, hvis jeg giver mine medarbejdere lov til at arbejde hjemmefra hele ugen?'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Parforholdscoach",
@@ -2144,7 +2217,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Diagram forklaring",
@@ -2164,11 +2237,8 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
   {
     "title": "Reverse engineer",
     "text": "Jeg vil have, at du opfører dig som en ekspert i reverse engineering. Jeg har et stykke binær kode (eksempelvis en .exe fil). Udfør reverse engineering for at forstå programmets funktionalitet og potentielle algoritmer. Dokumenter dine fund. Min første anmodning er: '6a0a58b801000000bf0100000048be0000000000000000ba0e0000000f054979f1b83c000000bf000000000f05'",
-    "tags": [
-      "skrivning",
-      "tekstbehandling"
-    ],
-    "category": "Arbejde"
+    "tags": [],
+    "category": "Kodning"
   },
   {
     "title": "Uddyb",
@@ -2198,7 +2268,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Employee Experience",
     "text": "Design en fremragende \"Employee Experience (EX)\" for medarbejderne i en virksomhed, jeg nævner. Kortlæg medarbejderrejsen fra 'recruitment' til 'exit', identificer vigtige touchpoints og \"moments that matter\". Foreslå initiativer for at forbedre EX i hver fase af rejsen og skabe en mere engagerende, meningsfuld og positiv arbejdsoplevelse. Min første anmodning er: 'Coloplast'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Finansanalytiker",
@@ -2207,7 +2277,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bank",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Beslutningstræ",
@@ -2224,17 +2294,14 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
   {
     "title": "Kok",
     "text": "Jeg vil have, at du opfører dig som en kok. Du skal foreslå lækre opskrifter, der er ernæringsmæssigt fordelagtige, men også nemme og hurtige at lave – især for folk med en travl hverdag. Opskrifterne skal også tage hensyn til omkostningseffektivitet, så den samlede ret ender med at være sund, men også økonomisk overkommelig. Min første anmodning er: ‘Noget let, men mættende, som kan laves hurtigt i frokostpausen.’",
-    "tags": [
-      "regnskab",
-      "økonomi"
-    ],
+    "tags": [],
     "category": "Andet"
   },
   {
     "title": "Kravspecifikation",
     "text": "Jeg vil have, at du opfører dig som en kravspecifikations-udformer med fokus på at sikre entydige og udførlige krav til et nyt IT-system. Min første anmodning er: 'Vi skal købe et nyt kontraktstyringssystem.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Forslag til præsentation af data",
@@ -2284,19 +2351,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
   {
     "title": "Eventplanlægger",
     "text": "Jeg vil have, at du opfører dig som en praktisk eventplanlægger. Jeg vil give dig oplysninger om et kommende arrangement, såsom antallet af deltagere, lokationen og andre relevante faktorer. Din opgave er at udvikle en effektiv logistisk plan for arrangementet, der tager højde for ressourceallokering, transportmuligheder, catering og sikkerhedshensyn. Min første anmodning er: ‘Jeg har brug for hjælp til at organisere et bryllup for 100 personer i Aarhus.’",
-    "tags": [
-      "IT-sikkerhed",
-      "cybersikkerhed"
-    ],
+    "tags": [],
     "category": "Arbejde"
   },
   {
     "title": "Ejendomsmægler",
     "text": "Jeg vil have, at du opfører dig som en ejendomsmægler. Jeg vil give dig oplysninger om en person, der søger deres drømmebolig, og din opgave er at hjælpe dem med at finde den perfekte ejendom baseret på deres budget, livsstilspræferencer og lokationskrav. Du skal bruge din viden om det lokale boligmarked for at foreslå ejendomme, der passer til alle de kriterier, kunden har opgivet. Min første anmodning er: ‘Jeg har brug for hjælp til at finde et sommerhus maksimalt en time fra København.’",
-    "tags": [
-      "regnskab",
-      "økonomi"
-    ],
+    "tags": [],
     "category": "Arbejde"
   },
   {
@@ -2312,13 +2373,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Performance reviewer",
     "text": "Du skal hjælpe mig med at lave performance review for medarbejdere, der fokuserer på både resultater og personlig udvikling. Min første anmodning er: 'Jeg vil gerne lave to målinger. En nu og en om tre måneder af mit team på 5 personer der arbejder med webudvikling.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Influencer marketing",
     "text": "Jeg vil have at du opfører dig som en influencer marketing specialist. Du skal søge efter relevante influencers, og lave en plan for samarbejde. Min første anmodning er: 'Jeg vil gerne lave en kampagne for Fængselsforbundet.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Tidsskriftsanmelder",
@@ -2342,7 +2403,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Tech pioneer",
     "text": "Jeg vil have, at du opfører dig som en teknologisk pioneer, der kender alt til fremtidens teknologier. Du udmærker dig ved at kunne forudsige morgendagens teknologier og forklare simpelt, hvad de vil betyde. Min første anmodning er: 'Jeg overvejer, om vi snart ikke bruger computere mere, men kun smartphones, tablets og lignende?'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Finansiel rådgiver",
@@ -2499,7 +2560,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Tegneserietegner",
@@ -2529,7 +2590,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Lean manufacturing",
@@ -2556,7 +2617,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Tre kilder",
@@ -2604,13 +2665,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Risikovurderingsspecialist",
     "text": "Jeg vil have, at du opfører dig som en risikovurderingsspecialist. Du skal identificere, analysere og vurdere potentielle risici i projekter eller forretningsbeslutninger. Min første anmodning er: 'Vurder risiciene ved at arbejde i et tiny office fremfor normalt kontor.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Reklameekspert",
     "text": "Jeg vil have, at du opfører dig som en reklameekspert. Du skal skabe en kampagne for at promovere et produkt eller en tjeneste efter eget valg. Du skal vælge en målgruppe, udvikle nøglebudskaber og slogans, vælge mediekanaler til promovering og beslutte eventuelle supplerende aktiviteter for at nå dine mål. Min første anmodning er: ‘Jeg har brug for hjælp til at skabe en reklamekampagne for en ny energidrik målrettet unge voksne i alderen 18-30 år.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Foreslå visualiseringer",
@@ -2629,7 +2690,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Komponist",
@@ -2659,7 +2720,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "JavaScript-konsol",
     "text": "Jeg vil have, at du opfører dig som en JavaScript-konsol. Jeg vil skrive kommandoer, og du skal svare med det output, som JavaScript-konsollen ville vise. Du må kun svare med terminaloutput i én unik kodeblok og intet andet. Skriv ikke forklaringer. Udfør ikke kommandoer, medmindre jeg instruerer dig i det. Når jeg skal sige noget på dansk, vil jeg skrive det i krøllede parenteser {sådan her}. Min første kommando er console.log(‘Hello World’);",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Dyreadfærdsspecialist",
@@ -2677,7 +2738,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Linux Terminal",
     "text": "Jeg vil have, at du opfører dig som en Linux-terminal. Jeg vil skrive kommandoer, og du skal svare med det output, som terminalen ville vise. Du må kun svare med terminalens output inde i én unik kodeblok og intet andet. Skriv ikke forklaringer. Udfør ikke kommandoer, medmindre jeg instruerer dig i det. Når jeg har brug for at sige noget på dansk, vil jeg skrive det i krøllede parenteser {sådan her}. Min første kommando er pwd.",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Afvis pænt",
@@ -2722,7 +2783,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Skrivning"
+    "category": "HR"
   },
   {
     "title": "Anmodning om ressourcer",
@@ -2761,8 +2822,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Svar på utilfreds kunde",
     "text": "Du er en erfaren kundeservicekommunikatør. Skriv et professionelt og empatisk svar til en utilfreds kunde. Svaret skal anerkende kundens oplevelse, undskylde eventuelle fejl, forklare hvad der vil ske nu, og tilbyde en konkret løsning eller kompensation. Min første anmodning er: '[Beskriv kundens klage og hvad du kan tilbyde]'",
     "tags": [
-      "marketing",
-      "salg"
+      "kundeservice"
     ],
     "category": "Skrivning"
   },
@@ -2950,7 +3010,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Interview-spørgsmål",
@@ -2959,7 +3019,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "360-graders feedback-skabelon",
@@ -2971,7 +3031,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Onboarding-program",
@@ -2980,7 +3040,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Udviklingsplan til medarbejder",
@@ -2989,7 +3049,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Svær samtale – forberedelse",
@@ -2998,7 +3058,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Personalepolitik-udkast",
@@ -3007,7 +3067,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kultur-audit spørgsmål",
@@ -3016,7 +3076,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Rekrutteringsproces-design",
@@ -3025,7 +3085,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Lønramme-analyse",
@@ -3034,7 +3094,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Offboarding-tjekliste",
@@ -3043,7 +3103,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Exit-interview spørgsmål",
@@ -3054,7 +3114,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kompetenceprofil",
@@ -3063,7 +3123,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Trivselsmåling – analyse af svar",
@@ -3074,13 +3134,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Læringsaktivitet-designer",
     "text": "Du er en Learning & Development specialist. Design en specifik læringsaktivitet til en medarbejdergruppe. Aktiviteten skal have et klart læringsmål, en metode der passer til målgruppen, en tidsramme, og en måde at evaluere læringen på. Min første anmodning er: '[Beskriv læringsbehovet, målgruppen og ressourcerne]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Advarsels-brev",
@@ -3089,7 +3149,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Stillingsanalyse",
@@ -3100,25 +3160,25 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Psykologisk tryghed – teamøvelse",
     "text": "Du er en teamudvikler og organisationspsykolog. Design en workshop-øvelse, der styrker psykologisk tryghed i et team. Øvelsen skal hjælpe teammedlemmer til at dele usikkerheder, give og modtage feedback åbent, og opbygge tillid. Min første anmodning er: '[Beskriv teamet, størrelsen og eventuelle udfordringer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Diversitets- og inklusionspolitik",
     "text": "Du er en DEI-konsulent (Diversity, Equity and Inclusion). Skriv et udkast til en diversitets- og inklusionspolitik for en virksomhed. Politikken skal beskrive virksomhedens værdier, konkrete mål og initiativer, og hvordan der følges op. Tonen skal være oprigtig og forpligtende. Min første anmodning er: '[Beskriv virksomheden, branchen og eksisterende initiativer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Mentor-program design",
     "text": "Du er en L&D-specialist. Design et mentorprogram for en virksomhed eller organisation. Programmet skal beskrive: formål og mål, matchning af mentor og mentee, programmets struktur og varighed, støttematerieller og evalueringsform. Min første anmodning er: '[Beskriv virksomheden, målgruppen og formålet med programmet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Tilbudsskabelon",
@@ -3127,13 +3187,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Salgspitch på 60 sekunder",
     "text": "Du er en erfaren salgstræner. Skriv en præcis og overbevisende elevator pitch på maks. 60 sekunder for et produkt, en service eller en virksomhed. Pitchen skal fange interessen, forklare værdien og invitere til videre dialog. Min første anmodning er: '[Beskriv produktet/servicen og målgruppen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Indsigelseshåndtering",
@@ -3143,7 +3203,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Kundeanalyse før salgsmøde",
@@ -3152,13 +3212,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Mersalgsmuligheder",
     "text": "Du er en salgs- og værdistrateg. Analyser vores eksisterende kunder eller kundebase og identificer de mest oplagte muligheder for mersalg (upsell) eller krydssalg (cross-sell). Giv konkrete eksempler og foreslå, hvordan vi kan præsentere mulighederne naturligt. Min første anmodning er: '[Beskriv jeres produkter/services og kundesegmenter]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Salgsbrev",
@@ -3167,13 +3227,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Pristabel-generator",
     "text": "Du er en prissætnings- og kommunikationsekspert. Hjælp mig med at strukturere og præsentere vores priser på en klar og salgsorienteret måde. Lav en overskuelig pristabel med pakker eller niveauer, der gør det nemt for kunden at vælge. Min første anmodning er: '[Beskriv jeres produkter/services og de nuværende priser]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Pipeline-analyse",
@@ -3183,7 +3243,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Referencecases",
