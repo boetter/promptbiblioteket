@@ -11,7 +11,7 @@ import Toast from './components/Toast'
 import type { Prompt } from './types/prompt'
 
 export default function App() {
-  const { prompts, addPrompt, deletePrompt, toggleFavorite } = usePrompts()
+  const { prompts, addPrompt, deletePrompt, toggleFavorite, resetAll } = usePrompts()
   const [query, setQuery] = useState('')
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
   const [selectedPrompt, setSelectedPrompt] = useState<Prompt | null>(null)
@@ -43,15 +43,28 @@ export default function App() {
               Promptbiblioteket
             </h1>
           </div>
-          <button
-            onClick={() => setShowAddModal(true)}
-            className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-xl text-sm transition-colors cursor-pointer flex items-center gap-1.5"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
-            </svg>
-            Tilføj prompt
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => {
+                if (window.confirm('Er du sikker? Alle dine ændringer slettes og biblioteket nulstilles til standardprompts.')) {
+                  resetAll()
+                  handleToast('Biblioteket er nulstillet')
+                }
+              }}
+              className="text-gray-400 hover:text-gray-600 font-medium px-3 py-2 rounded-xl text-sm transition-colors cursor-pointer"
+            >
+              Nulstil
+            </button>
+            <button
+              onClick={() => setShowAddModal(true)}
+              className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-xl text-sm transition-colors cursor-pointer flex items-center gap-1.5"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+              </svg>
+              Tilføj prompt
+            </button>
+          </div>
         </div>
       </header>
 
