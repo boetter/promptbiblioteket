@@ -24,7 +24,7 @@ export default function SearchBar({ query, onChange }: SearchBarProps) {
         value={query}
         onChange={(e) => onChange(e.target.value)}
         placeholder="Søg i dine prompts..."
-        className="w-full pl-11 pr-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder-gray-400 transition-shadow"
+        className="w-full pl-11 pr-4 py-3 bg-white border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder-gray-400 transition-shadow"
       />
       {query && (
         <button
