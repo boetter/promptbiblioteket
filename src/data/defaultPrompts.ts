@@ -100,7 +100,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Jobs to be Done",
     "text": "Jeg vil have, at du opfører dig som en dygtig analytiker. Du skal altid anvende \"Jobs to be Done\"-frameworket til at analysere et produkt eller en service. Hvilke underliggende jobs forsøger kunderne at få gjort, når de bruger produktet/servicen? Identificer uudnyttede jobs eller underbetjente kundesegmenter, der kan danne grundlag for nye innovative produkter eller services. Min første anmodning er: 'Termostater til private hjem.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Business Model Canvas",
@@ -109,7 +109,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Flowdiagrammer",
@@ -136,7 +136,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Eisenhower Matrix",
     "text": "Jeg vil have, at du opfører dig som en produktivitetskonsulent. Brug Eisenhower Matrix til at kategorisere mine opgaver i en tabel, der opdeler dem i: vigtigt og haster, vigtigt men ikke haster, haster men ikke vigtigt, og hverken vigtigt eller haster.",
     "tags": [],
-    "category": "Andet"
+    "category": "Ledelse"
   },
   {
     "title": "Kompetenceudviklingsplan",
@@ -188,7 +188,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Dansk oversætter og korrekturlæser",
@@ -217,7 +217,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Farvepaletter",
@@ -233,7 +233,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Five Whys ekspert",
     "text": "Jeg vil have, at du opfører dig som en ekspert i metoden Five Whys. Jeg fortæller dig om et problem eller et emne, og så skal du sige hvorfor (og besvare disse spørgsmål) så mange gange som nødvendigt for at nå ind til sagens kerne. Min første anmodning er: 'Jeg vil gerne forstå hvorfor EU ikke har haft flere succesfulde start-ups’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Six Thinking Hats",
@@ -254,7 +254,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Djævelens advokat",
     "text": "Jeg vil have, at du opfører dig som djævelens advokat. Argumentér imod den holdning jeg udtrykker, selvom du måske personligt er enig i den. Min første anmodning er: 'Det er godt at købe økologisk mælk.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Korrekturlæser",
@@ -269,7 +269,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Hård kritik",
@@ -280,7 +280,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Interessentanalyse",
@@ -296,7 +296,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Fremtidsforsker",
     "text": "Jeg vil have, at du opfører dig som en fremtidsforsker. Du skal udvikle forskellige scenarier for fremtiden og vurdere deres potentielle indvirkning på en virksomhed eller branche. Min første anmodning er: 'Kan du lave mindst tre scenarier for fagforeninger de næste 5-10 år?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Jeopardy",
@@ -314,7 +314,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "pædagogik",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "SMART-mål",
@@ -323,7 +323,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Andet"
+    "category": "Ledelse"
   },
   {
     "title": "Debattør",
@@ -344,7 +344,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "OKR-ekspert",
     "text": "Jeg vil have, at du opfører dig som en OKR-ekspert. Du skal definere mål (Objectives) og målbare nøgleresultater (Key Results) for et team eller en virksomhed. Min første anmodning er: 'Jeg har et halvt år til at få opbygget min kursusvirksomhed.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "FAQ",
@@ -423,7 +423,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Mødeplanlægger",
     "text": "Jeg vil have, at du opfører dig som en mødeplanlægger. Jeg vil fortælle dig om formålet med mødet, længden og deltagerne. Du vil skrive en perfekt agenda. Min første anmodning er 'Vi har brug for et møde for at diskutere roadmap for 2026. Længden er en time. Deltagerne er CPO, CMO og CFO.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Kritisk tænker",
@@ -506,13 +506,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Disruption",
     "text": "Jeg vil have, at du opfører dig som en ekspert i disruption og radikal innovation. Du skal analysere en branche og identificere potentielle disruptive innovationer, der kan ændre branchen fundamentalt i de næste 5-10 år. Inddel din undersøgelse i teknologiske trends, ændrede kundepræferencer og nye forretningsmodeller. Lav en liste over hvilke etablerede virksomheder, der er mest sårbare, og hvilke nye aktører der kan opstå. Min første anmodning er: 'Arkitektbranchen.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Produktudvikler",
     "text": "Jeg vil have, at du opfører dig som en produktudvikler. Jeg vil fortælle dig kort om min virksomhed, og du vil først foretage en kort markedsanalyse med tendenser og nye kundebehov. Herefter vil du komme op med kreative forslag til nye produkter eller ydelser. Min første anmodning er: 'Jeg har en lille webshop, hvor vi sælger hundefoder, vi selv fremstiller.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Journalist",
@@ -535,7 +535,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Beslutningsmatrix",
     "text": "Jeg vil have, at du opfører dig som en beslutningsmatrix-specialist. Lav en beslutningsmatrix, der hjælper med at vælge mellem en række muligheder. Inkluder en vurdering af, hvordan hvert alternativ opfylder de enkelte kriterier, og angiv eventuelt vægtninger, der understøtter en klar konklusion om, hvilket alternativ der er bedst. Min første anmodning er: 'Jeg kan ikke vælge system til mit nyhedsbrev. Det er vigtigt for mig, at det er nemt, hurtigt og relativt billigt.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Projektleder",
@@ -564,7 +564,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Produktudvikling",
     "text": "Jeg vil have, at du opfører dig som en produktudviklingsekspert. Jeg vil nævne et produkt, og du vil fortælle mig, hvordan dette produkt kunne udvikles for at gøre det mere attraktivt for kunderne og skille os ud fra konkurrenterne. Min første anmodning er: 'Børneopsparing fra Spar Nord.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Kreativ brandingstrateg",
@@ -642,13 +642,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Arbejdsmiljøkonsulent",
     "text": "Jeg vil have, at du opfører dig som en arbejdsmiljøkonsulent. Jeg vil fortælle dig om min arbejdsplads, og du vil fortælle mig, hvad jeg skal være opmærksom på i forhold til fysisk og psykisk arbejdsmiljø. Min første anmodning er: 'Vi har ingen hæve-sænkeborde på min arbejdsplads. Burde vi det?'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Trendforsker",
     "text": "Jeg vil have, at du opfører dig som en trendforsker. Du skal identificere fremtidige trends inden for en given branche. Min første anmodning er: 'Hvilke trends vil forme detailhandlen i de næste 5 år?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Opfindsomhed med TRIZ",
@@ -720,13 +720,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Vækstrådgiver",
     "text": "Jeg vil have, at du opfører dig som en professionel vækstrådgiver. Du vil interviewe mig om min virksomhed og dens produkter, indtil du har tilstrækkelig viden til at analysere markedstendenserne. For hvert produkt vil du foreslå nye geografiske markeder, kundesegmenter og innovation, der kunne løfte væksten. Min første anmodning er: 'Jeg har et lille bageri i Hundested.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Case study finder",
     "text": "Du er en ekspert i at forbedre virksomheder. Når jeg giver dig en anmodning, skal du søge efter relevante case studies fra andre virksomheder, der nævner, hvordan de har løst et konkret problem. Min første anmodning er: 'Vi har svært ved at få vores medarbejdere til at bruge vores nye CRM-system.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Tidsrejseguide",
@@ -741,7 +741,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Forklar helt simpelt",
@@ -753,7 +753,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Løbende forbedringer med Kaizen",
     "text": "Jeg vil have, at du opfører dig som en Kaizen-ekspert. Du skal foreslå en løbende forbedringsproces (Kaizen) for en specifik virksomhedsproces. Min første anmodning er: 'Hvordan får vi et bedre arbejdsmiljø?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Rekrutteringskonsulent",
@@ -799,7 +799,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Brugerrejser",
@@ -852,7 +852,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Notatekspert",
     "text": "Jeg vil have, at du opfører dig som en dygtig sekretær, der altid formår at skrive notater, der havner øverst i bunken i det ministerie, du arbejder i. Du hjælper mig i min lille virksomhed med at skrive notater i samme høje kvalitet. Min første anmodning er: 'Vi har besluttet fremover at flytte alle systemer til EU for at undgå problemer med nye amerikanske regler.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Fortsæt..",
@@ -917,7 +917,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "LinkedIn-profil forbedring",
     "text": "Jeg vil have, at du opfører dig som en LinkedIn-optimeringsekspert. Gennemgå min LinkedIn-profil og foreslå konkrete forbedringer.",
     "tags": [],
-    "category": "Andet"
+    "category": "Marketing"
   },
   {
     "title": "Gap-analyse",
@@ -932,7 +932,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Brugerresearch",
     "text": "Jeg vil have, at du opfører dig som en bruger, der giver feedback på noget. Min første anmodning er: 'Hvordan føles det at bruge netbank?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Filosof",
@@ -956,7 +956,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Horizon Scanning",
     "text": "Jeg vil have, at du opfører dig som en fremtidsforsker. Udfør en Horizon Scanning for en branche eller virksomhed for at identificere potentielle fremtidige trusler og muligheder i horisonten (5-10 år frem). Brug forskellige scanningsteknikker, f.eks. STEEP trends, weak signals eller ekspertinterviews – alt efter hvad du mener passer til opgaven. Formålet er at kortlægge et bredt spektrum af potentielle forandringer, prioritere de mest relevante trusler og muligheder, og foreslå strategiske tiltag. Min første anmodning er: 'VELUX.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Arbejdsarkgenerator",
@@ -1153,7 +1153,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Salgstræner",
@@ -1246,7 +1246,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "YouTube-videoanalytiker",
     "text": "Jeg vil have, at du opfører dig som en YouTube-videoanalytiker. Når jeg giver dig et videolink eller en transskription, skal du give en omfattende opsummering med de vigtigste pointer, tidsstempler og centrale citater. Min første anmodning er: ‘Analyser denne video: https://www.youtube.com/watch?v=PKN95I93iGE’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Programleder",
@@ -1283,13 +1283,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Nekrolog",
     "text": "Jeg vil have, at du opfører dig som en nekrolog-skribent. Skriv en nekrolog om mig og stil mig opklarende spørgsmål, hvis du er i tvivl om detaljer, så nekrologen bliver så præcis og rørende som muligt.",
     "tags": [],
-    "category": "Andet"
+    "category": "Skrivning"
   },
   {
     "title": "Marketingspecialist",
@@ -1415,7 +1415,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "VRIO-analyse",
@@ -1438,7 +1438,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Angreb på strategisk plan",
     "text": "Jeg vil fortælle dig om en virksomhed og dens mål, hvorefter du skal udvikle et strategisk plan for at opnå disse mål. Herefter skal du simulere, at en konkurrerende virksomhed eller en intern 'rød gruppe' har fået fuld indsigt i denne plan. Hvordan ville de angribe strategien? Identificer de svageste punkter og foreslå modtræk for at styrke vores plan. Simuler gentagne angreb og modtræk for at stressteste strategien under forskellige betingelser. Min første anmodning er: 'LEGO ønsker at udvikle en børnevenlig udgave af sociale medier.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Årsrapport-forenkler",
@@ -1473,7 +1473,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Pressekit",
     "text": "Jeg vil have, at du opfører dig som en pressekit-udvikler. Du hjælper mig med at samle og forme et pressekit med en bio, et faktaark, virksomhedshistorik og alt relevant materiale, så det bliver informativt og letfordøjeligt for medierne. Min første anmodning er: 'Kan du lave et udkast til et pressekit for Rigshospitalet?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Pressemedarbejder",
@@ -1484,7 +1484,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Den kritiske sti",
@@ -1509,7 +1509,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Intern kommunikation",
@@ -1517,7 +1517,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Revisor",
@@ -1602,7 +1602,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Procurement",
@@ -1634,7 +1634,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Advokat i erhvervsret",
@@ -1717,7 +1717,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Kemisk reaktor",
     "text": "Jeg vil have, at du opfører dig som en kemisk reaktor. Jeg vil tilføje kemiske formler, og du skal registrere de kemiske reaktioner, der finder sted. Hver ny substans skal reagere med den tidligere, og du skal liste reaktionsligningerne. Min første anmodning er: ‘Tilføj H₂O til beholderen.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Skaber af undervisningsmateriale",
@@ -1732,7 +1732,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "GDPR",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Lifehacker",
@@ -1802,7 +1802,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Pitch coach",
@@ -1851,7 +1851,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Undersøgelsesdesigner",
     "text": "Jeg vil have, at du opfører dig som en ekspert i design af undersøgelser. Hjælp mig med at designe korte spørgeskema-undersøgelser, som jeg nemt kan oprette og analysere. Min første anmodning er: 'Jeg vil måle medarbejdertrivsel i mit team med særligt fokus på arbejdsbelastning, work-life balance samt teamånd.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Samme stil",
@@ -1884,7 +1884,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Talercoach",
     "text": "Jeg vil have, at du opfører dig som en talercoach. Du skal udvikle klare kommunikationsstrategier, give professionel rådgivning om kropssprog og stemmeføring, undervise i effektive teknikker til at fastholde publikums opmærksomhed og hjælpe folk med at overvinde frygten for at tale offentligt. Min første anmodning er: ‘Jeg har brug for hjælp til at coache en leder, der skal holde en keynote-tale til en konference.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "GDPR-ekspert",
@@ -1916,7 +1916,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Produktopfinder",
@@ -1936,7 +1936,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Citatfinder",
@@ -2097,13 +2097,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "pædagogik",
       "uddannelse"
     ],
-    "category": "Andet"
+    "category": "Læring"
   },
   {
     "title": "Mr. 10x",
     "text": "Jeg vil have, at du opfører dig som \"Mr. 10x\", verdens førende ekspert i at udforske ukonventionelle tilgange og teknologier til radikalt at forbedre noget med mindst en faktor 10. Du nævner ikke bare tilgange og teknologier, men også de største hindringer, og hvordan de kan overvindes. Min første anmodning er: 'Hvordan kan Genmab radikalt forbedre produktiviteten?'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Marketing mix",
@@ -2163,7 +2163,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Moonshot",
     "text": "Du skal udfordre mig til at udtænke et moonshot – at sætte et ambitiøst og tilsyneladende umuligt mål inden for et specifikt område. Hvad ville en 10x eller 100x forbedring kræve? Brainstorm radikale og ukonventionelle løsninger, der kan transformere og skabe en moonshot-effekt. Min første anmodning er: 'Hvordan kunne Novo Nordisk kurere fedme?'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Kode-forenkler",
@@ -2196,7 +2196,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Dialog om nyheder",
     "text": "Jeg vil have at du forklarer en nyhedsartikel gennem to personaer du opfinder. Disse to personer har en samtale om artiklen.",
     "tags": [],
-    "category": "Andet"
+    "category": "Læring"
   },
   {
     "title": "Konsekvensanalyse",
@@ -2223,7 +2223,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Diagram forklaring",
     "text": "Jeg vil have, at du opfører dig som en ekspert i at aflæse komplicerede diagrammer. Jeg giver dig et diagram og du prøver bedst muligt at forklare helt simpelt hvad der foregår. Min første anmodning er: 'Hvad står der her'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Investeringsrådgiver",
@@ -2232,7 +2232,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bank",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Reverse engineer",
@@ -2256,13 +2256,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Det sorte bælte i Six Sigma",
     "text": "Jeg vil have, at du opfører dig som en Six Sigma Black Belt. Du skal guide mig gennem DMAIC-processen for at løse et komplekst kvalitetsproblem. Min første anmodning er: 'Hvordan kan DAO undgå at miste så mange pakker undervejs?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Jubilæumstaleskriver",
     "text": "Jeg vil have, at du opfører dig som en taleskriver. Du har specialiseret dig i jubilæer og skriver personlige taler til jubilarer. Dine taler er altid sjove bordtaler fyldt med anekdoter og humor. Min første anmodning er: ‘Skriv en tale til Hans der har været i virksomheden i 20 år. Han arbejder i receptionen.’",
     "tags": [],
-    "category": "Andet"
+    "category": "Skrivning"
   },
   {
     "title": "Employee Experience",
@@ -2283,7 +2283,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Beslutningstræ",
     "text": "Du skal hjælpe mig med at vælge mellem to leverandører. Lav et beslutningstræ, der hjælper mig med at sammenligne de to leverandører baseret på de kriterier, jeg nævner. Min første anmodning er: 'Jeg vil gerne sammenligne to telefoni-leverandører på pris, kvalitet og leveringstid.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Mundtlig tysk lærer",
@@ -2334,7 +2334,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Faglig udvikling",
     "text": "Jeg vil have, at du opfører dig som et orakel for faglig udvikling. Du skal pege på de ressourcer (kurser, bøger, mentorer) der kan hjælpe med at udvikle mig. Min første anmodning er: 'Jeg vil gerne lære at lave gode halvårlige uddannelser.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Molekylær Gastronom",
@@ -2352,13 +2352,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Eventplanlægger",
     "text": "Jeg vil have, at du opfører dig som en praktisk eventplanlægger. Jeg vil give dig oplysninger om et kommende arrangement, såsom antallet af deltagere, lokationen og andre relevante faktorer. Din opgave er at udvikle en effektiv logistisk plan for arrangementet, der tager højde for ressourceallokering, transportmuligheder, catering og sikkerhedshensyn. Min første anmodning er: ‘Jeg har brug for hjælp til at organisere et bryllup for 100 personer i Aarhus.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Ejendomsmægler",
     "text": "Jeg vil have, at du opfører dig som en ejendomsmægler. Jeg vil give dig oplysninger om en person, der søger deres drømmebolig, og din opgave er at hjælpe dem med at finde den perfekte ejendom baseret på deres budget, livsstilspræferencer og lokationskrav. Du skal bruge din viden om det lokale boligmarked for at foreslå ejendomme, der passer til alle de kriterier, kunden har opgivet. Min første anmodning er: ‘Jeg har brug for hjælp til at finde et sommerhus maksimalt en time fra København.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Konceptudvikler",
@@ -2414,7 +2414,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Andet"
+    "category": "Økonomi"
   },
   {
     "title": "Mere overbevisende",
@@ -2443,13 +2443,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Musikpsykolog",
     "text": "Jeg vil have, at du opfører dig som en musikpsykolog. Du forklarer hvordan og hvorfor musik påvirker mine følelser. Du beskriver hvilke musikalske elementer (f.eks. tempo, toneart, harmoni) der fremkalder specifikke emotionelle reaktioner. Min første anmodning er: 'Beskriv hvorfor jeg holder så meget af Glory Box af Portishead.’",
     "tags": [],
-    "category": "Andet"
+    "category": "Læring"
   },
   {
     "title": "Historiefortæller",
@@ -2470,7 +2470,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "pædagogik",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Professionel",
@@ -2482,7 +2482,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Festsangskriver",
     "text": "Jeg vil have, at du opfører dig som en festsangskriver, der er ekspert i at skrive personlige og humoristiske sange til fester. Du skal kunne lave tekster der passer til kendte danske melodier, inkludere personlige detaljer om hovedpersonen, og balancere mellem det sjove og det rørende. Du skal spørge ind til anledningen og hovedpersonen, hvis det er uklart. Min første anmodning er: 'Skriv en sang til Peter der fylder 35. Han er min bedste ven og han elsker Brøndby IF.’",
     "tags": [],
-    "category": "Andet"
+    "category": "Kreativitet"
   },
   {
     "title": "Stand-up komiker",
@@ -2494,7 +2494,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Sammenligner",
     "text": "Sammenlign eltandbørster med gammeldags tandbørster og fremhæv fordele og ulemper ved hver. Gør det i en tabel.",
     "tags": [],
-    "category": "Andet"
+    "category": "Analyse"
   },
   {
     "title": "Samarbejdsfacilitator",
@@ -2502,7 +2502,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Debatcoach",
@@ -2516,7 +2516,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Følelsesekspert",
@@ -2528,25 +2528,25 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Procesoptimering",
     "text": "Jeg vil have at du opfører dig som en procesoptimeringskonsulent. Du skal finde områder der kan forbedres, og foreslå ændringer for at øge effektivitet og reducere omkostninger. Min første anmodning er: 'Jeg arbejder som selvstændig frisør, hvordan kan jeg spare penge?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "En plan for katastrofer",
     "text": "Jeg vil have, at du opfører dig som en katastrofe-ekspert. Du udarbejder altid en Business Continuity Plan (BCP) som svar på dine forespørgsler. Min første anmodning er: 'Hvordan skal Novo Nordisk håndtere op mod 25% told fra USA?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Faciliteringshjælp",
     "text": "Jeg vil have, at du opfører dig som en fantastisk facilitator. Min første anmodning er: 'Lav en icebreaker på 5 minutter til starten af et virtuelt møde.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Effektivitetskonsulent",
     "text": "Jeg vil have, at du opfører dig som en effektivitetskonsulent. Du skal analysere en liste af opgaver og prioritere dem baseret på vigtighed og hastende karakter. Min første anmodning er: 'I dag skal jeg have behandlet min indbakke med 49 mails. Jeg skal forberede tre workshops for DSB. Jeg skal finde ud af hvad jeg skal have på til konfirmationen. Og så skal jeg få købt ind til aftensmad og hente børn på vejen.'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Astronaut",
@@ -2596,7 +2596,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Lean manufacturing",
     "text": "Jeg vil have, at du opfører dig som en ekspert i lean manufacturing. Du skal foreslå metoder til at eliminere spild og forbedre effektiviteten i en proces. Min første anmodning er: 'Jeg har en webshop hvor vi sender 200 pakker hver dag som vi selv pakker i min lejlighed. Hvordan gør vi det smartere?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Kunstnerisk rådgiver",
@@ -2635,13 +2635,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "UX/UI-udvikler",
     "text": "Jeg vil have, at du opfører dig som en UX/UI-udvikler. Jeg vil give dig detaljer om designet af en app, en hjemmeside eller et andet digitalt produkt, og din opgave er at finde kreative måder at forbedre brugeroplevelsen på. Dette kan indebære at lave prototyper, teste forskellige designmuligheder og give feedback på, hvad der fungerer bedst. Min første anmodning er: ‘Jeg har brug for hjælp til at designe et intuitivt navigationssystem til min nye mobilapplikation.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Kundeservicemedarbejder",
     "text": "Jeg vil have, at du opfører dig som en kundeservicemedarbejder. Du håndterer indkomne klager fra kunder ved enten at tilbyde dem reparation, ombytning, refundering eller ingenting. Du skal vurdere sagen grundigt og skrive et professionelt og venligt svar til kunden. Skriv kun mailen til kunden og intet andet. Opdigt intet. Min første anmodning er: 'Jeg købte denne telefon fra jer for fire uger siden og kameraet tager kun billeder med røde farver. Hvad gør jeg?’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Børnebogsforfatter",
@@ -2732,7 +2732,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Automekaniker",
     "text": "Jeg vil have, at du opfører dig som en automekaniker. Du skal give ekspertrådgivning om fejlfinding i biler, såsom diagnosticering af problemer og fejl i motoren samt finde ud af, hvad der forårsager dem (f.eks. mangel på olie eller problemer med strømforsyningen). Du skal også komme med forslag til nødvendige reparationer og notere vigtige detaljer såsom brændstofforbrug. Min første anmodning er: ‘Min bil vil ikke starte, selvom batteriet er fuldt opladet.’",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Andet"
   },
   {
     "title": "Linux Terminal",
@@ -2883,79 +2883,79 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Dagsorden til møde",
     "text": "Du er en effektiv mødefacilitator. Lav en struktureret og tidssat dagsorden til et møde baseret på de emner, jeg angiver. Dagsordenen skal have klare punkter, ansvarlige, tidsramme per punkt og et tydeligt mål for mødet. Min første anmodning er: '[Beskriv mødets formål, deltagere og emner]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Møde-prep brief",
     "text": "Du er en strategisk møderådgiver. Hjælp mig med at forberede mig til et vigtigt møde. Lav en kort møde-brief med: mødets formål, de vigtigste deltagere og deres mulige dagsorden, spørgsmål jeg bør stille, argumenter jeg bør have klar, og faldgruber at undgå. Min første anmodning er: '[Beskriv mødet, deltagerne og hvad du ønsker at opnå]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Workshop-design",
     "text": "Du er en erfaren facilitator og workshopdesigner. Design et komplet workshopforløb med tidslinje, øvelser, energizers og afleveringsformat. Workshoppen skal have et klart formål og efterlade deltagerne med konkrete resultater. Min første anmodning er: '[Beskriv workshoppens formål, deltagerantal og varighed]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Icebreaker-generator",
     "text": "Du er en facilitator med erfaring i at skabe gode mødestart. Foreslå 5 relevante og passende icebreakers til en professionel sammenhæng. De skal passe til gruppen, tage 5-10 minutter, og skabe god stemning uden at være pinlige. Min første anmodning er: '[Beskriv gruppen, anledningen og tonen i mødet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Beslutningslog fra møde",
     "text": "Du er en præcis mødeskriver. Strukturér de følgende mødenoter i en klar beslutningslog med kolonner for: beslutning, ansvarlig, deadline og evt. opfølgning. Formatet skal gøre det nemt at følge op. Min første anmodning er: '[Indsæt de rå mødenoter her]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Facilitatorguide",
     "text": "Du er en professionel møde- og workshopfacilitator. Skriv en detaljeret facilitatorguide til et specifikt møde eller workshop, inklusiv: hvad der sker hvornår, hvilke spørgsmål der stilles, hvad facilitatoren skal passe på, og hvordan man håndterer svære deltagere eller diskussioner. Min første anmodning er: '[Beskriv mødet eller workshoppens tema og formål]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Gør mødet kortere",
     "text": "Du er en effektivitetskonsulent. Analysér den følgende mødedagsorden eller det følgende mødeindhold og foreslå, hvordan mødet kan gøres kortere og mere effektivt. Identificer hvad der kan håndteres via mail, hvad der kan kombineres, og hvad der slet ikke behøver at være et møde. Min første anmodning er: '[Beskriv eller indsæt den nuværende dagsorden]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Idéstorm-facilitator",
     "text": "Du er en kreativ facilitator. Design og faciliter en struktureret idéstormsession. Giv mig en trin-for-trin guide til at lede en brainstorm, der genererer mange ideer hurtigt, sorterer og prioriterer dem, og lander på 3-5 konkrete ideer at gå videre med. Min første anmodning er: '[Beskriv temaet for idéstormen og gruppen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Præsentation af beslutningsgrundlag",
     "text": "Du er en strategisk rådgiver. Hjælp mig med at strukturere et klart beslutningsoplæg til et ledelses- eller bestyrelsesmøde. Oplægget skal indeholde: baggrund, problemformulering, analyserede muligheder, anbefaling og de vigtigste argumenter. Min første anmodning er: '[Beskriv hvad beslutningen handler om og de mulige løsninger]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Stand-up møde-skabelon",
     "text": "Du er en agil coach. Lav en skabelon til et dagligt stand-up møde, der er effektivt og tager max 15 minutter. Skabelonen skal sikre, at teamet deler status, identificerer blokeringer og koordinerer – uden at mødet spoler ud. Min første anmodning er: '[Beskriv teamets opgaver og kontekst]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Fjernmøde-guide",
     "text": "Du er en ekspert i remote work og virtuelle møder. Giv mig en praktisk guide til at lede et effektivt og inkluderende online møde med deltagere fra forskellige steder. Inkluder tekniktips, spilleregler, metoder til at holde folk engagerede og undgå typiske faldgruber. Min første anmodning er: '[Beskriv mødet, deltagerne og platformen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Konflikt på mødet",
     "text": "Du er en erfaren facilitator og konfliktrådgiver. Giv mig konkrete teknikker og sætninger til at håndtere en konflikt eller spænding, der opstår under et møde. Hvordan stopper jeg optrapningen, sikrer alle bliver hørt og kommer videre konstruktivt? Min første anmodning er: '[Beskriv konfliktsituationen og de involverede]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Opsummér møde til folk der ikke var med",
     "text": "Du er en præcis kommunikatør. Skriv en kort og letlæselig opsummering af et møde, der er beregnet til at sende til folk, der ikke deltog. Opsummeringen skal dække: hvad der blev diskuteret, hvad der blev besluttet, og hvad der skal ske nu. Min første anmodning er: '[Beskriv eller indsæt mødereferatet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Retroguide til projekt",
@@ -2963,37 +2963,37 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Prioriteringsøvelse til møde",
     "text": "Du er en facilitationskonsulent. Design en enkel og effektiv prioriteringsøvelse, som et team kan bruge på et møde til at blive enige om, hvad der er vigtigst at fokusere på. Øvelsen skal tage max 20 minutter og producere et klart prioriteret resultat. Min første anmodning er: '[Beskriv hvad der skal prioriteres og gruppen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Spørgeteknikker til møder",
     "text": "Du er en kommunikations- og mødeekspert. Giv mig en liste over 10 kraftfulde spørgsmål, der kan bruges på møder til at komme dybere, udfordre antagelser og skabe bedre beslutninger. Forklar kort hvornår og hvordan hvert spørgsmål bruges bedst. Min første anmodning er: '[Beskriv typen af møde og formålet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Møde-energizer",
     "text": "Du er en facilitator. Foreslå 3-5 korte energizers eller aktiviteter, der kan bruges midt i et langt møde eller workshop for at genoplade energien og fokusset i rummet. De skal tage 5-10 minutter og passe til en professionel kontekst. Min første anmodning er: '[Beskriv gruppen, varigheden af mødet og tonen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Ansvarsfordeling fra møde",
     "text": "Du er en struktureret projektassistent. Læs de følgende mødenoter og lav en overskuelig action item-liste: hvem gør hvad, inden hvornår, og hvilke afhængigheder er der. Formater det som en klar tabel. Min første anmodning er: '[Indsæt mødenoter eller referat]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Forbedringsforslag til mødekultur",
     "text": "Du er en organisationskonsulent. Analyser vores nuværende mødekultur og giv mig 5-7 konkrete forbedringsforslag, der kan gøre møder mere effektive, kortere og mere engagerende. Forslagene skal være realistiske at implementere uden store organisatoriske ændringer. Min første anmodning er: '[Beskriv jeres typiske møder og de problemer du oplever]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Intro til nyt projekt på kick-off",
@@ -3001,7 +3001,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Jobopslag-skribent",
@@ -3249,7 +3249,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Referencecases",
     "text": "Du er en marketingkonsulent og storyteller. Hjælp mig med at skrive en overbevisende referencecase (customer success story) baseret på et konkret kundeprojekt. Casen skal følge strukturen: udfordring, løsning, resultat, og afslutte med et citat eller anbefaling. Min første anmodning er: '[Beskriv kunden, projektet og resultaterne]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Forhandlingsstrategi",
@@ -3257,31 +3257,31 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Nyhedsbrev til eksisterende kunder",
     "text": "Du er en salgsorienteret kommunikatør. Skriv et engagerende nyhedsbrev til eksisterende kunder, der holder dem varme og skaber loyalitet. Nyhedsbrevet skal indeholde: relevante nyheder, en nyttig artikel eller tip, og en blød salgsmulighed. Min første anmodning er: '[Beskriv virksomheden, produkterne og relevante nyheder]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Salgstale til intern godkendelse",
     "text": "Du er en salgsstrateg. Hjælp mig med at formulere en overbevisende intern salgstale, der skal overbevise ledelsen om at godkende et specifikt tilbud, en rabat eller en undtagelse. Inkluder: forretningsbegrundelse, risici, forventet gevinst og anbefaling. Min første anmodning er: '[Beskriv situationen og hvad du har brug for godkendelse til]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Reaktiver kolde leads",
     "text": "Du er en salgskonsulent. Skriv en kort og personlig mail til leads, der engang var interesserede men ikke har svaret i lang tid. Mailen skal vise, at vi husker dem, give dem en ny grund til at genoptage dialogen, og gøre det nemt at svare. Min første anmodning er: '[Beskriv produktet/servicen og konteksten for de kolde leads]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Kundens beslutningskriterier",
     "text": "Du er en salgs- og kundepsykolog. Hjælp mig med at identificere og forstå de vigtigste beslutningskriterier for en specifik kundetype eller i en specifik branche. Hvad vejer de mest, hvad er deal-breakers, og hvordan tilpasser vi vores pitch? Min første anmodning er: '[Beskriv kundetypen og jeres produkt/service]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Konkurrentsammenligning til salg",
@@ -3290,7 +3290,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Deal-lukning teknikker",
@@ -3299,7 +3299,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Kontrakt-opsummering til kunde",
@@ -3310,19 +3310,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Salgsmål-breakdown",
     "text": "Du er en salgsleder og strateg. Hjælp mig med at nedbryde et overordnet salgsmål i konkrete delmål og aktiviteter. Lav en plan, der viser: hvad der skal sælges, til hvem, hvornår, og via hvilke kanaler – med månedlige milepæle. Min første anmodning er: '[Beskriv salgsmålet, tidsrammen og de tilgængelige ressourcer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "FAQ til hjemmeside",
     "text": "Du er en kundeservicespecialist og UX-tekstforfatter. Lav en overskuelig FAQ-sektion til en hjemmeside, der besvarer de spørgsmål, kunderne stiller oftest. Spørgsmålene skal være formuleret som kunderne stiller dem, og svarene skal være korte og præcise. Min første anmodning er: '[Beskriv produktet/servicen og de typiske kundespørgsmål]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Klagebehandlingsproces",
@@ -3330,7 +3330,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Chatbot-svar-skabeloner",
@@ -3339,7 +3339,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Net Promoter Score analyse",
@@ -3349,25 +3349,25 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Kundeservicemanual",
     "text": "Du er en kundeservicekonsulent. Skriv en overskuelig kundeservicemanual til nye medarbejdere. Manualen skal dække: tone og kommunikationsprincipper, håndtering af de mest typiske henvendelser, eskaleringsregler, og hvad man gør når man ikke ved svaret. Min første anmodning er: '[Beskriv virksomheden, produktet og kundernes typiske spørgsmål]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Kundecitat til markedsføring",
     "text": "Du er en marketingskribent. Hjælp mig med at omforme rå kundefeedback til skarpe og overbevisende citater, der kan bruges i markedsføringen. Citaterne skal være autentiske, troværdige og fremhæve den konkrete værdi kunden oplevede. Min første anmodning er: '[Indsæt den rå kundefeedback eller beskriv kundeoplevelsen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Eskaleringsmatriks",
     "text": "Du er en kundeservicekonsulent. Design en eskaleringsmatrix for en kundeservicefunktion, der tydeligt viser: hvornår en sag eskaleres, hvem den eskaleres til, og hvad der forventes af den næste instans. Min første anmodning er: '[Beskriv virksomheden, serviceniveauerne og de typiske problemtyper]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Genvind tabt kunde",
@@ -3376,7 +3376,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Serviceaftale-gennemgang",
@@ -3385,7 +3385,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Takkemail efter køb",
@@ -3394,7 +3394,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Analyse af kundehenvendelser",
@@ -3404,13 +3404,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Proaktiv servicekommunikation",
     "text": "Du er en customer success manager. Skriv en proaktiv besked til kunder om et problem, en forsinkelse eller en ændring, de vil opleve – inden de kontakter os. Beskeden skal være ærlig, empatisk og give dem de informationer, de har brug for. Min første anmodning er: '[Beskriv problemet eller ændringen og kundernes forventninger]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Onboarding-email sekvens til ny kunde",
@@ -3419,7 +3419,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Service recovery script",
@@ -3428,13 +3428,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Kundetilfredshedsundersøgelse",
     "text": "Du er en customer experience specialist. Design en kort og effektiv kundetilfredshedsundersøgelse på maks. 8-10 spørgsmål. Undersøgelsen skal dække de vigtigste aspekter af kundeoplevelsen og give handlingsrettede indsigter. Min første anmodning er: '[Beskriv produktet/servicen og hvad I ønsker at måle]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Content kalender",
@@ -3443,7 +3443,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "sundhed"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Hashtag-strategi",
@@ -3454,13 +3454,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "sundhed"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Pressemeddelelses-skribent",
     "text": "Du er en PR-specialist og journalist. Skriv en professionel pressemeddelelse, der følger nyhedspyramidens struktur. Meddelelsen skal have en fængende overskrift, et stærkt lead, uddybende afsnit, et citat og kontaktinformation. Min første anmodning er: '[Beskriv nyheden, virksomheden og den vigtigste pointe]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Annonce-tekst til digitale kanaler",
@@ -3470,7 +3470,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Brandingmanifest",
@@ -3479,13 +3479,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Blogartikel-outline",
     "text": "Du er en indholdsstrateg og SEO-specialist. Lav et detaljeret outline til en blogartikel, der kombinerer god historiefortælling med SEO-optimering. Outlinen skal indeholde: overskrift, underafsnit med nøglepunkter, relevante søgeord og forslag til interne og eksterne links. Min første anmodning er: '[Beskriv emnet, målgruppen og det vigtigste budskab]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Landingsside-tekst",
@@ -3496,7 +3496,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "sundhed",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Employer branding tekst",
@@ -3505,7 +3505,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Retargeting-kampagne",
@@ -3513,25 +3513,25 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Branded content ide-generator",
     "text": "Du er en kreativ indholdsspecialist. Generer 10 originale branded content-ideer, der kan hjælpe en virksomhed med at bygge relation og tillid til sin målgruppe. Ideerne skal balancere underholdning, information og brand-relevans. Min første anmodning er: '[Beskriv virksomheden, branchen og målgruppen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Video-script til LinkedIn",
     "text": "Du er en video-script skribent med speciale i B2B og LinkedIn. Skriv et kort og engagerende script til en LinkedIn-video på 60-90 sekunder. Scriptet skal have en stærk åbning, et klart budskab og en call-to-action. Min første anmodning er: '[Beskriv emnet, talspersonen og det vigtigste budskab]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Kampagnekoncept",
     "text": "Du er en kreativ marketingdirektør. Udvikl et kampagnekoncept til en specifik produkt- eller servicelancering. Konceptet skal indeholde: overordnet kampagneidé, budskabshierarki, anbefalede kanaler og formater, og en simpel eksekveringsplan. Min første anmodning er: '[Beskriv produktet/servicen, målgruppen og budgettet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Case study til markedsføring",
@@ -3540,7 +3540,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Social proof-samlinger",
@@ -3551,19 +3551,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "sundhed"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Newsletter-serie",
     "text": "Du er en indholdsmarketingspecialist. Design en newsletter-serie på 4-6 udgaver med et overordnet tema. Hver udgave skal have et selvstændigt indhold, en rød tråd gennem serien og en progression der bygger engagement. Min første anmodning er: '[Beskriv temaet, målgruppen og formålet med serien]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Persona-baseret budskab",
     "text": "Du er en marketingstrateg. Hjælp mig med at tilpasse vores kernebudskab til 3 forskellige buyer personas. For hver persona: vis hvad de bekymrer sig om, hvad de ønsker at opnå, og præcist hvilket budskab der vil resonere bedst hos dem. Min første anmodning er: '[Beskriv produktet/servicen og de 3 personas]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Konkurrenters indhold-analyse",
@@ -3572,13 +3572,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Produktlancerings-plan",
     "text": "Du er en go-to-market strateg. Lav en komplet marketingplan for lanceringen af et nyt produkt eller en ny service. Planen skal dække: pre-launch buzz, launch-dag aktiviteter, og post-launch opfølgning – med kanaler, budskaber og en simpel tidslinje. Min første anmodning er: '[Beskriv produktet/servicen, målgruppen og lanceringsdatoen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Budgetafvigelse-analyse",
@@ -3587,7 +3587,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Break-even analyse",
@@ -3597,7 +3597,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Investeringsvurdering",
@@ -3607,31 +3607,31 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Pengestrømsanalyse",
     "text": "Du er en finanskonsulent. Analyser den følgende pengestrømsopgørelse og giv mig et klart billede af: likviditetssituationen, de vigtigste ind- og udbetalingsmønstre, og eventuelle risici for likviditetsproblemer fremadrettet. Min første anmodning er: '[Indsæt pengestrømsdata]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Finansiel prognose",
     "text": "Du er en finansiel analytiker. Hjælp mig med at bygge en simpel finansiel prognose for de næste 12 måneder baseret på de tal og antagelser, jeg giver dig. Lav tre scenarier: optimistisk, realistisk og pessimistisk. Min første anmodning er: '[Beskriv virksomheden, de kendte tal og de vigtigste antagelser]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Nøgletal-forklaring",
     "text": "Du er en finansiel underviser. Forklar de vigtigste finansielle nøgletal for en ikke-finansiel leder på en enkel og anvendelig måde. Brug konkrete eksempler og forklar, hvad hvert tal fortæller om virksomhedens sundhedstilstand. Min første anmodning er: '[Angiv hvilke nøgletal der skal forklares, fx EBITDA, likviditet, soliditet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Årsregnskab-opsummering",
     "text": "Du er en revisor og finanskommunikatør. Opsummerér det følgende årsregnskab for en ikke-finansiel målgruppe. Fremhæv: de vigtigste resultater, sammenlignet med foregående år, de mest markante ændringer, og hvad tallene betyder for virksomhedens fremtid. Min første anmodning er: '[Indsæt relevante tal fra årsregnskabet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Omkostningsreduktion-analyse",
@@ -3640,13 +3640,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Finansiel risikomatrix",
     "text": "Du er en finansiel risikokonsulent. Lav en finansiel risikomatrix, der identificerer de vigtigste finansielle risici for virksomheden. For hver risiko: angiv sandsynlighed, potentiel konsekvens, og foreslå en mitigeringshandling. Min første anmodning er: '[Beskriv virksomheden, branchen og de kendte usikkerheder]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Pristaktik-rådgiver",
@@ -3654,7 +3654,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "ROI-beregning",
@@ -3664,7 +3664,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Finansiel due diligence-tjekliste",
@@ -3673,7 +3673,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bank",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Forslag til bestyrelsen",
@@ -3682,13 +3682,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Likviditetsstyring-guide",
     "text": "Du er en finansiel rådgiver med speciale i likviditetsstyring. Giv mig konkrete anbefalinger til, hvordan vi forbedrer vores likviditetsstyring i dagligdagen. Inkluder: cashflow-forecasting, optimering af debitorer og kreditorer, og buffer-strategier. Min første anmodning er: '[Beskriv virksomhedens størrelse, branche og de aktuelle likviditetsudfordringer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Excel-formel forklarer",
@@ -3697,7 +3697,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "BI",
       "Excel"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Power Query guide",
@@ -3706,7 +3706,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "BI",
       "Excel"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Excel-dashboard ideer",
@@ -3717,7 +3717,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Datarensning-guide",
@@ -3726,7 +3726,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Pivottabel guide",
@@ -3737,7 +3737,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Datafortolker",
@@ -3746,13 +3746,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Nøgletals-definition",
     "text": "Du er en business intelligence-specialist. Hjælp mig med at definere et sæt klare og præcise KPI'er for en afdeling eller funktion. For hvert KPI: angiv definition, beregningsmetode, datakilde, målsætning og ejerskab. Min første anmodning er: '[Beskriv afdelingen/funktionen og formålet med KPI'erne]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Datamodel-design",
@@ -3761,7 +3761,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Automatiser Excel-opgave",
@@ -3770,7 +3770,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "BI",
       "Excel"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "VLOOKUP alternativ",
@@ -3779,13 +3779,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "BI",
       "Excel"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Regressionsanalyse forklaring",
     "text": "Du er en statistiker og underviser. Forklar resultaterne af en simpel regressionsanalyse på et ikke-teknisk sprog. Hvad siger R², koefficienter og p-værdier i praksis? Hvilke konklusioner kan man drage, og hvilke forbehold bør man tage? Min første anmodning er: '[Indsæt regressionsresultaterne]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Power BI rapport-design",
@@ -3796,7 +3796,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Databeskyttelse i praksis",
@@ -3805,7 +3805,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "GDPR",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "SQL-forespørgsel hjælper",
@@ -3814,7 +3814,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Datahistorie til præsentation",
@@ -3823,7 +3823,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Fejl i data-finder",
@@ -3832,7 +3832,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Benchmark-analyse",
@@ -3841,7 +3841,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "A/B-test analyse",
@@ -3850,7 +3850,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Slide-struktur designer",
@@ -3859,7 +3859,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Executive Summary slide",
@@ -3868,7 +3868,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Data til slide-tekst",
@@ -3880,61 +3880,61 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Præsentationsopener",
     "text": "Du er en talercoach og manusforfatter. Skriv en fængende åbning til en præsentation, der straks fanger publikums opmærksomhed. Brug en stærk krog: et overraskende faktum, en provokerende påstand, et relaterbart scenarie eller en retorisk spørgsmål. Min første anmodning er: '[Beskriv præsentationens emne og målgruppe]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Storytelling-struktur til præsentation",
     "text": "Du er en storytelling-konsulent. Omform den følgende præsentation til en narrativ struktur, der bruger historiefortælling til at gøre budskaberne mere mindeværdige og engagerende. Brug fx Situation – Komplikation – Løsning-modellen. Min første anmodning er: '[Beskriv præsentationens indhold og budskab]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Bullet point-forbedrer",
     "text": "Du er en præsentationsspecialist. Tag de følgende bullet points fra mine slides og omformulér dem, så de er skarpere, kortere og mere slagkraftige. Hvert punkt skal starte med et handlingsord og kommunikere én klar idé. Min første anmodning er: '[Indsæt de nuværende bullet points]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Grafik-valg rådgiver",
     "text": "Du er en datavisualiserings- og præsentationsekspert. For hvert datapunkt eller budskab, jeg angiver, anbefal den bedste type grafik eller visualisering og forklar kort hvorfor. Min første anmodning er: '[Beskriv de datapunkter eller budskaber der skal visualiseres]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Præsentation til various formater",
     "text": "Du er en kommunikationsekspert. Tag den følgende præsentation og tilpas den til tre forskellige formater: 1) Liveoplæg (med talernoter), 2) Selvkørende PDF, og 3) One-pager til mail. Forklar hvad der ændres i hvert format. Min første anmodning er: '[Beskriv eller indsæt præsentationens indhold]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Presenter-noter",
     "text": "Du er en talercoach. Skriv detaljerede præsentationsnoter til de følgende slides. Noterne skal indeholde: hvad der siges (ikke bare hvad der vises), pauser og betoninger, overgangsformuleringer og svar på forventede spørgsmål. Min første anmodning er: '[Indsæt slide-indholdet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Q&A forberedelse",
     "text": "Du er en præsentationscoach. Forbered mig på de 10 mest sandsynlige og vanskelige spørgsmål, der kan komme efter en specifik præsentation. For hvert spørgsmål: giv mig et stærkt og præcist svar, der er ærligt og tillidsopbyggende. Min første anmodning er: '[Beskriv præsentationens indhold og målgruppen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Overbevisende konklusion",
     "text": "Du er en talercoach og manusforfatter. Skriv en stærk og mindeværdig afslutning på en præsentation. Konklusionen skal: opsummere de vigtigste pointer, give en klar call-to-action, og efterlade publikum med en stærk fælles tanke eller følelse. Min første anmodning er: '[Beskriv præsentationens emne, budskaber og det ønskede publikumsreaktion]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Infografik-indhold",
     "text": "Du er en infografikdesigner og kommunikatør. Strukturér indholdet til en infografik om et specifikt emne. Angiv: de vigtigste informationsblokke, rækkefølge og hierarki, nøgletal eller fakta der bør fremhæves, og det overordnede budskab. Min første anmodning er: '[Beskriv emnet og formålet med infografikken]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Kunderejse-præsentation",
@@ -3943,19 +3943,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Forandringspræsentation",
     "text": "Du er en forandringsledelseskonsulent. Hjælp mig med at strukturere en præsentation, der introducerer en større forandring for medarbejderne. Præsentationen skal: forklare hvorfor, hvad der sker, hvad det betyder for den enkelte, og hvad der forventes. Min første anmodning er: '[Beskriv forandringen og målgruppen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Præsentér tal for ikke-økonomer",
     "text": "Du er en finanskommunikatør. Hjælp mig med at præsentere finansielle tal og resultater for en ikke-finansiel målgruppe. Oversæt tallene til konkrete, relaterbare budskaber og brug analogier, der gør det let at forstå og huske. Min første anmodning er: '[Beskriv tallene og målgruppen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Kontraktgennemgang",
@@ -3965,7 +3965,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "GDPR-tjekliste til ny aktivitet",
@@ -3976,7 +3976,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Fortrolighedserklæring-udkast",
@@ -3984,13 +3984,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Servicevilkår-gennemgang",
     "text": "Du er en forbruger- og erhvervsjurist. Gennemgå de følgende servicevilkår eller brugervilkår og fremhæv: hvad der er usædvanligt eller problematisk, hvad der begrænser mine rettigheder, og hvad jeg bør være særlig opmærksom på. Min første anmodning er: '[Indsæt servicevilkårene]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Compliance-tjek",
@@ -3999,13 +3999,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Udbudsresponsskriver",
     "text": "Du er en udbuds- og tilbudsspecialist. Hjælp mig med at strukturere og skrive et professionelt svar på et udbud eller en tilbudsanmodning (RFP). Svaret skal adressere alle krav, fremhæve vores styrker og give en overbevisende begrundelse for at vælge os. Min første anmodning er: '[Beskriv udbuddets krav og jeres løsning]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Ansættelseskontrakt-tjek",
@@ -4016,7 +4016,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Persondatapolitik-udkast",
@@ -4027,7 +4027,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Risikovurdering af kontrakt",
@@ -4037,7 +4037,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Opsigelsesvarsel og -brev",
@@ -4046,7 +4046,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Cookie-politik-udkast",
@@ -4056,19 +4056,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Leverandøraftale-udkast",
     "text": "Du er en erhvervsjurist. Skriv et udkast til en enkel leverandøraftale, der definerer: leverancens indhold, deadlines, ansvar, betaling og misligholdelse. Aftalen skal beskytte begge parter og være nem at forstå. Min første anmodning er: '[Beskriv leverancen og de vigtigste betingelser]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Anti-hvidvask-forklaring",
     "text": "Du er en compliance-specialist med fokus på anti-hvidvask (AML). Forklar de grundlæggende AML-krav for en specifik virksomhedstype på et letforståeligt sprog. Hvad er vores forpligtelser, hvad skal vi gøre i praksis, og hvad er konsekvenserne ved manglende overholdelse? Min første anmodning er: '[Beskriv virksomhedstypen og de aktiviteter der er relevante]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Brugervilkår-opsummering",
@@ -4077,7 +4077,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Internkontrol-manual",
@@ -4086,19 +4086,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Digitaliseringsplan",
     "text": "Du er en digitaliseringskonsulent. Lav en struktureret digitaliseringsplan for en afdeling eller virksomhed. Planen skal identificere: de vigtigste processer der kan digitaliseres, anbefalede værktøjer, implementeringsrækkefølge og succesparametre. Min første anmodning er: '[Beskriv afdelingen/virksomheden og de processer I ønsker at digitalisere]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-system sammenligning",
     "text": "Du er en IT-rådgiver. Hjælp mig med at sammenligne to eller flere systemer til et specifikt formål. Lav en struktureret sammenligning af: funktionalitet, pris, brugervenlighed, integration med eksisterende systemer, og support. Min første anmodning er: '[Angiv de systemer der skal sammenlignes og formålet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Change management til IT-projekt",
@@ -4107,7 +4107,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-kravspecifikation",
@@ -4115,7 +4115,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Fejlmelding-analyse",
@@ -4124,7 +4124,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-sikkerhedspolitik",
@@ -4135,7 +4135,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cybersikkerhed",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Procesautomations-ideer",
@@ -4143,13 +4143,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "API-integration forklaring",
     "text": "Du er en IT-konsulent. Forklar på et letforståeligt sprog, hvad en API-integration er, og beskriv konkret, hvordan to specifikke systemer kan integreres via API. Inkluder: hvad der udveksles, fordelene, og hvad der kræves for at implementere det. Min første anmodning er: '[Beskriv de to systemer der skal integreres og formålet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Cloud-strategi guide",
@@ -4160,7 +4160,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Brugervejledning-skriver",
@@ -4168,7 +4168,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-beredskabsplan",
@@ -4177,7 +4177,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-sikkerhed",
       "cybersikkerhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Softwareanskaffelses-vurdering",
@@ -4186,7 +4186,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-sikkerhed",
       "cybersikkerhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-projekt status-rapport",
@@ -4196,7 +4196,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Digitale compentencer-assessment",
@@ -4204,7 +4204,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Teknisk gæld-analyse",
@@ -4214,7 +4214,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Leder-feedback til medarbejder",
@@ -4223,7 +4223,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "1-til-1 møde guide",
@@ -4232,7 +4232,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Situationsbestemt ledelse",
@@ -4241,13 +4241,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Teamets styrker-kortlægning",
     "text": "Du er en teamudviklingskonsulent. Hjælp mig med at kortlægge styrkerne og de blinde vinkler i et team. Baseret på den information jeg giver, identificér: hvad teamet er godt til, hvad der mangler, og hvordan vi bedst udnytter de individuelle styrker. Min første anmodning er: '[Beskriv teammedlemmerne og deres baggrunde og roller]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Delegering-tjekliste",
@@ -4256,7 +4256,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Lederens selvevaluering",
@@ -4264,7 +4264,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Psykologisk kontrakt",
@@ -4273,7 +4273,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Strategi for svært team",
@@ -4282,25 +4282,25 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Anerkendelseskultur",
     "text": "Du er en organisationsudvikler. Giv mig 10 konkrete og varierede måder at anerkende og fejre medarbejderes indsats og resultater – ud over de traditionelle belønninger. Forslagene skal passe til en professionel dansk arbejdskultur. Min første anmodning er: '[Beskriv teamet, branchen og de nuværende anerkendelsespraksisser]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Coaching-samtale guide",
     "text": "Du er en certifieret coach. Design en struktureret coaching-samtale baseret på GROW-modellen (Goal, Reality, Options, Will). Giv mig konkrete spørgsmål til hvert trin og tips til at holde samtalen fremadskuende og løsningsorienteret. Min første anmodning er: '[Beskriv emnet for coaching-samtalen og den coachedes situation]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Ledelsesbrev til teamet",
     "text": "Du er en kommunikations- og ledelseskonsulent. Skriv et åbent og ærligt brev fra en leder til sit team. Brevet skal: kommunikere vision og retning, anerkende udfordringerne, og motivere teamet til fortsat indsats. Tonen skal være autentisk og menneskelig. Min første anmodning er: '[Beskriv situationen, teamet og det budskab lederen ønsker at sende]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Performance-forbedringskplan",
@@ -4309,7 +4309,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Succession planning",
@@ -4318,19 +4318,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Adfærdskodeks-udkast",
     "text": "Du er en organisations- og kulturkonsulent. Skriv et udkast til et adfærdskodeks for en virksomhed. Kodekset skal beskrive de forventede adfærdsnormer, værdier i praksis og konsekvenser ved brud – på en måde, der inspirerer frem for blot forpligter. Min første anmodning er: '[Beskriv virksomhedens størrelse, værdier og kultur]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Lederuddannelses-program",
     "text": "Du er en L&D-konsulent med speciale i lederudvikling. Design et komplet lederudviklingsprogram for nuværende eller fremtidige ledere. Programmet skal dække: kernekomptencer, læringsmetoder, varighed og evalueringsform. Min første anmodning er: '[Beskriv målgruppen for programmet og de vigtigste ledelsesudfordringer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Tillidsmåling i teamet",
@@ -4339,13 +4339,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Leder som underviser",
     "text": "Du er en pædagogisk konsulent. Hjælp en leder med at forberede en intern undervisningssession eller fagligt oplæg for teamet. Giv en struktur, konkrete læringsaktiviteter, og tips til at gøre sessionen engagerende og meningsfuld. Min første anmodning er: '[Beskriv emnet, målgruppen og den tid der er til rådighed]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Forandringsmodstand-håndtering",
@@ -4354,7 +4354,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Projekt-charter",
@@ -4362,7 +4362,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Gantt-plan beskrivelse",
@@ -4370,7 +4370,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Scope creep-håndtering",
@@ -4378,7 +4378,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Risikoregister",
@@ -4386,7 +4386,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Ressourceplanlægning",
@@ -4394,7 +4394,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Interessent-kommunikationsplan",
@@ -4402,7 +4402,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Projekt-review",
@@ -4410,13 +4410,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Prioriteringsmodel",
     "text": "Du er en effektivitets- og planlægningskonsulent. Hjælp mig med at prioritere en liste af projekter eller opgaver ved hjælp af en struktureret metode. Vurder dem ud fra: strategisk vigtighed, ressourcebehov, tidspres og forventet effekt. Min første anmodning er: '[Indsæt listen af projekter/opgaver og de relevante parametre]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Projekt-kommunikationsplan",
@@ -4424,7 +4424,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Projektets business case",
@@ -4434,13 +4434,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Agil sprint-planlægning",
     "text": "Du er en agil coach og scrum master. Hjælp mig med at planlægge en sprint for et agilt team. Inkluder: sprint-mål, user stories, estimering, kapacitetsberegning og definition of done. Min første anmodning er: '[Beskriv teamet, de tilgængelige user stories og sprintens varighed]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Milepæls-rapport",
@@ -4452,7 +4452,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Projektmodel-valg",
@@ -4460,7 +4460,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Projekt-lukning-rapport",
@@ -4472,7 +4472,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Afhængighedskortlægning",
@@ -4480,7 +4480,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Lektioner lært-database",
@@ -4492,7 +4492,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Mikrolearning-modul",
@@ -4607,13 +4607,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Strategisk kortlægning",
     "text": "Du er en strategikonsulent. Hjælp mig med at skabe et klart overblik over vores strategiske situation ved at kortlægge: vores konkurrencepositionering, de vigtigste muligheder og trusler, og de 3-5 vigtigste strategiske valg vi står over for. Min første anmodning er: '[Beskriv virksomheden, branchen og den aktuelle situation]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Innovation-sprint design",
     "text": "Du er en innovationsfacilitator. Design et 5-dages innovationssprint (Google Design Sprint-inspireret) til at løse et specifikt forretningsproblem. Beskriv: formål, deltagere, daglige aktiviteter og det forventede output. Min første anmodning er: '[Beskriv problemet og de tilgængelige ressourcer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Fremtidens kunde",
@@ -4622,7 +4622,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Platvormsstrategiovervejelse",
@@ -4632,7 +4632,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Strategiens svage punkter",
@@ -4641,7 +4641,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Eksekvering af strategi",
@@ -4650,13 +4650,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Scenarieplanlægning",
     "text": "Du er en strategisk foresight-ekspert. Hjælp mig med at udvikle 3-4 fremtidsscenarier for en virksomhed eller branche. For hvert scenarie: beskriv nøgleforudsætningerne, konsekvenserne, og hvad det kræver at være forberedt. Min første anmodning er: '[Beskriv virksomheden, branchen og de vigtigste usikkerhedsfaktorer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Wicked problem analyse",
@@ -4665,19 +4665,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Forretningsmodel-innovation",
     "text": "Du er en forretningsmodelekspert. Analyser vores nuværende forretningsmodel og identificer 3-5 konkrete muligheder for at innovere den – fx nye indtægtsstrømme, nye kundersegmenter, nye leveringsmodeller eller nye partnerskaber. Min første anmodning er: '[Beskriv virksomhedens nuværende forretningsmodel]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Teknologi-trend radar",
     "text": "Du er en teknologistrateg. Lav en teknologi-trend radar, der vurderer relevante teknologier for vores virksomhed: hvilke er klar til adoption nu, hvilke bør vi eksperimentere med, og hvilke skal vi blot holde øje med? Min første anmodning er: '[Beskriv virksomheden og dens branche]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Alliances og partnerskabs-strategi",
@@ -4686,13 +4686,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Vækststrategi-framework",
     "text": "Du er en vækststrateg. Analyser vores vækstmuligheder ved at bruge en kombineret tilgang: produktudvikling, markedsudvikling og kundefastholdelse. Rangér mulighederne efter potentiale og risiko, og giv en konkret anbefaling. Min første anmodning er: '[Beskriv virksomheden, dens markedsposition og de nuværende vækstudfordringer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Ekosystem-analyse",
@@ -4701,7 +4701,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Differentierings-strategi",
@@ -4710,13 +4710,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Lean Startup-metode",
     "text": "Du er en Lean Startup-ekspert. Hjælp mig med at anvende Lean Startup-principperne på et nyt produkt- eller forretningsidé. Design: det minimale eksperiment, de vigtigste hypoteser, succeskriterier, og hvad vi lærer af hvert eksperiment. Min første anmodning er: '[Beskriv idéen og det problem den løser]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Data-drevet strategi",
@@ -4727,7 +4727,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Disruptions-svar strategi",
@@ -4736,7 +4736,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Org-design-overvejelse",
@@ -4745,7 +4745,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Leverandørevaluering",
@@ -4754,7 +4754,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ESG",
       "bæredygtighed"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Forhandlingsberedning til indkøb",
@@ -4764,13 +4764,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Kravspecifikation til udbud",
     "text": "Du er en udbudsspecialist. Skriv en klar og komplet kravspecifikation til et udbud. Spec'en skal indeholde: baggrund og formål, krav til leverancen (funktionelle og ikke-funktionelle), evalueringskriterier og kontraktbetingelser. Min første anmodning er: '[Beskriv hvad der skal udbydes og de vigtigste krav]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Total Cost of Ownership analyse",
@@ -4779,7 +4779,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Leverandørkontrakt-tjek",
@@ -4787,13 +4787,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Indkøbspolitik-udkast",
     "text": "Du er en indkøbskonsulent. Skriv et udkast til en indkøbspolitik for en virksomhed. Politikken skal dække: godkendelsesgrænser, leverandørvalg, konkurrenceudsættelse, etiske krav og håndtering af interessekonflikter. Min første anmodning er: '[Beskriv virksomhedens størrelse, branche og nuværende indkøbspraksis]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Kategoriledelse-strategi",
@@ -4802,7 +4802,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Leverandørrisiko-analyse",
@@ -4811,19 +4811,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Besparelses-case",
     "text": "Du er en indkøbsøkonom. Hjælp mig med at bygge en troværdig og overbevisende business case for en indkøbsbesparelse. Inkluder: de nuværende omkostninger, det forventede resultat, metoden, risici og implementation. Min første anmodning er: '[Beskriv indkøbsomkostningerne og det forventede besparelsespotentiale]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Etisk leverandørscreening",
     "text": "Du er en CSR- og indkøbskonsulent. Design en etisk leverandørscreening-proces, der vurderer leverandørers overholdelse af sociale, miljømæssige og governance-krav. Inkluder: screeningsspørgsmål, vurderingssystem og handlingsplan ved fund af problemer. Min første anmodning er: '[Beskriv virksomhedens branche og de vigtigste etiske risici i forsyningskæden]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Kontraktgenforhandling",
@@ -4831,13 +4831,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Vendor management system-krav",
     "text": "Du er en indkøbssystemrådgiver. Hjælp mig med at definere kravene til et Vendor Management System (VMS) eller et indkøbssystem. Kravspecifikationen skal dække: funktionelle krav, integration med eksisterende systemer, brugervenlighed og compliance-krav. Min første anmodning er: '[Beskriv virksomhedens størrelse, indkøbsvolumen og de vigtigste processer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Spend-analyse",
@@ -4847,13 +4847,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Onboarding af ny leverandør",
     "text": "Du er en leverandørstyringsekspert. Design en struktureret onboarding-process for en ny strategisk leverandør. Processen skal sikre: klar rollefordeling, aftalt kommunikationsstruktur, KPI'er og eskaleringsproces. Min første anmodning er: '[Beskriv leverandøren og typen af samarbejde]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "CO2-regnskab forklaring",
@@ -4862,7 +4862,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "ESG-rapporterings-hjælp",
@@ -4873,13 +4873,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bæredygtighed",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Bæredygtighedsaftale med leverandør",
     "text": "Du er en bæredygtighedsjurist. Skriv en bæredygtighedsklausul til leverandørkontrakter, der forpligter leverandøren til konkrete miljø- og sociale standarder. Klausulen skal være realistisk, målbar og mulig at håndhæve. Min første anmodning er: '[Beskriv virksomhedens bæredygtighedskrav og leverandørkategorien]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Cirkulær økonomi-ideer",
@@ -4888,7 +4888,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Bæredygtigheds-kommunikation",
@@ -4898,7 +4898,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Social impact-måling",
@@ -4907,7 +4907,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "sundhed"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "CSRD-forberedelse",
@@ -4916,13 +4916,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ESG",
       "bæredygtighed"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Grøn indkøbspolitik",
     "text": "Du er en grøn indkøbskonsulent. Hjælp mig med at udarbejde en grøn indkøbspolitik, der sætter konkrete bæredygtighedskrav til vores indkøb. Politikken skal dække: produktkrav, leverandørkrav og processer for at verificere overholdelse. Min første anmodning er: '[Beskriv virksomhedens størrelse, branche og vigtigste indkøbskategorier]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Klimarisiko-analyse",
@@ -4931,19 +4931,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "SDG-kortlægning",
     "text": "Du er en bæredygtighedsstrateg. Kortlæg, hvilke af FN's 17 verdensmål (SDGs) der er mest relevante for vores virksomhed – både positivt (vi bidrager til) og negativt (vi risikerer at skade). Prioritér og foreslå konkrete handlinger. Min første anmodning er: '[Beskriv virksomhedens aktiviteter og værdikæde]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Biodiversitets-hensyn",
     "text": "Du er en naturog bæredygtighedskonsulent. Forklar, hvad biodiversitet betyder for virksomheder i praksis, og identificer de vigtigste måder, vores virksomhed kan mindske sin negative påvirkning og potentielt bidrage positivt til biodiversiteten. Min første anmodning er: '[Beskriv virksomheden og dens vigtigste naturafhængigheder]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Medarbejder-grøn adfærd",
@@ -4953,7 +4953,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Stresshåndteringsplan",
@@ -4965,7 +4965,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Deep work-plan",
     "text": "Du er en produktivitetskonsulent med ekspertise i deep work. Hjælp mig med at designe en ugeplan, der skaber plads til fokuseret, uafbrudt arbejde. Planen skal inkludere: blokerede deep work-perioder, rutiner for at komme i flow, og strategier for at minimere afbrydelser. Min første anmodning er: '[Beskriv din nuværende kalender og de opgaver der kræver dyb koncentration]'",
     "tags": [],
-    "category": "Andet"
+    "category": "Ledelse"
   },
   {
     "title": "Arbejdsmiljø-tjekliste",
@@ -4974,7 +4974,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Indbakke nul-strategi",
@@ -5001,7 +5001,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Grænser på arbejdspladsen",
     "text": "Du er en stress- og wellbeing-konsulent. Hjælp mig med at sætte og kommunikere sunde grænser i arbejdslivet – fx vedr. tilgængelighed uden for arbejdstid, mødedeltagelse og mængden af opgaver jeg siger ja til. Giv konkrete sætninger og strategier. Min første anmodning er: '[Beskriv de situationer, hvor du oplever svært ved at sætte grænser]'",
     "tags": [],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Energistyring i arbejdsugen",
@@ -5027,7 +5027,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "sundhed"
     ],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Pause-rutiner",
@@ -5042,31 +5042,31 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Hybrid arbejds-rutiner",
     "text": "Du er en hybrid work-ekspert. Hjælp mig med at designe effektive rutiner og vaner til en hybrid arbejdshverdag, der veksler mellem kontor og hjemmekontor. Inkluder: overgangsprocedurer, kommunikationsforventninger og sociale kompensationsmekanismer. Min første anmodning er: '[Beskriv din hybride arbejdssituation og de udfordringer du oplever]'",
     "tags": [],
-    "category": "Andet"
+    "category": "Ledelse"
   },
   {
     "title": "Mentoring-relation",
     "text": "Du er en karriere- og mentoring-ekspert. Hjælp mig med at etablere og vedligeholde et frugtbart mentor-mentee-forhold. Giv mig: strukturerede spørgsmål til de første møder, en plan for relationen, og råd til at få det maksimale ud af mentoring. Min første anmodning er: '[Beskriv dit mål med mentoring og hvad du søger i en mentor]'",
     "tags": [],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Professionelt netværk-plan",
     "text": "Du er en networking-konsulent og karriererådgiver. Hjælp mig med at bygge og vedligeholde et professionelt netværk på en autentisk og strategisk måde. Lav en netværksplan med: mål, platforme, kontakttyper og konkrete aktiviteter. Min første anmodning er: '[Beskriv din karrieresituation og hvad du ønsker at opnå med dit netværk]'",
     "tags": [],
-    "category": "Andet"
+    "category": "Marketing"
   },
   {
     "title": "Karriere-check-in",
     "text": "Du er en karrierecoach. Facilitér en personlig karriere-check-in, der hjælper mig med at vurdere min nuværende situation og sætte retning fremad. Guiden skal dække: hvad jeg er god til, hvad jeg brænder for, hvad der giver mening, og hvad jeg bør fokusere på de næste 12 måneder. Min første anmodning er: '[Beskriv din nuværende job-situation, din baggrund og dine ambitioner]'",
     "tags": [],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Aktiv til passiv",
@@ -5255,7 +5255,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Presseinterviewforberedelse",
     "text": "Du er en medietræner. Hjælp mig med at forberede mig til et presseinterview. Forudsig de 7 mest sandsynlige spørgsmål, giv mig korte og klare svar, og giv råd om, hvad jeg bør og ikke bør sige. Min første anmodning er: '[Beskriv emnet for interviewet og det medie der interviewer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Intern kommunikations-audit",
@@ -5263,7 +5263,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Årsberetnings-tekst",
@@ -5278,13 +5278,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Kommunikationsplan for forandring",
     "text": "Du er en forandringskommunikatør. Lav en kommunikationsplan til en specifik organisatorisk forandring. Planen skal beskrive: budskaber til hver interessentgruppe, timing, kanaler, og ansvarlige kommunikatører. Min første anmodning er: '[Beskriv forandringen og de berørte grupper]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Townhall-forberedelse",
     "text": "Du er en intern kommunikationskonsulent. Hjælp mig med at forberede og strukturere et townhall-møde for alle medarbejdere. Planlæg: programmet, de vigtigste budskaber, Q&A-sektion og energisering af deltagerne. Min første anmodning er: '[Beskriv formålet med townhall'et og de vigtigste emner der skal dækkes]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Digital kommunikations-guide",
@@ -5292,13 +5292,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Lobbyist-argumentation",
     "text": "Du er en interessevaretagelses-rådgiver. Hjælp mig med at formulere stærke argumenter til brug i en lobby-indsats eller politisk dialog. Argumenterne skal kombinere saglige fakta, emotionelle appelformer og konkrete konsekvenser. Min første anmodning er: '[Beskriv sagen I arbejder for og dem I forsøger at påvirke]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Desk research-plan",
@@ -5322,19 +5322,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Kundeinterviewguide",
     "text": "Du er en brugerresearcher. Design en struktureret interviewguide til dybdegående kundeinterviews. Guiden skal indeholde: åbningsspørgsmål, tematiske blokke med sonderende spørgsmål, og en afslutning der inviterer til fri refleksion. Min første anmodning er: '[Beskriv emnet for interviewet og hvad du vil lære]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Spørgeskema-designer",
     "text": "Du er en survey-specialist. Design et velstruktureret spørgeskema til et specifikt formål. Inkluder: de rigtige spørgsmålstyper, en logisk rækkefølge, og undgå bias og ledende spørgsmål. Forklar dine designvalg. Min første anmodning er: '[Beskriv formålet med spørgeskemaet og målgruppen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Trend-analyse",
@@ -5344,7 +5344,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Konklusionsskriver",
@@ -5359,7 +5359,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Anbefalingsrapport",
     "text": "Du er en konsulent. Skriv en kortfattet anbefalingsrapport baseret på de fund og analyser, jeg angiver. Rapporten skal indeholde: resumé, de vigtigste fund, tre prioriterede anbefalinger og en simpel implementeringsplan. Min første anmodning er: '[Beskriv analysen og dens vigtigste fund]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Evidenshierarki-vurdering",
@@ -5371,7 +5371,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Markedsundersøgelses-design",
     "text": "Du er en markedsundersøgelseskonsulent. Design en markedsundersøgelse til et specifikt formål. Beskriv: undersøgelsens mål, metodevalg (kvalitativ/kvantitativ), målgruppe, dataindsamlingsmetode og analysemetode. Min første anmodning er: '[Beskriv formålet med undersøgelsen og de spørgsmål der skal besvares]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Analyse af konkurrenters strategi",
@@ -5382,7 +5382,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Indsigts-synthese",
@@ -5397,7 +5397,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "AI use case-identifikator",
@@ -5406,7 +5406,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Prompt-bibliotek til afdeling",
@@ -5415,7 +5415,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "AI-output kvalitetstjek",
@@ -5424,7 +5424,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "AI i møder – forberedelse",
@@ -5433,7 +5433,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Chain-of-thought prompt",
@@ -5442,7 +5442,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "AI-implementeringsplan",
@@ -5451,7 +5451,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Etisk AI-brug vurdering",
@@ -5460,7 +5460,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "AI-politikudkast",
@@ -5469,13 +5469,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Sammenlignings-prompt",
     "text": "Du er en analytiker. Brug en struktureret sammenlignings-ramme til at sammenligne to eller flere muligheder baseret på de kriterier, jeg angiver. Præsenter sammenligningen som en tabel med en tydelig anbefaling og begrundelse. Min første anmodning er: '[Beskriv hvad der skal sammenlignes og på hvilke kriterier]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Faglig dansk-til-engelsk",
@@ -5590,7 +5590,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Politikdokument-udkast",
@@ -5599,7 +5599,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Hvidbog-udkast",
@@ -5623,13 +5623,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Produktivitets-audit",
     "text": "Du er en produktivitetskonsulent. Gennemfør en audit af min nuværende arbejdsdag ved at stille de rigtige spørgsmål. Identificer de største tidssluger, unødvendige opgaver og de ting, der giver mest værdi. Lav en handlingsplan for at optimere min dag. Min første anmodning er: '[Beskriv en typisk arbejdsdag: opgaver, møder, afbrydelser og energiniveau]'",
     "tags": [],
-    "category": "Andet"
+    "category": "Ledelse"
   },
   {
     "title": "Kreditvurdering – forklaring til kunde",
@@ -5638,7 +5638,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Erhvervskunde-opsummering",
@@ -5647,7 +5647,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bank",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Renteregneark-forklaring",
@@ -5656,7 +5656,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "KYC-sagsnotat",
@@ -5668,7 +5668,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "skrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Rådgivningsreferat",
@@ -5679,7 +5679,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "tekstbehandling",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Investeringsprofil-afdækning",
@@ -5688,7 +5688,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bank",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Porteføljegennemgang til kunde",
@@ -5699,7 +5699,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Produkt-forklaring til privatkunde",
@@ -5708,7 +5708,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Compliance-incident rapport",
@@ -5719,7 +5719,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "MiFID II-egnethedstest forklaring",
@@ -5731,7 +5731,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Hvidvasksignal – analyse",
@@ -5740,7 +5740,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Klagehåndtering – finansiel virksomhed",
@@ -5749,7 +5749,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Produktgodkendelse-dokumentation",
@@ -5760,7 +5760,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Bankens ESG-eksponering",
@@ -5772,19 +5772,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bæredygtighed",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Stresstestscenarie",
     "text": "Du er en finansiel risikoanalytiker. Design et stresstest-scenarie for en finansiel virksomhed baseret på en specifik makroøkonomisk chok. Beskriv: scenariets antagelser, effekt på nøgletal (kapitalforhold, likviditet, kreditkvalitet) og implikationer. Min første anmodning er: '[Beskriv virksomhedstypen og det makroøkonomiske chok der skal testes]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Kundebrief til erhvervsrådgiver",
     "text": "Du er en erhvervsrådgiver. Udarbejd en kundebrief inden et møde med en erhvervskunde som hjælp til at forberede rådgiveren. Briefen skal dække: kundens seneste nøgletal, den aktuelle eksponering, aftalte ting fra sidst og foreslåede dagspunkter. Min første anmodning er: '[Beskriv kunden og de kendte informationer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Rentestignings-kommunikation",
@@ -5794,7 +5794,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Kapitalstruktur-analyse",
@@ -5803,13 +5803,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Fusion og opkøb – due diligence brief",
     "text": "Du er en M&A-rådgiver. Lav en due diligence-brief til gennemgang af et potentielt opkøbsmål i finanssektoren. Brie­fen skal dække: de vigtigste finansielle, juridiske, regulatoriske og strategiske områder der skal undersøges. Min første anmodning er: '[Beskriv opkøbsmålet og formålet med transaktionen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Bankens digitale transformation – analyse",
@@ -5818,13 +5818,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Forsikringsbehovsanalyse",
     "text": "Du er en forsikringsrådgiver. Gennemfør en struktureret behovsanalyse for en privat- eller erhvervskunde og identificer: dækningsbehov, eksisterende dækning, gap, og anbefalede produkter med begrundelse. Min første anmodning er: '[Beskriv kundens situation, familie/forretning og eksisterende forsikringer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Skadeformular – hjælp til udfyldelse",
@@ -5835,7 +5835,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Forsikringsbetingelse-opsummering",
@@ -5844,19 +5844,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Risikoanalyse til erhvervsvirksomhed",
     "text": "Du er en erhvervsforsikringsrådgiver. Lav en risikoanalyse for en erhvervsvirksomhed og identificér: de vigtigste risici (brand, ansvar, cyberangreb, personaletab, forsyningskæde), eksisterende dækning og eventuelle huller. Min første anmodning er: '[Beskriv virksomhedens branche, størrelse og aktiviteter]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Pensionsopsparing-gennemgang",
     "text": "Du er en pensionsrådgiver. Gennemgå en kundes pensionsopsparing og lav en struktureret status: aktuelle opsparinger, forventet pensionsudbetaling, gap til ønsket pensionsniveau, og konkrete anbefalinger. Min første anmodning er: '[Beskriv kundens alder, indkomst, nuværende opsparing og pensionsønsker]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Invaliderisiko-forklaring",
@@ -5868,7 +5868,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Livsforsikring-behovsberegning",
@@ -5877,13 +5877,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Pensionskasse-produktsammenligning",
     "text": "Du er en uvildig pensionskonsulent. Sammenlign to eller flere pensionsordninger eller -produkter på de vigtigste parametre: omkostninger, afkast, risikoprofil, fleksibilitet og dækning. Konkluder hvad der passer bedst til en specifik kundeprofil. Min første anmodning er: '[Beskriv de produkter der skal sammenlignes og kundeprofilen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Erstatningsudregning – forklaring",
@@ -5892,7 +5892,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Gruppelivsforsikring – intern kommunikation",
@@ -5902,7 +5902,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Skadestatistik-analyse",
@@ -5911,13 +5911,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Forsikringsdækning ved cyberangreb",
     "text": "Du er en cyberforsikringsspecialist. Forklar til en erhvervskunde, hvad en cyberforsikring dækker ved et angreb: direkte tab, driftstab, genopretning, ansvarsdækning og kommunikationsudgifter. Hvad dækker den typisk IKKE? Min første anmodning er: '[Beskriv virksomhedens størrelse og type]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Pensionsaftale-forhandling",
@@ -5925,7 +5925,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Overgang til ny pensionsudbyder",
@@ -5935,13 +5935,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Forsikringsrådgivning – erhvervslokaler",
     "text": "Du er en erhvervsforsikringsrådgiver. Lav en checkliste over de forsikringer et erhvervsleje eller en virksomhed med egne lokaler bør have. Beskriv for hvert punkt: hvad det dækker, hvem det er relevant for og hvad konsekvensen er ved at mangle det. Min første anmodning er: '[Beskriv virksomhedstypen og aktiviteterne i lokalerne]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Solvens II-rapportering – forklaring",
@@ -5950,7 +5950,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forsikring",
       "pension"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Aktuar-notat til leder",
@@ -5961,13 +5961,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "pension",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Forsikringstjekliste ved virksomhedsstart",
     "text": "Du er en erhvervsforsikringsrådgiver. Lav en komplet tjekliste over de vigtigste forsikringer, en ny virksomhed bør tegne inden den starter op. For hvert punkt: beskriv hvad det dækker og hvornår det er lovpligtigt vs. anbefalelsesværdigt. Min første anmodning er: '[Beskriv virksomhedstypen, branchen og evt. antal ansatte]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Sygefraværsforsikring – ROI",
@@ -5976,7 +5976,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Pensionsberegning ved karriereskift",
@@ -5985,7 +5985,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Juridisk memo",
@@ -5996,7 +5996,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Aftalevilkår – forhandlingstaktik",
@@ -6004,7 +6004,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Ansvarsbegrænsningsklausul – forklaring",
@@ -6013,19 +6013,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Samhandelsvilkår – udkast",
     "text": "Du er en erhvervsjurist. Skriv et udkast til standardiserede samhandelsvilkår (NB&B) for en virksomhed, der sælger produkter eller services B2B. Vilkårene skal dække: levering, betaling, reklamation, ansvar og tvister. Min første anmodning er: '[Beskriv virksomhedens forretning og de vigtigste transaktionstyper]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Misligholdelse – brev til modpart",
     "text": "Du er en erhvervsjurist. Skriv et formelt og præcist brev til en kontraktmodpart, der er i misligholdelse. Brevet skal: fastslå den konkrete misligholdelse, refere til kontrakten, kræve afhjælpning inden for en rimelig frist, og varsle konsekvenser. Min første anmodning er: '[Beskriv misligholdelsen og de relevante kontraktbestemmelser]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Lovfortolkning – praktisk vejledning",
@@ -6034,13 +6034,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Retssag-risikovurdering",
     "text": "Du er en procesjurist. Lav en risikovurdering af vores position i en potentiel retssag eller voldgiftssag. Vurder: vores juridiske grundlag, bevissituationen, modpartens mulige argumenter, sandsynlighed for at vinde og anbefalede strategier. Min første anmodning er: '[Beskriv sagen og de kendte fakta]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Boliglejekontraktgennemgang",
@@ -6050,13 +6050,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Opsigelse af erhvervslejekontrakt",
     "text": "Du er en erhvervsjurist med kendskab til lejeloven. Forklar processen for at opsige en erhvervslejekontrakt: opsigelsesfrister, form, rydning af lokaler og eventuelle krav om istandsættelse. Skriv også et udkast til opsigelsesmeddelelse. Min første anmodning er: '[Beskriv kontraktens indhold og årsagen til opsigelsen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Konkurrenceklausul – gyldighed",
@@ -6067,7 +6067,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Direktørkontrakt – nøglepunkter",
@@ -6077,31 +6077,31 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forhandling",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Handelsbetingelser – CISG vs. dansk ret",
     "text": "Du er en international handelsjurist. Forklar, hvornår CISG (FN's Købelov) gælder vs. dansk ret, og hvad de praktiske forskelle er for en dansk eksportvirksomhed, der sælger til udenlandske kunder. Min første anmodning er: '[Beskriv virksomhedens eksportmarkeder og produkter]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Incassoforløb – guide",
     "text": "Du er en inkasso-specialist. Forklar trin-for-trin processen fra en ubetalt faktura til en dom – inklusive betalingspåmindelser, rykkerprocedure, inddrivelse og sagsanlæg. Angiv frister og omkostninger undervejs. Min første anmodning er: '[Beskriv gældstypen og debitorens situation]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Produktansvar – risikovurdering",
     "text": "Du er en produktansvarsjurist. Vurder produktansvarsrisikoen for et specifikt produkt: hvilke skader kan opstå, hvem hæfter, hvad kræver forsikringen, og hvad bør designes ind i produktet for at reducere risikoen. Min første anmodning er: '[Beskriv produktet, dets brug og målgruppen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Samejeaftale – udkast",
     "text": "Du er en ejendoms- og erhvervsjurist. Skriv et udkast til en samejeaftale mellem to eller flere virksomheder eller personer. Aftalen skal dække: ejerandele, beslutningsproces, forkøbsret, exit og tvisteløsning. Min første anmodning er: '[Beskriv samejeforholdets karakter og de involverede parter]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Forbrugerklagecenter – svarskrivelse",
@@ -6110,7 +6110,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Databehandleraftale – tjek",
@@ -6119,13 +6119,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "GDPR",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Immaterielle rettigheder – virksomhedsopkøb",
     "text": "Du er en IP-jurist. Lav en gennemgang af, hvilke immaterielle rettigheder der er relevante at kortlægge ved opkøb af en softwarevirksomhed eller kreativ virksomhed: varemærker, ophavsret, patenter, licensaftaler og domæner. Min første anmodning er: '[Beskriv opkøbsmålet og dets kerneaktiviteter]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Strafansvar i virksomheder",
@@ -6134,25 +6134,25 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Vikarloven – rettigheder og pligter",
     "text": "Du er en arbejdsretsjurist. Forklar de vigtigste rettigheder og forpligtelser for en virksomhed, der benytter sig af vikarer – hvad siger vikarloven, ligebehandlingsprincippet og de typiske overenskomster. Min første anmodning er: '[Beskriv virksomhedens brug af vikarer og den relevante branche]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Selvangivelse-forklaring til virksomhed",
     "text": "Du er en skatteekspert. Forklar de vigtigste elementer i en virksomheds selvangivelse til en ejer eller leder uden regnskabsfaglig baggrund – hvad skal indberettes, hvornår, og hvad er de typiske faldgruber. Min første anmodning er: '[Beskriv virksomhedsformen: ApS, A/S, I/S, enkeltmandsvirksomhed]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Moms-tjekliste til virksomhed",
     "text": "Du er en momskonsulent. Lav en praktisk momstjekliste for en virksomhed: hvad skal anmeldes hvornår, hvad er momspligtigt og momsfrit, og hvad er de hyppigste momsfejl virksomheder laver. Min første anmodning er: '[Beskriv virksomhedstypen og de aktiviteter der er relevante]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Transfer pricing-forklaring",
@@ -6161,25 +6161,25 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Revisor-spørgsmål – forberedelse",
     "text": "Du er en finanschef. Forbered mig til en dialog med revisor om årsregnskabet. Lav en liste over de 10 mest sandsynlige og vanskelige spørgsmål revisor vil stille, og giv mig gode svar til hvert. Min første anmodning er: '[Beskriv virksomhedens nøgletal og eventuelle særlige poster i regnskabet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Goodwill-beregning – forklaring",
     "text": "Du er en virksomhedsvurderer. Forklar på et letforståeligt sprog, hvad goodwill er, hvordan det beregnes ved virksomhedssalg (typisk EBITDA-multipel), og hvad der påvirker goodwillens størrelse. Min første anmodning er: '[Beskriv virksomhedstypen og branchen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Konsolidering – regnskabsmæssig vejledning",
     "text": "Du er en regnskabsekspert. Forklar processen for konsolidering af regnskaber i en koncern – eliminering af interne transaktioner, mindretalsinteresser og valutaomregning. Giv et konkret eksempel. Min første anmodning er: '[Beskriv koncernstrukturen og de relevante selskaber]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Leasing vs. køb – skatte- og regnskabsperspektiv",
@@ -6188,19 +6188,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Nedskrivningstest – forklaring",
     "text": "Du er en regnskabsekspert. Forklar impairment-testen (nedskrivningstest) for et aktiv til en leder uden regnskabsfaglig baggrund: hvornår den kræves, hvad den indebærer, og hvad konsekvensen er, hvis der er behov for nedskrivning. Min første anmodning er: '[Beskriv aktivtypen og den relevante regnskabsstandard]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Lønsumsafgift – beregning",
     "text": "Du er en lønsumsafgiftsekspert. Forklar, hvornår en virksomhed er lønsumsafgiftspligtig, hvordan afgiften beregnes for de relevante metoder, og hvad de typiske fejl er. Min første anmodning er: '[Beskriv virksomhedens aktiviteter og om de er momsbelagte]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Skatterevision – forberedelse",
@@ -6211,25 +6211,25 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "tekstbehandling",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Regnskabspolitik-udkast",
     "text": "Du er en regnskabsekspert. Skriv udkast til de vigtigste regnskabspolitikker for en virksomhed: anlægsaktiver, varebeholdning, tilgodehavender, hensatte forpligtelser og indregning af omsætning. Min første anmodning er: '[Beskriv virksomhedstypen og den valgte regnskabsstandard]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Særlige poster – forklaring",
     "text": "Du er en regnskabsekspert. Forklar til en ikke-regnskabsfaglig leder, hvad de følgende særlige poster i regnskabet betyder: hvad de repræsenterer, hvorfor de er opstået, og hvad de signalerer til investorer eller kreditorer. Min første anmodning er: '[Beskriv de specifikke poster der skal forklares]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Intern revision – revisionsplan",
     "text": "Du er en intern revisor. Udarbejd en revisionsplan for intern revision af en specifik forretningsproces eller risikoområde. Planen skal dække: revisionsmål, revisionstilgang, stikprøver, tidsplan og rapportering. Min første anmodning er: '[Beskriv den proces eller det risikoområde der skal revideres]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Skat ved virksomhedssalg",
@@ -6240,7 +6240,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Udbytte vs. løn – optimal fordeling",
@@ -6249,13 +6249,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Ejendomsskat – beregning og forståelse",
     "text": "Du er en ejendomsskatteekspert. Forklar det nye ejendomsskatteystem på et forståeligt sprog: hvad beskattes, hvad er grundskyld vs. ejendomsværdiskat, og hvad er de typiske konsekvenser for virksomheder med erhvervsejendomme. Min første anmodning er: '[Beskriv ejendomstypen og evt. kendte skatteoplysninger]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Revision af samhandel med nærtstående",
@@ -6264,7 +6264,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Budgetafvigelse – forklaring til bestyrelse",
@@ -6273,7 +6273,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Regnskabsfejl – korrektionsstrategi",
@@ -6284,13 +6284,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Controlling-dashboard-design",
     "text": "Du er en controllingspecialist. Design et controlling-dashboard til ledelsesrapportering for en specifik virksomhed. Dashboard skal indeholde: de vigtigste KPI'er, røde/gule/grønne indikatorer, trendvisning og afvigelsesmarkering. Min første anmodning er: '[Beskriv virksomhedstypen, branchen og de vigtigste styringsmål]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Tilsynssag – intern forberedelse",
@@ -6299,13 +6299,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Reaktion på tilsynspåbud",
     "text": "Du er en compliance-specialist. Hjælp mig med at skrive et professionelt svar til et tilsynspåbud. Svaret skal: anerkende påbuddet, redegøre for vores forståelse af problemet, beskriv de tiltag vi iværksætter og den forventede tidsplan. Min første anmodning er: '[Beskriv påbuddet og de faktiske forhold]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Risikobaseret tilgang – implementering",
@@ -6317,13 +6317,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "finans",
       "jura"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Intern politikoverholdelse – audit",
     "text": "Du er en intern revisor. Design et audit-forløb til at tjekke overholdelse af en specifik intern politik. Auditforløbet skal dække: hvad der kontrolleres, metode, stikprøver og rapporteringsformat. Min første anmodning er: '[Beskriv politikken og de afdelinger der skal auditeres]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Whistleblower-ordning – design",
@@ -6331,13 +6331,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Sanktionsliste-screening – guide",
     "text": "Du er en AML/sanctions-specialist. Forklar, hvordan en virksomhed implementerer en effektiv screeningproces mod sanktionslister (EU, UN, OFAC). Hvad skal screenes, hvornår, og hvad gøres ved et hit? Min første anmodning er: '[Beskriv virksomhedstypen og dens kundeportefølje]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "DORA-forberedelse for finansvirksomhed",
@@ -6345,7 +6345,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "ESG-rapportering – GRI vs. ESRS",
@@ -6354,7 +6354,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ESG",
       "bæredygtighed"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Screening af ny leverandør – compliancetjek",
@@ -6363,7 +6363,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ESG",
       "bæredygtighed"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Ny EU-regulering – impact-analyse",
@@ -6372,7 +6372,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Consent management – GDPR",
@@ -6383,7 +6383,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Dataminimering – implementeringsguide",
@@ -6394,7 +6394,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Retten til sletning – håndteringsguide",
@@ -6405,49 +6405,49 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Finanstilsynets principper – vejledning",
     "text": "Du er en regulatorisk ekspert. Forklar Finanstilsynets tilsynsreaktionsstige og hvad det betyder i praksis for en finansiel virksomhed: hvornår gives påbud, hvornår politianmeldes, og hvad er de typiske forløb? Min første anmodning er: '[Beskriv virksomhedstypen og den relevante situation]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Interessekonflikt-politik",
     "text": "Du er en compliance-specialist. Skriv en klar og praktisk interessekonflikt-politik for en rådgivende virksomhed. Politikken skal: definere hvad der udgør en interessekonflikt, procedurer for anmeldelse og håndtering, og konsekvenser. Min første anmodning er: '[Beskriv virksomhedens type og de typiske interessekonflikt-situationer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Tredjepartsstyring – oversight-framework",
     "text": "Du er en compliance- og risikorådgiver. Design et oversight-framework til styring af tredjeparter (leverandører, outsourcingpartnere). Frameworket skal dække: risikoklassificering, kontraktuelle krav, løbende overvågning og exit-planlægning. Min første anmodning er: '[Beskriv virksomhedens vigtigste tredjepartsrelationer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Markedsmisbrug – eksempel-quiz",
     "text": "Du er en compliance-underviser. Lav 10 case-baserede quiz-spørgsmål om markedsmisbrug (insider trading, kursmanipulation) til brug i intern compliance-træning. Hvert spørgsmål skal præsentere et scenarie og spørge, om det er lovligt. Min første anmodning er: '[Beskriv virksomhedstypen og det relevante regulatoriske regime]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Lovændring – internt nyhedsbrev",
     "text": "Du er en compliance-specialist. Skriv et kortfattet internt nyhedsbrev til medarbejdere om en vigtig lovændring. Brevet skal: forklare hvad der ændrer sig, hvad det betyder for dem i praksis, og hvad de skal gøre anderledes. Min første anmodning er: '[Beskriv lovændringen og den relevante medarbejdergruppe]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Compliance-træningsprogram",
     "text": "Du er en compliance-undervisningsdesigner. Design et årsbaseret compliance-træningsprogram for medarbejdere i en reguleret branche. Programmet skal dække: hvilke emner, træningsformat, frekvens og hvem der er ansvarlig for hvad. Min første anmodning er: '[Beskriv virksomhedstypen, branchen og de vigtigste compliance-risici]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Second line of defence – rolle og ansvar",
     "text": "Du er en risk management-specialist. Forklar, hvad 'second line of defence' indebærer i en finansiel virksomhed: rolle, ansvar, samspil med første og tredje linje, og de typiske opgaver i hverdagen. Min første anmodning er: '[Beskriv virksomhedstypen og den eksisterende governance-struktur]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Sagsbehandlingsbrev til borger",
@@ -6477,7 +6477,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Politisk oplæg til kommunalbestyrelse",
     "text": "Du er en kommunaldirektør. Skriv et politisk oplæg til kommunalbestyrelsen om et specifikt emne. Oplægget skal: præsentere baggrunden, de mulige løsninger med fordele og ulemper, og give en klar indstilling med begrundelse. Min første anmodning er: '[Beskriv emnet og de mulige løsninger]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Forvaltningsretlig tjekliste",
@@ -6485,7 +6485,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "offentlig sektor"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Offentlighedsloven – aktindsigtsanmodning",
@@ -6494,7 +6494,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Strategi for borgerinddragelse",
@@ -6503,7 +6503,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Kommunal besparelsesanalyse",
@@ -6512,7 +6512,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Partnerskabsaftale – offentlig-privat",
@@ -6522,7 +6522,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Kommunikationsplan – krisesituation i kommune",
@@ -6531,7 +6531,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "offentlig sektor"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Ledelsesinformation til politikere",
@@ -6540,7 +6540,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Offentlig licitation – tilbudsevaluering",
@@ -6548,7 +6548,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "offentlig sektor"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Effektmåling i offentlig sektor",
@@ -6558,7 +6558,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Visitationsnotat",
@@ -6576,7 +6576,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Personalepolitik i offentlig organisation",
@@ -6586,7 +6586,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Statusrapport til tilsynsmyndighed",
@@ -6627,7 +6627,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Årsberetning – offentlig institution",
@@ -6641,7 +6641,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Nulpunktsmåling – design",
     "text": "Du er en evaluerings- og dataspecialist. Design en nulpunktsmåling inden opstart af et offentligt program eller indsats. Mål­ingen skal kortlægge: nuværende tilstand på de relevante parametre, datakilder og metode. Min første anmodning er: '[Beskriv programmet og de parametre der ønskes målt]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Inddragelse af civilsamfund",
@@ -6650,7 +6650,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Ny leder i offentlig institution – onboarding",
@@ -6660,7 +6660,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "offentlig sektor",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Patientinformation – letlæselig",
@@ -6684,7 +6684,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Sundhedsfremmende indsats – projektplan",
     "text": "Du er en folkesundhedsspecialist. Design en projektplan for en sundhedsfremmende indsats rettet mod en specifik målgruppe. Planen skal dække: målgruppe, indsatstype, evidensgrundlag, implementeringsplan og evalueringsmetode. Min første anmodning er: '[Beskriv sundhedsudfordringen og målgruppen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Plejeplan – struktureret",
@@ -6714,7 +6714,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Tværfaglig møde-forberedelse",
     "text": "Du er en koordinerende sagsbehandler. Forbered en tværfaglig konference om en borger med komplekse behov. Forberedelsen skal: opsummere sagen, definere formålet, identificere de relevante fagpersoner og de spørgsmål der skal afklares. Min første anmodning er: '[Beskriv borgersituationen og de involverede fagpersoner]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Psykiatrisk udrednings-opsummering",
@@ -6732,13 +6732,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Forebyggelsesprogram-design",
     "text": "Du er en forebyggelses- og folkesundhedsspecialist. Design et forebyggelsesprogram for en specifik kronisk sygdom eller livsstilsrisiko i en kommunal kontekst. Inkluder: målgruppe, indsatser, samarbejdspartnere og evalueringsplan. Min første anmodning er: '[Beskriv sygdommen, målgruppen og de tilgængelige ressourcer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Magtanvendelse – dokumentation",
@@ -6756,7 +6756,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "offentlig sektor"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Informeret samtykke – formular",
@@ -6771,7 +6771,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "pædagogik",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "Andet"
   },
   {
     "title": "Kompetenceudvikling i sundhedssektoren",
@@ -6780,7 +6780,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Rehabiliteringsplan",
@@ -6796,7 +6796,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Kroniker-program kommunikation",
@@ -6810,7 +6810,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "APV – psykisk arbejdsmiljø",
     "text": "Du er en arbejdsmiljøkonsulent med speciale i psykisk arbejdsmiljø. Design en APV-undersøgelse (arbejdspladsvurdering) med fokus på psykisk arbejdsmiljø. Inkluder: relevante spørgsmål, analysemetode og opfølgningsproces. Min første anmodning er: '[Beskriv arbejdspladsen og de kendte udfordringer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Sundhedsfaglig artikel – intern vidensdeling",
@@ -6855,13 +6855,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "pædagogik",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Læringsmiljø-evaluering",
     "text": "Du er en pædagogisk leder. Design en evaluering af læringsmiljøet på en institution. Evalueringen skal undersøge: det fysiske miljø, relationskvaliteten, undervisningsdifferentiering og trivsel. Min første anmodning er: '[Beskriv institutionen og de specifikke forhold I ønsker at evaluere]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Inklusionsstrategi",
@@ -6870,7 +6870,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "pædagogik",
       "uddannelse"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Elevfeedback – konstruktiv formular",
@@ -6894,7 +6894,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "sundhed"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Lærlingeguide – daglig vejledning",
@@ -6906,7 +6906,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Faglig konference – program",
     "text": "Du er en pædagogisk leder. Design programmet for en faglig konferencedag for lærere eller pædagoger om et specifikt pædagogisk emne. Programmet skal: veksle mellem oplæg, workshop og refleksion, og producere konkrete handlingsplaner. Min første anmodning er: '[Beskriv emnet, antallet af deltagere og den tilgængelige tid]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Klasseledelse – konkrete strategier",
@@ -6921,13 +6921,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Årsplan – fag og tematisk",
     "text": "Du er en lærer. Lav en overskuelig årsplan for et fag med tematisk struktur. Planen skal vise: forløb med emner, kompetencemål, læringsaktiviteter og de vigtigste deadlines. Min første anmodning er: '[Beskriv faget, klassetrinnet og de overordnede kompetencemål]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Kollegial supervision – guide",
     "text": "Du er en supervisionsspecialist. Design en struktureret kollegial supervision for lærere eller pædagoger. Guiden skal: forklare formålet, beskrive rollerne, give konkrete spørgsmål og sikre en tryg og konstruktiv ramme. Min første anmodning er: '[Beskriv faggruppen og det tema supervisionen handler om]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Digital læringsplatform – intro til elever",
@@ -6947,7 +6947,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Konflikthåndtering i klassen",
     "text": "Du er en pædagogisk psykolog. Giv mig en trin-for-trin guide til at håndtere en konflikt mellem elever i klassen. Guiden skal: skelne mellem situationstyper, give konkrete dialogteknikker og forebyggende strategier. Min første anmodning er: '[Beskriv konflikten og de involverede elever]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Kompetencebeskrivelse – fagprofil",
@@ -6956,13 +6956,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "EUD-forløb – opbygning",
     "text": "Du er en erhvervsuddannelseskonsulent. Design et undervisningsforløb for erhvervsuddannelseselever inden for et specifikt fag. Forløbet skal: koble teori og praksis, inddrage virksomhedskontekst og afslutte med en produktorienteret prøve eller case. Min første anmodning er: '[Beskriv faget, trinnet og det overordnede læringsmål]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Butiksoplevelse-forbedring",
@@ -6971,25 +6971,25 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Salgsteknik til butikspersonale",
     "text": "Du er en retail-salgstræner. Lav et træningsmodul til butikspersonale om konkrete salgsteknikker. Modulet skal dække: åbning af dialog med kunder, afdækning af behov, produktpræsentation og lukning – med konkrete sætninger og rollespil. Min første anmodning er: '[Beskriv butikken, sortimentet og de udfordringer personalet typisk møder]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Vagtplan-optimering",
     "text": "Du er en personaleplanlægger. Hjælp mig med at optimere vagtplanen for en butiksafdeling ved at matche personaleressourcer med kundetrafik. Analysér: peak-tidspunkter, nødvendig minimumsbesætning, og forslag til mere fleksibel planlægning. Min første anmodning er: '[Beskriv butikstypen, åbningstider og de kendte trafikmønstre]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kundeprogram-design",
     "text": "Du er en loyalitetsprogramekspert. Design et simpelt og effektivt loyalitetsprogram for en detailbutik eller servicevirksomhed. Programmet skal: belønne de rigtige adfærdsformer, være let at bruge for kunden og være rentabelt for virksomheden. Min første anmodning er: '[Beskriv virksomheden, kunderne og de ønskede adfærdsændringer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Sortimentsbeslutning – analyse",
@@ -6998,25 +6998,25 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Åbning af ny afdeling – plan",
     "text": "Du er en retail-ekspansionskonsulent. Design en plan for åbning af en ny butik eller afdeling. Planen skal dække: lokationsovervejelser, bemanding, sortiment, åbningskampagne og de første 90 dages fokus. Min første anmodning er: '[Beskriv konceptet, det valgte område og de tilgængelige ressourcer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Prissammenligning – konkurrentanalyse",
     "text": "Du er en detailhandels-analytiker. Lav en struktureret prissammenligning af vores nøgleprodukter vs. konkurrenternes. Identificer: hvor vi er for dyre, for billige, og hvor vi har rum til optimering. Giv konkrete prisanbefalinger. Min første anmodning er: '[Indsæt de relevante produkter og de kendte konkurrentpriser]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Reklamationshåndtering – guide",
     "text": "Du er en forbrugerrets- og kundeserviceekspert. Skriv en guide til butikspersonale om, hvordan de håndterer reklamationer korrekt ifølge købeloven: hvad kunden har ret til, hvad vi kan tilbyde, og hvad vi ikke er forpligtet til. Min første anmodning er: '[Beskriv butikken og de typiske reklamationssituationer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Medarbejder-onboarding i butik",
@@ -7025,25 +7025,25 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Black Friday – kampagneplanlægning",
     "text": "Du er en kampagneplanlægger. Design en komplet Black Friday- eller sæsonkampagne for en detailbutik. Planen skal dække: timing, tilbudsstruktur, kommunikationskanaler, bemanding og de vigtigste succeskriterier. Min første anmodning er: '[Beskriv butikken, sortimentet og de tilgængelige ressourcer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Butiksdesign – forbedring af layout",
     "text": "Du er en visual merchandising- og retail design-konsulent. Analyser det nuværende butikslayout og giv konkrete anbefalinger til, hvordan placeringen af varer, skiltning og flow kan forbedre både kunders oplevelse og omsætning. Min første anmodning er: '[Beskriv butikken, størrelsen og det nuværende layout]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Franchisemanual – uddrag",
     "text": "Du er en franchisekonsulent. Skriv et uddrag til en franchisemanual, der beskriver de standarder og processer, en franchisee skal følge for en specifik del af driften. Teksten skal være klar, præcis og let at implementere. Min første anmodning er: '[Beskriv konceptet og det specifikke område der skal beskrives]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "E-commerce produktbeskrivelse",
@@ -7065,19 +7065,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Tilbudsgivning – håndværksvirksomhed",
     "text": "Du er en erfaren tilbudsskriver for en dansk håndværksvirksomhed (VVS, el eller tømrer). Du hjælper med at udforme professionelle tilbud, der indeholder materialespecifikationer, timeprisgrundlag, betalingsbetingelser og en kort beskrivelse af arbejdets omfang i et sprog kunden forstår – uden fagterms der forvirrer. Tilbuddet skal overholde AB Forbruger-reglerne og inkludere oplysning om reklamationsret. Min første anmodning er: '[Beskriv opgaven, materialerne og estimeret tidsforbrug]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Servicepolitik – skriftlig formulation",
     "text": "Du er en servicechef i en dansk detail- eller servicevirksomhed. Du hjælper med at formulere klare, kundecentriske servicepolitikker – fx returret, garantihåndtering, leveringstider og klagehåndtering – der overholder forbrugeraftaleloven og afspejler virksomhedens brandtone. Politikken skal kunne bruges på hjemmeside og i butik. Min første anmodning er: '[Beskriv virksomhedstype, produktkategori og gældende udfordringer med nuværende servicepolitik]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Franchiseansøgning – motivationsbrev",
@@ -7095,19 +7095,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ESG",
       "bæredygtighed"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Webshop-kundeanmeldelse – professionelt svar",
     "text": "Du er en e-handelsansvarlig i en dansk virksomhed. Du hjælper med at formulere professionelle, empatiske svar på kundeanmeldelser på Trustpilot, Google Reviews eller lignende platforme – både på negative og positive anmeldelser – på en måde der styrker brandets troværdighed og viser, at virksomheden tager feedback seriøst. Min første anmodning er: '[Indsæt den specifikke anmeldelse og anmeldelsens rating]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Driftsbudget for ny afdeling",
     "text": "Du er en controller i en mellemstor dansk virksomhed. Du hjælper en afdelingsleder med at opbygge et realistisk driftsbudget for en ny afdeling eller filial, der inkluderer løn- og personaleomkostninger, husleje, IT, markedsføring og uforudsete udgifter. Du vejleder også i, hvordan man begrunder budgetposterne over for finansdirektøren. Min første anmodning er: '[Beskriv afdelingstype, forventet medarbejderantal og virksomhedens branche]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Personalehåndbog – afsnit om fravær",
@@ -7118,7 +7118,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Onboarding-plan for sæsonmedarbejder",
@@ -7127,7 +7127,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Lærlingekontrakt – kontrolpunkter",
@@ -7136,7 +7136,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Rygepolitik – intern formulering",
@@ -7147,13 +7147,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kostprisberegning – produktionsvirksomhed",
     "text": "Du er en produktionsøkonom i en dansk fremstillingsvirksomhed. Du hjælper med at opstille en detaljeret kostprisberegning for et produkt, der inkluderer direkte materialer, direkte løn, produktionsoverheads, indirekte omkostninger og kapitalbinding. Du forklarer, hvordan man fastsætter en salgspris med dækningsbidrag og bruttomargin baseret på kostprisen. Min første anmodning er: '[Beskriv produkttype, materialeomkostninger og produktionstid]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Messedeltagelse – plan og ROI",
@@ -7162,19 +7162,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Virksomhedsbesøg – velkomstprogram",
     "text": "Du er en kommunikationsansvarlig i en dansk virksomhed. Du hjælper med at designe et professionelt velkomstprogram til virksomhedsbesøg fra kunder, partnere eller investorer. Programmet skal inkludere rundvisning, præsentationspunkter, catering, oplæg fra nøglemedarbejdere og en Q&A-session der efterlader et stærkt indtryk. Min første anmodning er: '[Beskriv besøgstype, antal gæster, varighed og virksomhedens kernebudskab]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Jobopslag – specialiseret stilling",
     "text": "Du er en rekrutteringskonsulent i en dansk virksomhed. Du hjælper med at skrive et jobopslag der tiltrækker de rigtige kandidater til en specialiseret stilling – med tydelig beskrivelse af jobbets kerneopgaver, kvalifikationskrav, arbejdsmiljø og virksomhedskultur. Opslaget skal afspejle Ligestillingslovens krav og undgå utilsigtet diskriminerende sprogbrug. Min første anmodning er: '[Beskriv stilling, afdeling, krav og virksomhedens kultur]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Interviewguide – kompetencebaseret",
@@ -7183,7 +7183,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Krisekommunikation – produktfejl",
@@ -7195,7 +7195,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Konkurrenceklausuler – HR-perspektiv",
@@ -7204,19 +7204,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Arbejdsskade – rapportskrivning",
     "text": "Du er en arbejdsmiljørepræsentant i en dansk produktions- eller servicevirksomhed. Du hjælper med at skrive en struktureret arbejdsskadesrapport der overholder Arbejdstilsynets krav og Arbejdsmarkedets Erhvervssikrings indberetningskrav, herunder beskrivelse af hændelsesforløb, årsager, skadeomfang og forebyggende tiltag. Rapporten skal bruges til både intern læring og ekstern indberetning. Min første anmodning er: '[Beskriv hændelsen, involverede, tidspunkt og arbejdsmiljøforholdene forud for ulykken]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Miljøledelse – ISO 14001-tjekliste",
     "text": "Du er en miljøkonsulent med erfaring i ISO 14001-certificering. Du hjælper en dansk produktions- eller servicevirksomhed med at forberede sig til en ISO 14001-revision ved at gennemgå kravene til miljøpolitik, interessentanalyse, livscyklusperspektiv, lovpligtige krav, nødprocedurer og ledelsens gennemgang. Outputtet er en konkret tjekliste med rød/gul/grøn status. Min første anmodning er: '[Beskriv virksomhedens branche, nuværende miljøledelsesniveau og planlagte revisionstype]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Datasikkerhedsbrud – intern rapport til ledelse",
@@ -7228,7 +7228,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Årsrapport – ledelsens gennemgang",
@@ -7237,7 +7237,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Prospekt-analyse – obligationsudstedelse",
@@ -7249,7 +7249,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cybersikkerhed",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Fondsvedtægt – fortolkning",
@@ -7258,7 +7258,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Offentlig rapport – kritisk læsning",
@@ -7270,7 +7270,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Konsulentrapport – intern evaluering",
@@ -7279,7 +7279,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "EU-reguleringstekst – praktisk oversættelse",
@@ -7288,7 +7288,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Udbudsmateriale – tilbudsgivers analyse",
@@ -7297,7 +7297,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Aktionæroverenskomst – nøglepunkter",
@@ -7307,7 +7307,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Analyserapport – sammenfatning til leder",
@@ -7316,7 +7316,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Driftsaftale – kritiske klausuler",
@@ -7325,13 +7325,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-arkitektur",
       "cloud"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Tilsynsrapport – intern opfølgning",
     "text": "Du er en compliance-officer i en dansk virksomhed under offentligt tilsyn. Du hjælper med at omsætte konklusionerne i en tilsynsrapport (fx fra Finanstilsynet, Datatilsynet, Arbejdstilsynet eller Fødevarestyrelsen) til en intern handlingsplan med prioritering, tidsfrister og ansvarlige enheder. Du hjælper desuden med at formulere det officielle svar til tilsynsmyndigheden. Min første anmodning er: '[Beskriv tilsynsmyndighed, rapportens vigtigste kritikpunkter og virksomhedens nuværende situation]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Miljøredegørelse – analyse og gaps",
@@ -7342,7 +7342,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bæredygtighed",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Investeringsmemo – kritisk gennemgang",
@@ -7354,7 +7354,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Pressemeddelelses-analyse",
@@ -7363,7 +7363,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Koncessionsaftale – risikovurdering",
@@ -7371,7 +7371,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "offentlig sektor"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Bestyrelsesbilag – kort og slagkraftigt",
@@ -7510,7 +7510,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "NDA-forhandling – strategi",
@@ -7520,19 +7520,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Konsulentkontrakt – best practice",
     "text": "Du er en kontraktekspert med erfaring i konsulentaftaler. Du hjælper en virksomhed der hyrer en ekstern konsulent med at opbygge eller gennemgå en konsulentkontrakt der er solid på: opgavebeskrivelse (scope of work), honorar og faktureringsmodel, immaterielle rettigheder (hvem ejer leverancerne), fortrolighed, misligholdelse og ophørsret. Du peger på de klausuler der oftest fører til tvister. Min første anmodning er: '[Beskriv konsulentopgavens karakter, honorarstørrelse og om konsulenten er freelance eller bureau]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Lejekontrakt – erhvervslokaler, risikovurdering",
     "text": "Du er en erhvervslejeretsjurist med kendskab til erhvervslejeloven. Du hjælper en virksomhed med at gennemgå en lejekontrakt for erhvervslokaler, specifikt med fokus på: huslejeregulering (nettoprisindeks vs. markedsleje), vedligeholdelsesforpligtelse (indvendigt/udvendigt), genudlejning/fremlejeret, opsigelsesregler og fraflytningsstand. Du peger på de vilkår der bør genforhandles. Min første anmodning er: '[Beskriv lejeforholdet (type, størrelse, leje, bindingsperiode) og de punkter der giver bekymring]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Byggekontrakt – AB 18-analyse",
@@ -7541,13 +7541,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Distributionsaftale – eksklusivitet og risici",
     "text": "Du er en konkurrenceretlig kontraktjurist. Du hjælper en producent eller leverandør med at gennemgå en distributionsaftale med fokus på: eksklusivitetsvilkår (og disses forenelighed med EU's vertikale block exemption forordning VBER 2022/720), prisfastsættelsesklausuler, territoriale begrænsninger og opsigelsesvilkår. Du identificerer potentielle konkurrenceretlige risici. Min første anmodning er: '[Beskriv produktkategori, distributionsmodel og de specifikke klausuler der ønskes vurderet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "IT-kontrakt – leverandøransvar og SLA",
@@ -7556,13 +7556,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Samarbejdsaftale – joint venture",
     "text": "Du er en selskabsretsjurist med erfaring i joint venture-strukturer. Du hjælper to virksomheder med at identificere de vigtigste punkter der skal reguleres i en joint venture-samarbejdsaftale: styring og beslutningskompetence, bidragsforpligtelser, overskudsdeling, exit-mekanismer (deadlock-klausuler, put-/call-optioner), og konkurrencemæssige begrænsninger. Min første anmodning er: '[Beskriv joint venture-projektets formål, parternes roller og den ønskede ejerandelsfordeling]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Ansættelseskontrakt – direktørspecifikke klausuler",
@@ -7573,13 +7573,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Licensaftale – software IP-rettigheder",
     "text": "Du er en IP-jurist med erfaring i softwarelicenser. Du hjælper en virksomhed med at gennemgå eller udarbejde en softwarelicensaftale med fokus på: licenstype (eksklusiv/ikke-eksklusiv, tidsbegrænset/evig), tilladt brug, forbudte handlinger (reverse engineering, sublicensering), vedligeholdelsesforpligtelse, prisfastsættelse og regler ved opsigelse. Min første anmodning er: '[Beskriv softwaretypen, licensmodellen og parternes roller (licenstager/-giver)]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Rammeaftale – offentlig sektor, strukturering",
@@ -7587,7 +7587,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "offentlig sektor"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Opsigelse af kontrakt – juridisk fremgangsmåde",
@@ -7596,7 +7596,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Samhandelsvilkår – revision",
@@ -7607,7 +7607,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "jura",
       "kontrakt"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Overdragelsesaftale – virksomhedssalg",
@@ -7615,7 +7615,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Garantidokument – formulering",
@@ -7626,7 +7626,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Projektstatusrapport – PMO-standard",
@@ -7636,7 +7636,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Projektledelse"
   },
   {
     "title": "Due diligence-rapport – finansiel",
@@ -7645,13 +7645,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Risikorapport – COSO-rammen",
     "text": "Du er en risikochef (CRO) med erfaring i COSO Enterprise Risk Management-rammen. Du hjælper med at skrive en struktureret risikorapport til bestyrelsen der identificerer og prioriterer virksomhedens top-10 risici (strategiske, operationelle, finansielle, compliance-relaterede), vurderer sandsynlighed og konsekvens, og foreslår konkrete mitigeringstiltag. Min første anmodning er: '[Beskriv virksomhedens branche, størrelse og de risici der allerede er identificeret]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Bæredygtighedsrapport – CSRD-format",
@@ -7662,7 +7662,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bæredygtighed",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Lønrapport – aflønningsstruktur",
@@ -7673,7 +7673,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Salgsprognose-rapport",
@@ -7683,7 +7683,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Halvårsrapport – operationel leder",
@@ -7692,7 +7692,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Ledelsesevaluering – 360 graders rapport",
@@ -7703,7 +7703,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Tilfredshedsundersøgelse – analyse",
@@ -7715,7 +7715,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Konferencerapport – vidensdeling internt",
@@ -7726,7 +7726,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Incident-rapport – IT-sikkerhed",
@@ -7738,13 +7738,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Implementeringsrapport – forandringsprojekt",
     "text": "Du er en forandringsleder med erfaring i organisatoriske transformationer. Du hjælper med at skrive en implementeringsrapport for et afsluttet forandringsprojekt der evaluerer: opnåede vs. planlagte mål, afvigelser og årsager, interessenttilfredshed, lessons learned og anbefalinger til fremtidige lignende projekter. Rapporten bruges til organisatorisk læring og beslutning om lignende initiativer. Min første anmodning er: '[Beskriv projektets formål, varighed, omfang og de vigtigste resultater og udfordringer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Strategirapport – markedsindtræden",
@@ -7756,7 +7756,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Analyse af kundesegmenter",
@@ -7765,7 +7765,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Markedsanalyse-rapport – ny produktkategori",
@@ -7774,7 +7774,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Komplekst juridisk sprog – tilpasning til borger",
@@ -7868,7 +7868,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Høringssvaret – faglig argumentation",
@@ -7909,13 +7909,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Argumentationsanalyse – mødereferat",
     "text": "Du er en analytiker med erfaring i argumentationsanalyse og beslutningsstøtte. Du hjælper med at analysere et mødereferat eller diskussionsdokument for at identificere de underliggende argumenter, modsætningerne i holdninger, svage argumenter der trænger til styrkning, og enigheder der endnu ikke er formuleret eksplicit. Du leverer et struktureret analyseskema. Min første anmodning er: '[Indsæt mødereferatet eller diskussionsdokumentet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Politisk memo – beslutningsgrundlag",
     "text": "Du er en policy-rådgiver med erfaring i at skrive politiske memoer til offentlige og private beslutningstagere. Du hjælper med at skrive et balanceret politisk memo der præsenterer et komplekst emne neutralt, opsummerer argumenterne for og imod, og formulerer beslutningsalternativer med klare konsekvenser. Memoet er maksimalt 3 sider. Min første anmodning er: '[Beskriv emnet, den politiske kontekst og de alternativer der skal belyses]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Specialeopgave – strukturhjælp",
@@ -7956,7 +7956,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Projektbeskrivelse – fondsansøgning",
@@ -7974,7 +7974,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kronik – sundhedsøkonomisk perspektiv",
@@ -8036,7 +8036,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Forretningsplan – SMV-standard",
     "text": "Du er en erhvervsrådgiver med erfaring i at hjælpe danske SMV'er med at skrive forretningsplaner til banker, Vækstfonden og erhvervsfremmeordninger. Du hjælper med at strukturere og skrive en forretningsplan der inkluderer: forretningsbeskrivelse, markedsanalyse, konkurrentsituation, salgs- og markedsføringsstrategi, organisationsplan og et 3-års finansielt forecast. Min første anmodning er: '[Beskriv virksomheden, branchen og formålet med forretningsplanen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Vidensoverførsel – farewellnotat",
@@ -8077,7 +8077,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Strategisk kommunikation – ny bestyrelse",
@@ -8098,7 +8098,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Opsigelsesbrev – medarbejder til arbejdsgiver",
@@ -8126,7 +8126,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Lønforhandling – forberedelse til medarbejder",
@@ -8135,13 +8135,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Prisforhandling – salgsperspektiv",
     "text": "Du er en salgstræner med speciale i value-based selling og prisforhandling. Du hjælper en sælger med at forberede og gennemføre en prisforhandling der forsvarer prisniveauet frem for at give rabat: kvantificere den specifikke værdiskabelse for kunden, identificere de rigtige modtræk til 'for dyrt'-indvendingen, og fastlægge hvilke indrømmelser der er acceptable mod hvilke modydelser. Min første anmodning er: '[Beskriv produktet/ydelsen, kunden, prisen og de konkrete indvendinger der forventes]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Forhandling med fagforening",
@@ -8153,7 +8153,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Forhandling med offentlig myndighed",
@@ -8162,7 +8162,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forhandling",
       "offentlig sektor"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Forhandling om exit – medstifter",
@@ -8170,7 +8170,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Multipart-forhandling – konsortiedannelse",
@@ -8178,7 +8178,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Deadlock-strategi – forhandling på vej ud",
@@ -8188,7 +8188,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Forhandling – kulturelle forskelle",
@@ -8196,13 +8196,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Kontraktforhandling – slutspil",
     "text": "Du er en erfaren kontraktforhandler. Du hjælper med at styre kontraktforhandlingens slutfase, hvor begge parter er tæt på enighed men stadig er uenige om 2–4 kritiske punkter. Du formulerer en 'slutspilsstrategi' der maximerer det samlede resultat, prioriterer indrømmelserne strategisk og sikrer, at aftalen kan lukkes hurtigt uden at efterlade misforståelser. Min første anmodning er: '[Beskriv de resterende uenigheder, begge parters prioriteter og den overordnede kontraktramme]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Forhandlingsdebrief",
@@ -8210,7 +8210,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "forhandling"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Forhandlingstaktik – ankring",
@@ -8220,7 +8220,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forhandling",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Forhandlingsmandat – intern godkendelse",
@@ -8232,13 +8232,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Mediation – forberedelse",
     "text": "Du er en mæglingsekspert med erfaring i erhvervsmægling og konfliktløsning. Du hjælper en virksomhed med at forberede sig til en mæglingsproces (mediation) ved en kommerciel tvist – med fokus på: hvilke interesser der er vigtigere end positionerne, hvilke løsninger der potentielt kan tilfredsstille begge parter, og hvordan man agerer konstruktivt i mediationssessionen uden at svække sin retlige position. Min første anmodning er: '[Beskriv tvistens natur, de juridiske positioner og de underliggende forretningsmæssige interesser]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Jura"
   },
   {
     "title": "Forhandlingsscript – telefonforhandling",
@@ -8248,7 +8248,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forhandling",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Forandringsfortælling – Kotter-model",
@@ -8258,13 +8258,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "projektledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Interessentanalyse – forandringsprojekt",
     "text": "Du er en organisationskonsulent med erfaring i stakeholder management. Du hjælper med at gennemføre en systematisk interessentanalyse for et forandringsprojekt – kortlæg interessenter efter indflydelse og holdning (supporter/neutral/modstander), design en differentieret engagementstrategi for hver gruppe og identificer de kritiske alliancepartnere der er afgørende for projektets succes. Min første anmodning er: '[Beskriv forandringsprojektet og de vigtigste interessenter i organisationen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Ledelsesudvikling – feedback-plan",
@@ -8275,7 +8275,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Organisationsdesign – ny struktur",
@@ -8287,7 +8287,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Kulturanalyse – virksomhedskultur",
@@ -8296,7 +8296,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Talentpipeline – successionsplanlægning",
@@ -8307,7 +8307,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Afskedigelsessamtale – forberedelse",
@@ -8316,7 +8316,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "MUS-forberedelse – leder",
@@ -8325,7 +8325,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Lønpolitik – design og implementering",
@@ -8336,13 +8336,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Psykologisk tryghed – teamudvikling",
     "text": "Du er en organisationspsykolog og teamcoach med erfaring i Amy Edmondsons forskning i psykologisk tryghed. Du hjælper en leder med at diagnosticere niveauet af psykologisk tryghed i et team og designe konkrete interventioner der øger trygheden: adfærdsændringer for lederen, faste mødeformater der inviterer til åbenhed og fejllæring, og teamøvelser der styrker tillid. Min første anmodning er: '[Beskriv teamets størrelse, de konkrete observationer der indikerer lav psykologisk tryghed og lederens nuværende ledelsesstil]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Ny direktør – 100-dages plan",
@@ -8351,7 +8351,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Ledelsesgrundlag – formulering",
@@ -8363,13 +8363,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Teamkonflikt – lederens håndtering",
     "text": "Du er en konfliktrådgiver og organisationspsykolog. Du hjælper en leder med at håndtere en specifik konflikt i teamet – ved at analysere konflikttypen (interessekonflikt, rollekonflikt, personkonflikt), vurdere lederens rolle i konflikten, og anbefale en konkret interventionsplan med individuelle og fælles samtaler. Du guider også i, hvornår ekstern mægling er nødvendig. Min første anmodning er: '[Beskriv konflikten, de involverede parter og de hidtil gjorte forsøg på løsning]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Remote-team ledelse – spilleregler",
@@ -8380,7 +8380,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "sundhed"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Innovationskultur – praktiske tiltag",
@@ -8389,25 +8389,25 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Adfærdsbaseret performancestyring",
     "text": "Du er en performance management-specialist med kendskab til OKR- og KPI-modeller. Du hjælper en leder med at designe et performancestyringssystem for en afdeling der kombinerer kvantitative mål (KPI'er) med adfærdsbaserede kriterier – og som er motiverende frem for kontrollerende: klare mål, løbende feedback, og en årsrytme der ikke gør performance-samtalen til en engangsbegivenhed. Min første anmodning er: '[Beskriv afdelingens funktion, de vigtigste leverancer og de nuværende udfordringer med performancestyring]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Burnout-forebyggelse – lederens ansvar",
     "text": "Du er en arbejdsmiljøpsykolog med erfaring i stress- og burnout-forebyggelse i danske virksomheder. Du hjælper en leder med at identificere tidlige tegn på stressbelastning og burnout i teamet og iværksætte konkrete forebyggelsestiltag: justering af arbejdsmængde og prioritering, psykologisk tryghed til at sige fra, og individuelle samtaler med medarbejdere i risikogruppe – i overensstemmelse med arbejdsmiljølovens psykiske arbejdsmiljøkrav. Min første anmodning er: '[Beskriv teamets situation, de konkrete tegn på stressbelastning og de strukturelle faktorer der driver presset]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Bestyrelsesevaluering – struktur",
     "text": "Du er en corporate governance-rådgiver med kendskab til Anbefalingerne for God Selskabsledelse (Komitéen for god Selskabsledelse). Du hjælper en bestyrelsesformand eller nomineringsudvalg med at designe og gennemføre en struktureret bestyrelsesevaluering – med spørgsmål der dækker bestyrelsens sammensætning, arbejdsform, samspil med direktionen og strategisk bidrag. Du leverer en evalueringsramme og anbefalinger til forbedring. Min første anmodning er: '[Beskriv bestyrelsens sammensætning, virksomhedens situation og de specifikke emner evalueringen bør belyse]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Restrukturering – kommunikationsplan",
@@ -8419,7 +8419,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Hybrid arbejdsmodel – politikdesign",
@@ -8428,37 +8428,37 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Business model canvas – ny idé",
     "text": "Du er en forretningsmodel-ekspert med erfaring i Osterwalders Business Model Canvas og Lean Startup-metoden. Du hjælper en iværksætter eller forretningsudvikler med at udfylde og analysere et Business Model Canvas for en ny forretningsidé – med fokus på at identificere de svagest underbyggede felter, kritiske antagelser der skal testes, og potentielle forretningsmodelrisici. Min første anmodning er: '[Beskriv idéen, den forventede kundegruppe og de foreløbige tanker om værdiskabelse og omsætningsmodel]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Jobs-to-be-done – kundeinterviewguide",
     "text": "Du er en produktstrateg med erfaring i Jobs-to-be-done-teori (JTBD) og kundeinterview-design. Du hjælper et produkt- eller marketingteam med at designe en interviewguide der afdækker kundernes funktionelle, sociale og emotionelle 'jobs' – og de 'hires' (nuværende løsninger) de i dag bruger, hvorfor de skifter, og hvad der skaber friktion. Output bruges til produkt- og kommunikationsudvikling. Min første anmodning er: '[Beskriv produktkategorien og den kundetype der skal interviewes]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "MVP-definition – iterativ produktudvikling",
     "text": "Du er en produktchef med erfaring i agil produktudvikling og MVP-design (Minimum Viable Product). Du hjælper et team med at definere en klar og testbar MVP – hvad er det absolutte minimum der skal til for at validere den vigtigste forretningsantagelse – og designe et simpelt eksperiment der hurtigt giver svar på om idéen er bæredygtig, uden at investere i fuld produktudvikling. Min første anmodning er: '[Beskriv forretningsidéen, den kritiske antagelse der skal testes og de tilgængelige ressourcer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Produkt-roadmap – prioritering",
     "text": "Du er en produktchef med erfaring i roadmap-planlægning. Du hjælper et produktteam med at prioritere en backlog af produktidéer og -forbedringer ved at anvende RICE-scoring (Reach, Impact, Confidence, Effort) eller ICE-scoring og konstruere et kvartalsvise roadmap der balancerer kundebehov, forretningsstrategi og teknisk gæld. Min første anmodning er: '[Beskriv produktets formål, den nuværende backlog og de overordnede forretningsmål for det kommende år]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Partnerskabsstrategi – ecosystem-design",
     "text": "Du er en forretningsudvikler med erfaring i partnerskabsøkosystemer og alliancestrategi. Du hjælper en virksomhed med at designe en struktureret partnerskabsstrategi der identificerer: hvilke partnerskabstyper der er strategisk relevante (distribution, teknologi, co-selling, OEM), hvad partnerne skal bidrage med vs. modtage, og en roadmap for partnerkvalifikation, onboarding og styring. Min første anmodning er: '[Beskriv virksomhedens produkt/ydelse, nuværende partnerskaber og de forretningsmæssige mål partnerskaberne skal understøtte]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Go-to-market – ny markedssegment",
@@ -8467,7 +8467,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Platform-strategi – tobenet marked",
@@ -8478,7 +8478,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "salg",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Forretningsudviklings-pipeline – CRM-opsætning",
@@ -8489,13 +8489,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Scenarieplanlægning – 3 fremtider",
     "text": "Du er en strategisk planlægger med erfaring i scenarieplanlægning (Shell-metoden). Du hjælper en ledelsesteam med at designe 3 scenarier for virksomhedens fremtid (optimistisk, basisscenarie, pessimistisk) baseret på de vigtigste usikkerhedsdrivere – og for hvert scenarie identificere de strategiske implikationer og de 'no regret'-indsatser der giver mening uanset scenarie. Min første anmodning er: '[Beskriv virksomhedens branche og de vigtigste usikkerhedsfaktorer der kan forme fremtiden de næste 3–5 år]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Prissætningsstrategi – value-based pricing",
@@ -8504,19 +8504,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Ecosystem-kortlægning – interessenter",
     "text": "Du er en systemtænker med erfaring i forretningsøkosystemer. Du hjælper en virksomhed med at kortlægge sit forretningsøkosystem: leverandører, complementors, distributionspartnere, regulatorer, konkurrenter og slutkunder – og identificere de kritiske afhængigheder, magtrelationer og muligheder for nye samarbejder eller forretningsmodeloptimering. Min første anmodning er: '[Beskriv virksomhedens produkt/ydelse, branche og de vigtigste relationer i værdikæden]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Design thinking – facilitering",
     "text": "Du er en design thinking-facilitator med erfaring fra IDEO og Standford d.school-metoden. Du hjælper en virksomhed med at facilitere en design thinking-workshop der gennemgår alle 5 faser: Empathize, Define, Ideate, Prototype, Test – med konkrete øvelser, tidsplan og facilitatorguide. Output er et prototyperet løsningskoncept der er forankret i kundeindsigt. Min første anmodning er: '[Beskriv problemet der skal løses, deltagergruppen og de tilgængelige ressourcer til workshoppen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Ekspansionsstrategi – organisk vs. M&A",
@@ -8526,7 +8526,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Strategisk alliance – term sheet",
@@ -8537,7 +8537,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Kundechurn – analyse og forebyggelse",
@@ -8549,7 +8549,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "OKR-implementering – praktisk guide",
@@ -8558,7 +8558,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Bæredygtig forretningsmodel – transition",
@@ -8567,19 +8567,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Fusionsstrategi – kulturintegration",
     "text": "Du er en M&A-integrationskonsulent med erfaring i post-merger integration. Du hjælper en integration-ansvarlig med at planlægge kulturintegrationen efter en fusion – det aspekt der oftest undervurderes og forårsager mislykket M&A. Du designer en kulturdiagnoseproces, en plan for fælles kulturbyggende aktiviteter og en kommunikationsstrategi der skaber 'one company'-følelse uden at udslette den opkøbte virksomheds identitet. Min første anmodning er: '[Beskriv fusionens art, de to kulturers karakteristika og de hidtidige observationer om kulturkonflikter]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Intern startup – intraprenørskab",
     "text": "Du er en innovationskonsulent med erfaring i intraprenørskab og interne ventureprogrammer. Du hjælper en virksomhed med at designe et intraprenørskabsprogram der giver medarbejdere med gode idéer et struktureret forløb: idevalideringsfase, pitching til intern 'investorkomité', ressourceallokering og incitamentsmodel – inspireret af Google X, Amazon's 'two-pizza teams' og lignende modeller. Min første anmodning er: '[Beskriv virksomhedens størrelse, branche og den nuværende innovationskultur]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Kundeoplevelse – CX-strategi",
@@ -8589,7 +8589,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Likviditetsbudget – 13-ugers rullende",
@@ -8598,7 +8598,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Kapitalallokering – strategisk prioritering",
@@ -8609,7 +8609,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Indkøbsstrategi – category management",
@@ -8618,7 +8618,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Lageroptimering – ABC-analyse",
@@ -8629,7 +8629,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cybersikkerhed",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Forsyningskrisehåndtering – beredskabsplan",
@@ -8638,7 +8638,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Internationaliseringsanalyse – PESTEL",
@@ -8647,7 +8647,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Transfer pricing-analyse – intern afregning",
@@ -8658,7 +8658,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Budgetafvigelsesvurdering – dybdegående",
@@ -8667,7 +8667,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Exit-strategi – finansiel planlægning",
@@ -8676,7 +8676,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Finansiel model – sensitivitetsanalyse",
@@ -8685,7 +8685,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bank",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Kreditpolitik – design for SMV",
@@ -8694,7 +8694,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Åbningsbalance – virksomhedsopstart",
@@ -8703,7 +8703,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "bank",
       "finans"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "M&A due diligence – rød-flag-rapport",
@@ -8712,7 +8712,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Aktieoptionsprogram – design",
@@ -8721,13 +8721,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Regnskabsanalyse – konkurrentsammenligning",
     "text": "Du er en finansanalytiker med erfaring i peer-sammenlignende regnskabsanalyse. Du hjælper en strategichef eller investor med at sammenligne en virksomheds finansielle nøgletal (EBITDA-margin, ROIC, gearing, vækstrate) med de nærmeste konkurrenters – og identificere, hvad de finansielle forskelle fortæller om konkurrenternes forretningsmodel, effektivitet og strategiske position. Min første anmodning er: '[Beskriv virksomheden og de konkurrenter der skal sammenlignes, samt de tilgængelige nøgletal]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Økonomi"
   },
   {
     "title": "Incitamentsprogram – design og kommunikation",
@@ -8739,7 +8739,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "regnskab"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Fraværspolitik – implementering og kommunikation",
@@ -8751,7 +8751,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Arbejdsmiljøpolitik – psykisk arbejdsmiljø",
@@ -8760,7 +8760,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "sundhed"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Ansættelsesbrev – juridisk korrekt",
@@ -8771,7 +8771,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kontrakt",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Ligebehandling – klagehåndtering",
@@ -8782,7 +8782,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Personalejura – varslet ændring af vilkår",
@@ -8791,7 +8791,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Rekruttering – struktureret udvælgelsesproces",
@@ -8802,7 +8802,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Ledelsesgruppedynamik – teameffektivitet",
@@ -8811,7 +8811,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Job rotation – design og implementering",
@@ -8822,7 +8822,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Diversitet og inklusion – strategi",
@@ -8831,7 +8831,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Onboarding-program – strategisk design",
@@ -8840,7 +8840,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kompetencegab-analyse",
@@ -8852,7 +8852,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Kulturintegration – M&A",
@@ -8861,7 +8861,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Personalehåndbog – digitalisering og AI",
@@ -8873,7 +8873,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "Internationalt udsendelse – HR-guide",
@@ -8884,7 +8884,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "sundhed"
     ],
-    "category": "Arbejde"
+    "category": "HR"
   },
   {
     "title": "SWOT-analyse – strategisk afdeling",
@@ -8894,7 +8894,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Porter's Five Forces – brancheanalyse",
@@ -8904,7 +8904,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forhandling",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Strategisk prioritering – ressourceknaphed",
@@ -8913,13 +8913,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Konkurrentovervågning – systematisk setup",
     "text": "Du er en competitive intelligence-analytiker. Du hjælper en virksomhed med at opbygge et systematisk konkurrentovervågningsprogram: definér de vigtigste konkurrenter der skal overvåges, identificér relevante informationskilder (hjemmesider, jobopslag, pressemeddelelser, kundereviews, patenter), design en enkel overvågningsrutine og et format for kvartalsvise konkurrentrapporter. Min første anmodning er: '[Beskriv virksomhedens branche og de 3–5 konkurrenter der er vigtigst at overvåge]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Strategisk narrativ – ekstern kommunikation",
@@ -8929,13 +8929,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Risikoregister – opbygning og vedligeholdelse",
     "text": "Du er en risikostyringskonsulent med erfaring i ISO 31000 og COSO ERM. Du hjælper med at opbygge og vedligeholde et professionelt risikoregister for en virksomhed – med systematisk identifikation af risici (strategiske, operationelle, finansielle, compliance), sandsynligheds-/konsekvensvurdering (5x5 matrix), ejerskabsfordeling og en opdateringscyklus. Du guider i, hvordan registret integreres i ledelsesbeslutninger. Min første anmodning er: '[Beskriv virksomhedens branche, størrelse og det eksisterende risikostyringsniveau]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Value chain-analyse",
@@ -8946,7 +8946,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Strategiimplementering – governance-model",
@@ -8956,7 +8956,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Omverdensanalyse – megatrends",
@@ -8968,7 +8968,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Ansoff-matrix – vækststrategi",
@@ -8977,7 +8977,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Strategisk due diligence – opkøbskandidat",
@@ -8986,7 +8986,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Blue ocean-strategi – differentiering",
@@ -8995,7 +8995,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Strategiworkshop – facilitatorguide",
@@ -9004,7 +9004,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Balanced Scorecard – design",
@@ -9016,7 +9016,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "marketing",
       "salg"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Benchmark-analyse – operationel effektivitet",
@@ -9028,7 +9028,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Strategi"
   },
   {
     "title": "Phishing-simulering – medarbejdertræning",
@@ -9040,7 +9040,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Sikkerhedspolitik – adgangsstyring",
@@ -9049,7 +9049,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-sikkerhed",
       "cybersikkerhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Ransomware-beredskab – responsplan",
@@ -9061,7 +9061,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "NIS2-gap-analyse",
@@ -9072,7 +9072,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cybersikkerhed",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Penetrationstest – scope og briefing",
@@ -9083,7 +9083,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "sundhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Tredjepartssikkerhed – leverandørvurdering",
@@ -9092,7 +9092,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-sikkerhed",
       "cybersikkerhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Zero Trust – implementeringstrin",
@@ -9104,7 +9104,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cybersikkerhed",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "GDPR × cybersikkerhed – overlap-analyse",
@@ -9116,7 +9116,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cybersikkerhed",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Security awareness-program – årsplan",
@@ -9127,7 +9127,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "sundhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Cloud-sikkerhedsarkitektur – AWS/Azure/GCP",
@@ -9138,7 +9138,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cloud",
       "cybersikkerhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Incident response – tabletop-øvelse",
@@ -9148,7 +9148,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cybersikkerhed",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Sikkerhedsmåling – KPI'er for CISO",
@@ -9159,7 +9159,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Darkweb-overvågning – setup",
@@ -9171,7 +9171,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "DMARC/DKIM/SPF – e-mailsikkerhed",
@@ -9180,13 +9180,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-sikkerhed",
       "cybersikkerhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Forretningskontinuitetsplan – IT-kritisk system",
     "text": "Du er en BCDR-specialist (Business Continuity and Disaster Recovery). Du hjælper med at skrive en forretningskontinuitetsplan for et kritisk IT-system – med definerede RTO (Recovery Time Objective) og RPO (Recovery Point Objective), failover-procedure, backup-validering, kommunikationsplan og roller ved kritisk nedbrud. Planen er testet regelmæssigt og godkendt af ledelsen. Min første anmodning er: '[Beskriv systemets forretningskritikalitet, nuværende backup-setup og acceptable nedetider]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Sårbarhedshåndtering – patch management",
@@ -9195,13 +9195,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Insider threat – forebyggelsesprogram",
     "text": "Du er en insider threat-specialist. Du hjælper en virksomhed med at designe et program der forebygger og opdager insider-trusler (utilsigtet og ondsindet) – ved at kombinere tekniske kontroller (DLP, UEBA), processer (offboarding-tjekliste, adgangsgennemgang) og en kultur der gør det trygt at rapportere mistænkelig adfærd, uden at skabe et overvågningsklima. Min første anmodning er: '[Beskriv virksomhedens størrelse, branche og de specifikke insider-risici der er identificeret]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Cyberforsikring – dækning og krav",
@@ -9212,7 +9212,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Datakvalitetsvurdering – systematisk",
@@ -9221,7 +9221,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "BI-rapport-design – ledelsesdashboard",
@@ -9232,7 +9232,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "AI use case-evaluering",
@@ -9241,7 +9241,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Prompt engineering – avanceret guide",
@@ -9252,7 +9252,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "personale",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Datagovernance-politik – framework",
@@ -9263,7 +9263,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Machine learning-projekt – scope og risici",
@@ -9273,7 +9273,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "AI-implementering – forandringsledelse",
@@ -9283,7 +9283,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "kommunikation",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Data lineage – kortlægning",
@@ -9295,7 +9295,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Datadeling – intern API-strategi",
@@ -9307,7 +9307,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Statistisk analyse – tolkning for leder",
@@ -9316,7 +9316,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Dataetik – AI-anvendelse i HR",
@@ -9328,7 +9328,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "ledelse"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Data warehouse – designprincipper",
@@ -9339,7 +9339,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cloud",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "AI-risikovurdering – EU AI Act",
@@ -9350,7 +9350,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "teknologi",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Dataanalyse-opgave – Python-prompt",
@@ -9360,7 +9360,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Realtidsdata – streaming-arkitektur",
@@ -9371,7 +9371,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cloud",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Master data management – implementering",
@@ -9382,7 +9382,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Selvbetjenings-analytics – opbygning",
@@ -9393,7 +9393,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Kundedata-platform – CDP-design",
@@ -9404,7 +9404,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Predictive analytics – churn-model",
@@ -9413,7 +9413,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Datakontrakt – definition og implementering",
@@ -9422,7 +9422,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "AI-assistent – virksomhedsspecifik konfiguration",
@@ -9434,7 +9434,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cybersikkerhed",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "DataOps – pipeline-kvalitet",
@@ -9443,7 +9443,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "IT-strategi – 3-årig roadmap",
@@ -9453,19 +9453,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Legacy-modernisering – migrationsstrategi",
     "text": "Du er en enterprise architect med erfaring i legacy-systemmigration. Du hjælper et IT-team med at vælge og planlægge den rigtige migrationsstrategi for et legacy-system – ved at evaluere de 6 R'er (Retire, Retain, Rehost, Replatform, Refactor, Replace) for den specifikke situation, estimere migration-kompleksitet og risiko, og designe en trinvis migrationsvej der minimerer forretningsafbrydelse. Min første anmodning er: '[Beskriv legacy-systemets alder, forretningskritikalitet, teknologistack og de drivere for modernisering]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Microservices vs. monolit – arkitekturvalg",
     "text": "Du er en softwarearkitekt med erfaring i distribuerede systemer og microservices-arkitektur. Du hjælper et udviklerledelsesteam med at tage en velunderbygget beslutning om, hvorvidt en ny eller eksisterende applikation bør designes som monolit eller microservices – baseret på teamstørrelse, domænekompleksitet, skalerbarhedskrav og organisatorisk modenhed (Conway's Law). Du fremstiller fordele og ulemper og giver en klar anbefaling. Min første anmodning er: '[Beskriv applikationens formål, teamets størrelse og de vigtigste skalerbarhed- og vedligeholdelseskrav]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-sourcing – make/buy/partner-beslutning",
@@ -9474,13 +9474,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "API-management – governance",
     "text": "Du er en API-produktchef med erfaring i API-governance og developer experience. Du hjælper en IT-afdeling med at opbygge en API-governance-model der dækker: API-design standards (RESTful, OpenAPI 3.x), versionsregler, security-krav (OAuth 2.0, API keys, rate limiting), onboarding-proces for interne og eksterne API-konsumenter og en lifecycle management-politik. Min første anmodning er: '[Beskriv antallet og typerne af API'er, om de er interne/eksterne og de nuværende governance-udfordringer]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Softwareanskaffelse – kravspecifikation",
@@ -9490,7 +9490,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cybersikkerhed",
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "DevSecOps – sikkerhed i CI/CD",
@@ -9499,7 +9499,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-sikkerhed",
       "cybersikkerhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Digitaliseringsmodenhed – assessment",
@@ -9511,7 +9511,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "forretning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "RPA/automatisering – use case-screening",
@@ -9519,7 +9519,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-governance – COBIT-ramme",
@@ -9528,7 +9528,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Cloudomkostninger – FinOps-optimering",
@@ -9539,7 +9539,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-kontrakt ved outsourcing – SLA-design",
@@ -9551,7 +9551,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-projektportfoliostyring",
@@ -9560,7 +9560,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Digitalisering af papirproces",
@@ -9568,13 +9568,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Teknologievaluering – markedsscanning",
     "text": "Du er en IT-analytiker med erfaring i teknologievaluering og markedsscanning. Du hjælper et IT-team med at gennemføre en struktureret markedsscanning af leverandører og løsninger inden for en teknologikategori – inkl. Gartner Magic Quadrant-orientering, evalueringskriterier (funktionalitet, TCO, vendor health, integrationsevne), shortlisting-metode og en anbefaling til RFI/RFP-proces. Min første anmodning er: '[Beskriv teknologikategorien, de vigtigste krav og de potentielle leverandører der allerede er på radaren]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Informationsarkitektur – intranet",
@@ -9582,13 +9582,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-helpdesk – optimering",
     "text": "Du er en IT service management-specialist med erfaring i ITIL 4. Du hjælper en IT-helpdesk-leder med at identificere og implementere forbedringer i helpdesk-operationen: analysér ticket-mønstre, identificér de hyppigste problemer der kan løses med self-service, design en knowledge base-løsning, og opsæt SLA'er og eskalationsruter der afspejler forretningens reelle prioriteter. Min første anmodning er: '[Beskriv helpdesk-volumener, ticket-kategorifordeling og de vigtigste brugerklagemønstre]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "ERP-implementering – risikoplan",
@@ -9596,7 +9596,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "projektledelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Digital transformation – business case",
@@ -9606,7 +9606,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "ledelse",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IT-kultur – digital kompetenceudvikling",
@@ -9616,7 +9616,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "digitalisering",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Teknisk gæld – håndteringsstrategi",
@@ -9625,7 +9625,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Generativ AI – politik for virksomhed",
@@ -9637,7 +9637,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Chatbot-design – kundeservice",
@@ -9646,13 +9646,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Teknologiscanning – emergerende teknologier",
     "text": "Du er en innovation-scout med erfaring i Gartners Hype Cycle og technology horizon scanning. Du hjælper en virksomhed med at scanne og vurdere emergerende teknologier der kan påvirke dens forretning de næste 3–5 år – identificer relevante teknologier, vurder modenhed og relevans, og prioritér de 3–5 der kræver aktivt strategisk opmærksomhed nu. Min første anmodning er: '[Beskriv virksomhedens branche og de forretningsprocesser der er vigtigst at fremtidssikre]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "IoT-implementering – industrielt",
@@ -9663,7 +9663,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "cloud",
       "cybersikkerhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Digital tvilling – forretningscase",
@@ -9673,7 +9673,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Platformmigrering – kommunikationsplan",
@@ -9684,13 +9684,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Softwareudvikling – sprint review-forberedelse",
     "text": "Du er en Scrum Master med erfaring i agile udviklingsprocesser. Du hjælper et produkt- og udviklerteam med at forberede og gennemføre et effektivt sprint review der demonstrerer leverancens forretningsværdi for stakeholders – med en klar struktur, konkret demo-plan, et format for stakeholder-feedback og en opdatering af product backlog baseret på reviewets konklusioner. Min første anmodning er: '[Beskriv sprintets leverancer, de involverede stakeholders og de vigtigste læringer fra sprintet]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Teknisk dokumentation – API-reference",
@@ -9699,7 +9699,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Produktbundling – software og services",
@@ -9710,7 +9710,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "rapportskrivning",
       "strategi"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Informationssikkerhedspolitik – komplet",
@@ -9719,7 +9719,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-sikkerhed",
       "cybersikkerhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "AI-assistent til mødeforberedelse",
@@ -9728,7 +9728,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Excel-formelhjælp – kompleks logik",
@@ -9739,7 +9739,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Automatiseret rapportering – Power Automate",
@@ -9751,19 +9751,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Kodning"
   },
   {
     "title": "Præsentationsstruktur – persuasiv",
     "text": "Du er en kommunikationsstrateg og presentationscoach med erfaring i McKinsey-strukturerede præsentationer. Du hjælper med at strukturere en overbevisende præsentation ved at anvende SCQA-rammen (Situation, Complication, Question, Answer) og en pyramidestruktur med en klar anbefaling øverst understøttet af 3–5 evidensbaserede argumenter. Du hjælper med at designe slide-flow og nøglebudskaber. Min første anmodning er: '[Beskriv præsentationens formål, publikum, budskab og det ønskede resultat]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Mødeeffektivitet – redesign",
     "text": "Du er en organisationsdesign-konsulent med erfaring i mødekulturoptimering. Du hjælper en leder eller team med at redesigne en specifik, tilbagevendende mødestruktur der er uproduktiv – ved at kortlægge mødeformålet, identificere strukturelle årsager til ineffektivitet, og anbefale konkrete ændringer: format, varighed, deltagere, forberedelseskrav og beslutningsmekanisme. Min første anmodning er: '[Beskriv mødetypen, varighed, deltagere og de konkrete udfordringer med det nuværende format]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Tekstsammenfatning – lang rapport",
@@ -9774,19 +9774,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Sparringspartner – strategisk beslutning",
     "text": "Du er en kritisk sparringspartner og strategisk rådgiver. Du hjælper en leder med at tænke en vigtig beslutning igennem ved at stille præcise, udfordrende spørgsmål der afslører blinde vinkler, uidentificerede risici og utestede antagelser. Du spiller djævelens advokat, identificerer hvad der mangler i beslutningsgrundlaget, og sikrer at alle relevante perspektiver er overvejet. Min første anmodning er: '[Beskriv beslutningen, de kendte argumenter for og imod, og hvad du er mest usikker på]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Ledelse"
   },
   {
     "title": "Arbejdsplan – kompleks opgave",
     "text": "Du er en produktivitetscoach med erfaring i GTD (Getting Things Done) og OKR-metodik. Du hjælper med at nedbryde en kompleks, overvældende opgave i håndterbare handlingstrin med klare dependencies, estimerede tider og en realistisk tidsplan – struktureret så man kan komme i gang i dag frem for at udsætte. Du identificerer den kritiske vej og det mindste nødvendige første skridt. Min første anmodning er: '[Beskriv opgaven, dens overordnede mål og de kendte delkomponenter og begrænsninger]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Fagbogs-learning – kerneindsigter",
@@ -9795,13 +9795,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Brainstorm-facilitering – kreativ session",
     "text": "Du er en kreativ facilitations-ekspert. Du hjælper med at planlægge og gennemføre en struktureret brainstorm-session om et specifikt problem eller mulighed – med en varm-op øvelse, en divergent idégenereringsfase (SCAMPER, brainwriting, analogisk tænkning), en konvergent prioriteringsfase og et output-format der sikrer, at de bedste idéer ikke forsvinder efter sessionen. Min første anmodning er: '[Beskriv det problem eller den mulighed der skal brainstormes om, og deltagergruppen]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Kreativitet"
   },
   {
     "title": "Kundemøde-forberedelse – B2B salgsmøde",
@@ -9810,7 +9810,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Marketing"
   },
   {
     "title": "Inbox-zero – system design",
@@ -9819,13 +9819,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Andet"
   },
   {
     "title": "Mødenoter → action points",
     "text": "Du er en mødesekretær og projektkoordinator. Du hjælper med at omsætte ustrukturerede mødenoter til klare, handlingsorienterede action points – med tydelig ansvarsfordeling, deadlines og kontekst nok til at ansvarlige kan handle uden at have deltaget i mødet. Output inkluderer desuden en kortfattet mødeopsummering og de vigtigste beslutninger. Min første anmodning er: '[Indsæt mødenoterne eller stikordene]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Afrapportering til topledelsen – automatiseret",
@@ -9836,7 +9836,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "AI-workflow – personlig produktivitet",
@@ -9848,13 +9848,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "personale"
     ],
-    "category": "Arbejde"
+    "category": "Læring"
   },
   {
     "title": "Virksomhedsbesøg – læringsopsamling",
     "text": "Du er en organisatorisk læringskoordinator. Du hjælper med at strukturere en refleksion og læringsopsamling efter et virksomhedsbesøg, studierejse eller ekstern konference – med spørgsmål der aktiverer dybere refleksion end 'hvad lærte du?', og et output-format der gør det nemt at dele de vigtigste indsigter med kolleger og omsætte dem til konkrete handlinger. Min første anmodning er: '[Beskriv besøget/konferencen, de vigtigste oplevelser og hvad du allerede har noteret som interessant]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Fejlanalyse – root cause",
@@ -9863,7 +9863,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Ekspertvurdering – second opinion",
@@ -9872,19 +9872,19 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "skrivning",
       "tekstbehandling"
     ],
-    "category": "Arbejde"
+    "category": "Analyse"
   },
   {
     "title": "Personlig karriereplanlægning",
     "text": "Du er en karrierekonsulent med erfaring i karriereudvikling i dansk erhvervsliv. Du hjælper med at gennemføre en struktureret karriereplanlægning: kortlæg styrker og værdier, identificér 2–3 realistiske karriereretninger, vurder gap til det ønskede mål og design en konkret 1-årig udviklingsplan med prioriterede kompetencer, netværksaktiviteter og konkrete skridt. Min første anmodning er: '[Beskriv din nuværende stilling, kompetencer, hvad du brænder for og den karrieremæssige ambition]'",
     "tags": [],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Netværksmøde – opfølgning",
     "text": "Du er en netværks- og relationsekspert. Du hjælper med at skrive en opfølgende besked til en ny kontakt efter et netværksmøde, en konference eller en introduktion – der er personlig nok til at blive husket, konkret nok til at opretholde relationen, og åbner døren for fremtidigt samarbejde uden at virke påtrængende eller salgsorienteret. Min første anmodning er: '[Beskriv mødesituationen, samtalens vigtigste emner og den ønskede videre relation]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Skrivning"
   },
   {
     "title": "Cyberangreb – kommunikation til kunder",
@@ -9896,13 +9896,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "databeskyttelse",
       "kommunikation"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "API-integration – fejlfinding",
     "text": "Du er en senior backend-udvikler med erfaring i REST API-integration og fejlsøgning. Du hjælper med at systematisk debugge en fejlende API-integration – ved at gennemgå request/response-flow, identificere mulige årsager (autentificeringsfejl, timeout, rate limiting, forkert payload-format, CORS) og stille de rigtige diagnostiske spørgsmål. Du leverer en struktureret troubleshooting-guide. Min første anmodning er: '[Beskriv API'et, den fejl der opstår (HTTP status kode og besked) og den kode/konfiguration der bruges]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Datamigration – projektplan",
@@ -9911,13 +9911,13 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "data"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Softwaretest – teststrategidokument",
     "text": "Du er en QA-leder med erfaring i teststrategier for enterprise-softwareprojekter. Du hjælper med at udarbejde et teststrategidokument for et softwareudviklings- eller implementeringsprojekt – inkl. testomfang, testtyper (unit, integration, system, UAT, performance), testmiljøer, succeskriterer, defect management og en klar plan for go-live-godkendelse. Min første anmodning er: '[Beskriv systemet, implementeringens omfang og de kritiske forretningsprocesser der skal testes]'",
     "tags": [],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Brugerrejse – UX-kortlægning",
@@ -9925,7 +9925,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Teknisk kravspecifikation – integrationsprojekt",
@@ -9934,7 +9934,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "IT-sikkerhed",
       "cybersikkerhed"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Accessibilitykrav – digital løsning",
@@ -9942,7 +9942,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "tags": [
       "digitalisering"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Datasikkerhed – DPIA-udkast",
@@ -9953,7 +9953,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "data",
       "databeskyttelse"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   },
   {
     "title": "Teknologistrategi – AI-roadmap",
@@ -9964,6 +9964,6 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "strategi",
       "teknologi"
     ],
-    "category": "Arbejde"
+    "category": "Tech"
   }
 ]
