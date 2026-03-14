@@ -26,9 +26,20 @@ const CATEGORY_KEYWORDS: Record<Category, string[]> = {
     'learn', 'understand', 'tutorial', 'guide', 'trin', 'step', 'begynder',
     'introduktion', 'grundlæggende',
   ],
-  Arbejde: [
-    'email', 'møde', 'præsentation', 'agenda', 'produktivitet', 'workflow',
-    'proces', 'business', 'kunde', 'strategi', 'forretning',
+  Strategi: [
+    'strategi', 'forretning', 'business', 'vækst', 'disruption', 'innovation',
+    'konkurrent', 'marked', 'positionering', 'vision', 'mission', 'swot',
+    'porter', 'ansoff', 'canvas', 'mvp', 'startup',
+  ],
+  Ledelse: [
+    'leder', 'ledelse', 'møde', 'facilitering', 'coaching', 'delegation',
+    'team', 'forandring', 'kultur', 'beslutning', 'agenda', 'workshop',
+    'forhandling', 'konflikt', 'feedback',
+  ],
+  Økonomi: [
+    'økonomi', 'budget', 'regnskab', 'skat', 'moms', 'investering', 'finans',
+    'forsikring', 'pension', 'likviditet', 'cash flow', 'revision', 'revisor',
+    'bank', 'kredit', 'rente', 'kapital',
   ],
   HR: [
     'hr', 'medarbeider', 'medarbejder', 'ansæt', 'rekrutter', 'onboarding',
