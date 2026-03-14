@@ -136,7 +136,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Eisenhower Matrix",
     "text": "Jeg vil have, at du opfører dig som en produktivitetskonsulent. Brug Eisenhower Matrix til at kategorisere mine opgaver i en tabel, der opdeler dem i: vigtigt og haster, vigtigt men ikke haster, haster men ikke vigtigt, og hverken vigtigt eller haster.",
     "tags": [],
-    "category": "Andet"
+    "category": "Ledelse"
   },
   {
     "title": "Kompetenceudviklingsplan",
@@ -323,7 +323,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "AI",
       "teknologi"
     ],
-    "category": "Andet"
+    "category": "Ledelse"
   },
   {
     "title": "Debattør",
@@ -917,7 +917,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "LinkedIn-profil forbedring",
     "text": "Jeg vil have, at du opfører dig som en LinkedIn-optimeringsekspert. Gennemgå min LinkedIn-profil og foreslå konkrete forbedringer.",
     "tags": [],
-    "category": "Andet"
+    "category": "Marketing"
   },
   {
     "title": "Gap-analyse",
@@ -1289,7 +1289,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Nekrolog",
     "text": "Jeg vil have, at du opfører dig som en nekrolog-skribent. Skriv en nekrolog om mig og stil mig opklarende spørgsmål, hvis du er i tvivl om detaljer, så nekrologen bliver så præcis og rørende som muligt.",
     "tags": [],
-    "category": "Andet"
+    "category": "Skrivning"
   },
   {
     "title": "Marketingspecialist",
@@ -2097,7 +2097,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "pædagogik",
       "uddannelse"
     ],
-    "category": "Andet"
+    "category": "Læring"
   },
   {
     "title": "Mr. 10x",
@@ -2196,7 +2196,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Dialog om nyheder",
     "text": "Jeg vil have at du forklarer en nyhedsartikel gennem to personaer du opfinder. Disse to personer har en samtale om artiklen.",
     "tags": [],
-    "category": "Andet"
+    "category": "Læring"
   },
   {
     "title": "Konsekvensanalyse",
@@ -2262,7 +2262,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Jubilæumstaleskriver",
     "text": "Jeg vil have, at du opfører dig som en taleskriver. Du har specialiseret dig i jubilæer og skriver personlige taler til jubilarer. Dine taler er altid sjove bordtaler fyldt med anekdoter og humor. Min første anmodning er: ‘Skriv en tale til Hans der har været i virksomheden i 20 år. Han arbejder i receptionen.’",
     "tags": [],
-    "category": "Andet"
+    "category": "Skrivning"
   },
   {
     "title": "Employee Experience",
@@ -2358,7 +2358,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Ejendomsmægler",
     "text": "Jeg vil have, at du opfører dig som en ejendomsmægler. Jeg vil give dig oplysninger om en person, der søger deres drømmebolig, og din opgave er at hjælpe dem med at finde den perfekte ejendom baseret på deres budget, livsstilspræferencer og lokationskrav. Du skal bruge din viden om det lokale boligmarked for at foreslå ejendomme, der passer til alle de kriterier, kunden har opgivet. Min første anmodning er: ‘Jeg har brug for hjælp til at finde et sommerhus maksimalt en time fra København.’",
     "tags": [],
-    "category": "Andet"
+    "category": "Økonomi"
   },
   {
     "title": "Konceptudvikler",
@@ -2414,7 +2414,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "regnskab",
       "økonomi"
     ],
-    "category": "Andet"
+    "category": "Økonomi"
   },
   {
     "title": "Mere overbevisende",
@@ -2449,7 +2449,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Musikpsykolog",
     "text": "Jeg vil have, at du opfører dig som en musikpsykolog. Du forklarer hvordan og hvorfor musik påvirker mine følelser. Du beskriver hvilke musikalske elementer (f.eks. tempo, toneart, harmoni) der fremkalder specifikke emotionelle reaktioner. Min første anmodning er: 'Beskriv hvorfor jeg holder så meget af Glory Box af Portishead.’",
     "tags": [],
-    "category": "Andet"
+    "category": "Læring"
   },
   {
     "title": "Historiefortæller",
@@ -2482,7 +2482,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Festsangskriver",
     "text": "Jeg vil have, at du opfører dig som en festsangskriver, der er ekspert i at skrive personlige og humoristiske sange til fester. Du skal kunne lave tekster der passer til kendte danske melodier, inkludere personlige detaljer om hovedpersonen, og balancere mellem det sjove og det rørende. Du skal spørge ind til anledningen og hovedpersonen, hvis det er uklart. Min første anmodning er: 'Skriv en sang til Peter der fylder 35. Han er min bedste ven og han elsker Brøndby IF.’",
     "tags": [],
-    "category": "Andet"
+    "category": "Kreativitet"
   },
   {
     "title": "Stand-up komiker",
@@ -2494,7 +2494,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Sammenligner",
     "text": "Sammenlign eltandbørster med gammeldags tandbørster og fremhæv fordele og ulemper ved hver. Gør det i en tabel.",
     "tags": [],
-    "category": "Andet"
+    "category": "Analyse"
   },
   {
     "title": "Samarbejdsfacilitator",
@@ -4965,7 +4965,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Deep work-plan",
     "text": "Du er en produktivitetskonsulent med ekspertise i deep work. Hjælp mig med at designe en ugeplan, der skaber plads til fokuseret, uafbrudt arbejde. Planen skal inkludere: blokerede deep work-perioder, rutiner for at komme i flow, og strategier for at minimere afbrydelser. Min første anmodning er: '[Beskriv din nuværende kalender og de opgaver der kræver dyb koncentration]'",
     "tags": [],
-    "category": "Andet"
+    "category": "Ledelse"
   },
   {
     "title": "Arbejdsmiljø-tjekliste",
@@ -4974,7 +4974,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "HR",
       "personale"
     ],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Indbakke nul-strategi",
@@ -5001,7 +5001,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Grænser på arbejdspladsen",
     "text": "Du er en stress- og wellbeing-konsulent. Hjælp mig med at sætte og kommunikere sunde grænser i arbejdslivet – fx vedr. tilgængelighed uden for arbejdstid, mødedeltagelse og mængden af opgaver jeg siger ja til. Giv konkrete sætninger og strategier. Min første anmodning er: '[Beskriv de situationer, hvor du oplever svært ved at sætte grænser]'",
     "tags": [],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Energistyring i arbejdsugen",
@@ -5027,7 +5027,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "social",
       "sundhed"
     ],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Pause-rutiner",
@@ -5042,31 +5042,31 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
       "analyse",
       "rapportskrivning"
     ],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Hybrid arbejds-rutiner",
     "text": "Du er en hybrid work-ekspert. Hjælp mig med at designe effektive rutiner og vaner til en hybrid arbejdshverdag, der veksler mellem kontor og hjemmekontor. Inkluder: overgangsprocedurer, kommunikationsforventninger og sociale kompensationsmekanismer. Min første anmodning er: '[Beskriv din hybride arbejdssituation og de udfordringer du oplever]'",
     "tags": [],
-    "category": "Andet"
+    "category": "Ledelse"
   },
   {
     "title": "Mentoring-relation",
     "text": "Du er en karriere- og mentoring-ekspert. Hjælp mig med at etablere og vedligeholde et frugtbart mentor-mentee-forhold. Giv mig: strukturerede spørgsmål til de første møder, en plan for relationen, og råd til at få det maksimale ud af mentoring. Min første anmodning er: '[Beskriv dit mål med mentoring og hvad du søger i en mentor]'",
     "tags": [],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Professionelt netværk-plan",
     "text": "Du er en networking-konsulent og karriererådgiver. Hjælp mig med at bygge og vedligeholde et professionelt netværk på en autentisk og strategisk måde. Lav en netværksplan med: mål, platforme, kontakttyper og konkrete aktiviteter. Min første anmodning er: '[Beskriv din karrieresituation og hvad du ønsker at opnå med dit netværk]'",
     "tags": [],
-    "category": "Andet"
+    "category": "Marketing"
   },
   {
     "title": "Karriere-check-in",
     "text": "Du er en karrierecoach. Facilitér en personlig karriere-check-in, der hjælper mig med at vurdere min nuværende situation og sætte retning fremad. Guiden skal dække: hvad jeg er god til, hvad jeg brænder for, hvad der giver mening, og hvad jeg bør fokusere på de næste 12 måneder. Min første anmodning er: '[Beskriv din nuværende job-situation, din baggrund og dine ambitioner]'",
     "tags": [],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Aktiv til passiv",
@@ -5629,7 +5629,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Produktivitets-audit",
     "text": "Du er en produktivitetskonsulent. Gennemfør en audit af min nuværende arbejdsdag ved at stille de rigtige spørgsmål. Identificer de største tidssluger, unødvendige opgaver og de ting, der giver mest værdi. Lav en handlingsplan for at optimere min dag. Min første anmodning er: '[Beskriv en typisk arbejdsdag: opgaver, møder, afbrydelser og energiniveau]'",
     "tags": [],
-    "category": "Andet"
+    "category": "Ledelse"
   },
   {
     "title": "Kreditvurdering – forklaring til kunde",
@@ -9878,7 +9878,7 @@ export const DEFAULT_PROMPTS: DefaultPrompt[] = [
     "title": "Personlig karriereplanlægning",
     "text": "Du er en karrierekonsulent med erfaring i karriereudvikling i dansk erhvervsliv. Du hjælper med at gennemføre en struktureret karriereplanlægning: kortlæg styrker og værdier, identificér 2–3 realistiske karriereretninger, vurder gap til det ønskede mål og design en konkret 1-årig udviklingsplan med prioriterede kompetencer, netværksaktiviteter og konkrete skridt. Min første anmodning er: '[Beskriv din nuværende stilling, kompetencer, hvad du brænder for og den karrieremæssige ambition]'",
     "tags": [],
-    "category": "Andet"
+    "category": "HR"
   },
   {
     "title": "Netværksmøde – opfølgning",
