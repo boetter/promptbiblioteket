@@ -6,10 +6,12 @@ import SearchBar from './SearchBar'
 interface CatalogBrowserProps {
   addedSourceIds: Set<string>
   onAdd: (prompt: { title: string; text: string; tags: string[]; category: string; sourceId: string }) => void
+  onRequireAuth?: () => void
+  isLoggedIn: boolean
   onToast: (message: string) => void
 }
 
-export default function CatalogBrowser({ addedSourceIds, onAdd, onToast }: CatalogBrowserProps) {
+export default function CatalogBrowser({ addedSourceIds, onAdd, onRequireAuth, isLoggedIn, onToast }: CatalogBrowserProps) {
   const [query, setQuery] = useState('')
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
 
@@ -44,12 +46,16 @@ export default function CatalogBrowser({ addedSourceIds, onAdd, onToast }: Catal
 
   const handleAdd = useCallback(
     (p: (typeof DEFAULT_PROMPTS)[number]) => {
+      if (!isLoggedIn) {
+        onRequireAuth?.()
+        return
+      }
       const sourceId = p.title
       if (addedSourceIds.has(sourceId)) return
       onAdd({ title: p.title, text: p.text, tags: p.tags, category: p.category, sourceId })
       onToast(`"${p.title}" tilføjet til din samling`)
     },
-    [addedSourceIds, onAdd, onToast],
+    [isLoggedIn, addedSourceIds, onAdd, onRequireAuth, onToast],
   )
 
   return (
@@ -99,7 +105,7 @@ export default function CatalogBrowser({ addedSourceIds, onAdd, onToast }: Catal
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {filtered.map((p) => {
           const sourceId = p.title
-          const isAdded = addedSourceIds.has(sourceId)
+          const isAdded = isLoggedIn && addedSourceIds.has(sourceId)
           return (
             <div
               key={sourceId}
