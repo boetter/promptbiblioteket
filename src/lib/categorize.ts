@@ -18,7 +18,7 @@ const CATEGORY_KEYWORDS: Record<Category, string[]> = {
   ],
   Kreativitet: [
     'idé', 'brainstorm', 'kreativ', 'design', 'koncept', 'creative',
-    'opfind', 'forestil', 'imagine', 'kunst', 'kunst', 'innovation',
+    'opfind', 'forestil', 'imagine', 'kunst', 'innovation',
     'inspiration', 'visuel',
   ],
   Læring: [
@@ -26,10 +26,45 @@ const CATEGORY_KEYWORDS: Record<Category, string[]> = {
     'learn', 'understand', 'tutorial', 'guide', 'trin', 'step', 'begynder',
     'introduktion', 'grundlæggende',
   ],
-  Arbejde: [
-    'email', 'møde', 'præsentation', 'strategi', 'plan', 'projekt',
-    'meeting', 'agenda', 'business', 'kunde', 'salg', 'marketing',
-    'produktivitet', 'workflow', 'proces',
+  Strategi: [
+    'strategi', 'forretning', 'business', 'vækst', 'disruption', 'innovation',
+    'konkurrent', 'marked', 'positionering', 'vision', 'mission', 'swot',
+    'porter', 'ansoff', 'canvas', 'mvp', 'startup',
+  ],
+  Ledelse: [
+    'leder', 'ledelse', 'møde', 'facilitering', 'coaching', 'delegation',
+    'team', 'forandring', 'kultur', 'beslutning', 'agenda', 'workshop',
+    'forhandling', 'konflikt', 'feedback',
+  ],
+  Økonomi: [
+    'økonomi', 'budget', 'regnskab', 'skat', 'moms', 'investering', 'finans',
+    'forsikring', 'pension', 'likviditet', 'cash flow', 'revision', 'revisor',
+    'bank', 'kredit', 'rente', 'kapital',
+  ],
+  HR: [
+    'hr', 'medarbeider', 'medarbejder', 'ansæt', 'rekrutter', 'onboarding',
+    'offboarding', 'løn', 'ferie', 'orlov', 'trivsel', 'performan',
+    'samtale', 'jobopslag', 'stillingsopslag', 'personale', 'fratrædelse',
+  ],
+  Marketing: [
+    'marketing', 'markedsføring', 'kampagne', 'annonc', 'reklame', 'brand',
+    'målgruppe', 'social media', 'facebook', 'instagram', 'linkedin',
+    'seo', 'nyhedsbrev', 'email marketing', 'salg', 'konverter',
+  ],
+  Jura: [
+    'jura', 'juridisk', 'kontrakt', 'aftale', 'lovgivning', 'lov', 'paragraf',
+    'gdpr', 'compliance', 'ret ', 'rettighed', 'forpligtelse', 'klausul',
+    'vilkår', 'betingelse', 'advokat', 'dom', 'sag',
+  ],
+  Tech: [
+    'teknologi', 'tech', 'it ', 'software', 'hardware', 'system', 'platform',
+    'infrastruktur', 'cloud', 'server', 'netværk', 'sikkerhed', 'cyber',
+    'digital', 'automatiser', 'integration', 'arkitektur',
+  ],
+  Projektledelse: [
+    'projekt', 'milestone', 'deadline', 'planlæg', 'gantt', 'sprint',
+    'agil', 'scrum', 'kanban', 'risiko', 'ressource', 'leverance',
+    'interessent', 'stakeholder', 'roadmap', 'status',
   ],
   Andet: [],
 }

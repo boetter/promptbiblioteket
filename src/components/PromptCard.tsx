@@ -33,9 +33,6 @@ export default function PromptCard({ prompt, onClick, onToggleFavorite, onTagCli
         >
           {prompt.category}
         </span>
-        {prompt.isFavorite && (
-          <span className="text-amber-500 text-sm">★</span>
-        )}
       </div>
 
       <h3 className="font-semibold text-gray-900 mb-2 pr-6 line-clamp-1">

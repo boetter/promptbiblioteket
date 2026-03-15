@@ -1,9 +1,10 @@
 interface SearchBarProps {
   query: string
   onChange: (query: string) => void
+  placeholder?: string
 }
 
-export default function SearchBar({ query, onChange }: SearchBarProps) {
+export default function SearchBar({ query, onChange, placeholder = 'Søg i dine prompts...' }: SearchBarProps) {
   return (
     <div className="relative w-full max-w-xl">
       <svg
@@ -23,8 +24,8 @@ export default function SearchBar({ query, onChange }: SearchBarProps) {
         type="text"
         value={query}
         onChange={(e) => onChange(e.target.value)}
-        placeholder="Søg i dine prompts..."
-        className="w-full pl-11 pr-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder-gray-400 transition-shadow"
+        placeholder={placeholder}
+        className="w-full pl-11 pr-4 py-3 bg-white border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder-gray-400 transition-shadow"
       />
       {query && (
         <button
