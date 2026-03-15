@@ -1,4 +1,22 @@
-import { CATEGORIES, CATEGORY_COLORS } from '../types/prompt'
+import { CATEGORIES } from '../types/prompt'
+import { BadgeButton } from './catalyst/badge'
+
+const CATEGORY_BADGE_COLORS: Record<string, 'blue' | 'emerald' | 'amber' | 'purple' | 'rose' | 'cyan' | 'zinc' | 'lime' | 'teal' | 'pink' | 'indigo' | 'violet' | 'orange' | 'sky'> = {
+  Skrivning: 'blue',
+  Kodning: 'emerald',
+  Analyse: 'amber',
+  Kreativitet: 'purple',
+  Læring: 'rose',
+  Strategi: 'cyan',
+  Ledelse: 'zinc',
+  Økonomi: 'lime',
+  HR: 'teal',
+  Marketing: 'pink',
+  Jura: 'indigo',
+  Tech: 'violet',
+  Projektledelse: 'orange',
+  Andet: 'zinc',
+}
 
 interface TagFilterProps {
   activeCategory: string | null
@@ -19,46 +37,32 @@ export default function TagFilter({
 }: TagFilterProps) {
   return (
     <div className="flex flex-wrap gap-2">
-      <button
+      <BadgeButton
+        color={activeCategory === null && !showFavoritesOnly ? 'indigo' : 'zinc'}
         onClick={() => onSelect(null)}
-        className={`px-3.5 py-1.5 rounded-lg text-sm font-medium transition-all cursor-pointer ${
-          activeCategory === null && !showFavoritesOnly
-            ? 'bg-indigo-600 text-white shadow-sm'
-            : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-        }`}
       >
         Alle
-      </button>
+      </BadgeButton>
       {favoritesCount > 0 && (
-        <button
+        <BadgeButton
+          color={showFavoritesOnly ? 'amber' : 'zinc'}
           onClick={onToggleFavorites}
-          className={`px-3.5 py-1.5 rounded-lg text-sm font-medium transition-all cursor-pointer ${
-            showFavoritesOnly
-              ? 'bg-amber-500 text-white shadow-sm'
-              : 'bg-amber-50 text-amber-700 hover:bg-amber-100'
-          }`}
         >
-          ★ Favoritter
-          <span className="ml-1.5 opacity-70">{favoritesCount}</span>
-        </button>
+          ★ Favoritter {favoritesCount}
+        </BadgeButton>
       )}
       {CATEGORIES.map((cat) => {
         const count = categoryCounts[cat] || 0
         if (count === 0) return null
         const isActive = activeCategory === cat
         return (
-          <button
+          <BadgeButton
             key={cat}
+            color={isActive ? 'indigo' : (CATEGORY_BADGE_COLORS[cat] || 'zinc')}
             onClick={() => onSelect(isActive ? null : cat)}
-            className={`px-3.5 py-1.5 rounded-lg text-sm font-medium transition-all cursor-pointer ${
-              isActive
-                ? 'bg-indigo-600 text-white shadow-sm'
-                : `${CATEGORY_COLORS[cat]} hover:opacity-80`
-            }`}
           >
-            {cat}
-            <span className="ml-1.5 opacity-70">{count}</span>
-          </button>
+            {cat} {count}
+          </BadgeButton>
         )
       })}
     </div>

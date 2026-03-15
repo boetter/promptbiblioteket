@@ -1,4 +1,6 @@
 import { useAuth } from '../contexts/AuthContext'
+import { Dropdown, DropdownButton, DropdownMenu, DropdownItem } from './catalyst/dropdown'
+import { Button } from './catalyst/button'
 
 export default function UserMenu() {
   const { user, logout } = useAuth()
@@ -6,16 +8,20 @@ export default function UserMenu() {
   if (!user) return null
 
   return (
-    <div className="flex items-center gap-2">
-      <span className="text-sm text-gray-500 hidden sm:inline truncate max-w-[180px]">
-        {user.email}
-      </span>
-      <button
-        onClick={logout}
-        className="text-gray-400 hover:text-gray-600 font-medium px-2 sm:px-3 py-2 rounded-xl text-xs sm:text-sm transition-colors cursor-pointer whitespace-nowrap"
-      >
-        Log ud
-      </button>
-    </div>
+    <Dropdown>
+      <DropdownButton as={Button} plain>
+        <span className="text-sm/6 text-zinc-500 truncate max-w-[180px] dark:text-zinc-400">
+          {user.email}
+        </span>
+        <svg data-slot="icon" className="size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </DropdownButton>
+      <DropdownMenu anchor="bottom end">
+        <DropdownItem onClick={logout}>
+          Log ud
+        </DropdownItem>
+      </DropdownMenu>
+    </Dropdown>
   )
 }

@@ -17,7 +17,7 @@ export default function Toast({ message, onClose }: ToastProps) {
 
   return (
     <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 animate-[slideUp_0.3s_ease-out]">
-      <div className="bg-gray-900 text-white px-5 py-3 rounded-xl shadow-lg text-sm font-medium">
+      <div className="bg-zinc-900 text-white px-5 py-3 rounded-xl shadow-lg text-sm/6 font-medium dark:bg-zinc-700">
         {message}
       </div>
     </div>

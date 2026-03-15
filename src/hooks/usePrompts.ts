@@ -3,11 +3,17 @@ import type { Prompt } from '../types/prompt'
 import * as api from '../lib/api'
 import { categorizePrompt } from '../lib/categorize'
 
-export function usePrompts() {
+export function usePrompts(isLoggedIn: boolean) {
   const [prompts, setPrompts] = useState<Prompt[]>([])
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
+    if (!isLoggedIn) {
+      setPrompts([])
+      setLoading(false)
+      return
+    }
+    setLoading(true)
     api
       .fetchPrompts()
       .then(({ prompts }) =>
@@ -26,7 +32,7 @@ export function usePrompts() {
       )
       .catch(() => setPrompts([]))
       .finally(() => setLoading(false))
-  }, [])
+  }, [isLoggedIn])
 
   const addPrompt = useCallback(
     async (data: { title: string; text: string; tags: string[]; category?: string; sourceId?: string }) => {
