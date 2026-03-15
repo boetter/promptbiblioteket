@@ -1,24 +1,32 @@
 import { useState, useMemo, useCallback, useEffect } from 'react'
+import { useAuth } from './contexts/AuthContext'
 import { usePrompts } from './hooks/usePrompts'
 import { useSearch } from './hooks/useSearch'
 import { toSlug } from './lib/slug'
+import LoginPage from './components/LoginPage'
 import SearchBar from './components/SearchBar'
 import TagFilter from './components/TagFilter'
 import PromptCard from './components/PromptCard'
 import PromptModal from './components/PromptModal'
 import AddPromptModal from './components/AddPromptModal'
+import CatalogBrowser from './components/CatalogBrowser'
 import EmptyState from './components/EmptyState'
+import UserMenu from './components/UserMenu'
 import Toast from './components/Toast'
 import type { Prompt } from './types/prompt'
 
+type Tab = 'mine' | 'katalog'
+
 export default function App() {
-  const { prompts, addPrompt, updatePrompt, deletePrompt, toggleFavorite, resetAll, restoreDefaults } = usePrompts()
+  const { user, loading: authLoading } = useAuth()
+  const { prompts, loading: promptsLoading, addPrompt, updatePrompt, deletePrompt, toggleFavorite } = usePrompts()
   const [query, setQuery] = useState('')
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false)
   const [selectedPrompt, setSelectedPrompt] = useState<Prompt | null>(null)
   const [showAddModal, setShowAddModal] = useState(false)
   const [toast, setToast] = useState<string | null>(null)
+  const [activeTab, setActiveTab] = useState<Tab>('mine')
 
   const filteredPrompts = useSearch(prompts, query, activeCategory, showFavoritesOnly)
 
@@ -30,14 +38,32 @@ export default function App() {
     return counts
   }, [prompts])
 
-  const handleToast = useCallback((message: string) => {
-    setToast(message)
-  }, [])
+  // Track which catalog prompts have been added (by sourceId = title)
+  const addedSourceIds = useMemo(() => {
+    const ids = new Set<string>()
+    // We use title matching as sourceId since we don't store sourceId locally
+    for (const p of prompts) {
+      ids.add(p.title)
+    }
+    return ids
+  }, [prompts])
+
+  const handleToast = useCallback((message: string) => setToast(message), [])
 
   const handleTagClick = useCallback((tag: string) => {
     setQuery(tag)
+    setActiveTab('mine')
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [])
+
+  const handleCatalogAdd = useCallback(
+    async (data: { title: string; text: string; tags: string[]; category: string; sourceId: string }) => {
+      await addPrompt(data)
+    },
+    [addPrompt],
+  )
+
+  // Deep-link: open prompt from URL hash
   useEffect(() => {
     const hash = window.location.hash
     const match = hash.match(/^#\/prompt\/(.+)$/)
@@ -48,7 +74,6 @@ export default function App() {
     }
   }, [prompts])
 
-  // Deep-link: update URL hash when prompt is opened/closed
   const openPrompt = useCallback((prompt: Prompt) => {
     setSelectedPrompt(prompt)
     window.history.replaceState(null, '', `#/prompt/${toSlug(prompt.title)}`)
@@ -58,6 +83,17 @@ export default function App() {
     setSelectedPrompt(null)
     window.history.replaceState(null, '', window.location.pathname)
   }, [])
+
+  // Loading states
+  if (authLoading) {
+    return (
+      <div className="min-h-screen bg-gray-50/50 flex items-center justify-center">
+        <div className="text-gray-400 text-lg">Indlæser...</div>
+      </div>
+    )
+  }
+
+  if (!user) return <LoginPage />
 
   return (
     <div className="min-h-screen bg-gray-50/50">
@@ -71,20 +107,7 @@ export default function App() {
             </h1>
           </div>
           <div className="flex items-center gap-1 sm:gap-2 shrink-0">
-            {prompts.length > 0 && (
-              <button
-                onClick={() => {
-                  if (window.confirm('Er du sikker? Alle prompts fjernes fra din visning. Du kan altid hente standardprompts tilbage igen.')) {
-                    resetAll()
-                    handleToast('Alle prompts er fjernet')
-                  }
-                }}
-                className="text-gray-400 hover:text-gray-600 font-medium px-2 sm:px-3 py-2 rounded-xl text-xs sm:text-sm transition-colors cursor-pointer whitespace-nowrap"
-              >
-                <span className="sm:hidden">Ryd</span>
-                <span className="hidden sm:inline">Ryd bibliotek</span>
-              </button>
-            )}
+            <UserMenu />
             <button
               onClick={() => setShowAddModal(true)}
               className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm transition-colors cursor-pointer flex items-center gap-1 sm:gap-1.5 whitespace-nowrap"
@@ -92,8 +115,37 @@ export default function App() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
               </svg>
-              <span className="sm:hidden">Tilføj</span>
-              <span className="hidden sm:inline">Tilføj prompt</span>
+              <span className="sm:hidden">Ny</span>
+              <span className="hidden sm:inline">Ny prompt</span>
+            </button>
+          </div>
+        </div>
+
+        {/* Tabs */}
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <div className="flex gap-1 border-t border-gray-100 -mb-px">
+            <button
+              onClick={() => setActiveTab('mine')}
+              className={`px-4 py-2.5 text-sm font-medium border-b-2 transition-colors cursor-pointer ${
+                activeTab === 'mine'
+                  ? 'border-indigo-600 text-indigo-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700'
+              }`}
+            >
+              Min samling
+              {prompts.length > 0 && (
+                <span className="ml-1.5 text-xs opacity-70">{prompts.length}</span>
+              )}
+            </button>
+            <button
+              onClick={() => setActiveTab('katalog')}
+              className={`px-4 py-2.5 text-sm font-medium border-b-2 transition-colors cursor-pointer ${
+                activeTab === 'katalog'
+                  ? 'border-indigo-600 text-indigo-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700'
+              }`}
+            >
+              Katalog
             </button>
           </div>
         </div>
@@ -101,13 +153,16 @@ export default function App() {
 
       {/* Main */}
       <main className="max-w-5xl mx-auto px-4 sm:px-6 py-6">
-        {prompts.length === 0 ? (
+        {promptsLoading ? (
+          <div className="text-center py-16">
+            <div className="text-gray-400">Henter dine prompts...</div>
+          </div>
+        ) : activeTab === 'katalog' ? (
+          <CatalogBrowser addedSourceIds={addedSourceIds} onAdd={handleCatalogAdd} onToast={handleToast} />
+        ) : prompts.length === 0 ? (
           <EmptyState
             onAdd={() => setShowAddModal(true)}
-            onRestoreDefaults={() => {
-              restoreDefaults()
-              handleToast('Standardprompts er hentet ind')
-            }}
+            onBrowseCatalog={() => setActiveTab('katalog')}
           />
         ) : (
           <>
@@ -156,9 +211,7 @@ export default function App() {
               </div>
             ) : (
               <div className="text-center py-16">
-                <p className="text-gray-500">
-                  Ingen prompts matcher din søgning.
-                </p>
+                <p className="text-gray-500">Ingen prompts matcher din søgning.</p>
               </div>
             )}
           </>
