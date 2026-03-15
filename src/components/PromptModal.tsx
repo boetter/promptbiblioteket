@@ -36,6 +36,8 @@ interface PromptModalProps {
   onToggleFavorite: (id: string) => void
   onTagClick: (tag: string) => void
   onToast: (message: string) => void
+  readOnly?: boolean
+  onAddToCollection?: () => void
 }
 
 export default function PromptModal({
@@ -46,6 +48,8 @@ export default function PromptModal({
   onToggleFavorite,
   onTagClick,
   onToast,
+  readOnly = false,
+  onAddToCollection,
 }: PromptModalProps) {
   const [confirmDelete, setConfirmDelete] = useState(false)
   const [isEditing, setIsEditing] = useState(false)
@@ -132,12 +136,14 @@ export default function PromptModal({
               <Badge color={CATEGORY_BADGE_COLORS[prompt.category] || 'zinc'}>
                 {prompt.category}
               </Badge>
-              <button
-                onClick={() => onToggleFavorite(prompt.id)}
-                className={`text-base cursor-pointer ${prompt.isFavorite ? 'text-amber-500' : 'text-zinc-300 hover:text-amber-400 dark:text-zinc-600'}`}
-              >
-                {prompt.isFavorite ? '★' : '☆'}
-              </button>
+              {!readOnly && (
+                <button
+                  onClick={() => onToggleFavorite(prompt.id)}
+                  className={`text-base cursor-pointer ${prompt.isFavorite ? 'text-amber-500' : 'text-zinc-300 hover:text-amber-400 dark:text-zinc-600'}`}
+                >
+                  {prompt.isFavorite ? '★' : '☆'}
+                </button>
+              )}
             </>
           )}
         </div>
@@ -261,6 +267,21 @@ export default function PromptModal({
               disabled={!editTitle.trim() || !editText.trim()}
             >
               Gem ændringer
+            </Button>
+          </>
+        ) : readOnly ? (
+          <>
+            {onAddToCollection && (
+              <Button color="indigo" onClick={onAddToCollection}>
+                <svg data-slot="icon" className="size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                </svg>
+                Tilføj til samling
+              </Button>
+            )}
+            <div className="flex-1" />
+            <Button outline onClick={handleCopy}>
+              Kopiér prompt
             </Button>
           </>
         ) : (

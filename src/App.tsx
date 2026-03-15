@@ -19,6 +19,13 @@ import { Button } from './components/catalyst/button'
 import { Text } from './components/catalyst/text'
 import type { Prompt } from './types/prompt'
 
+interface CatalogPrompt {
+  title: string
+  text: string
+  tags: string[]
+  category: string
+}
+
 type Tab = 'mine' | 'katalog'
 
 export default function App() {
@@ -29,6 +36,7 @@ export default function App() {
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false)
   const [selectedPrompt, setSelectedPrompt] = useState<Prompt | null>(null)
+  const [catalogPrompt, setCatalogPrompt] = useState<CatalogPrompt | null>(null)
   const [showAddModal, setShowAddModal] = useState(false)
   const [showLoginModal, setShowLoginModal] = useState(false)
   const [toast, setToast] = useState<string | null>(null)
@@ -133,6 +141,7 @@ export default function App() {
       navbar={
         <Navbar>
           <NavbarSection>
+            <span className="text-base font-semibold text-zinc-950 dark:text-white mr-4">Promptbiblioteket</span>
             <NavbarItem current={activeTab === 'katalog'} onClick={() => setActiveTab('katalog')}>
               <NavbarLabel>Katalog</NavbarLabel>
             </NavbarItem>
@@ -167,6 +176,7 @@ export default function App() {
       }
       sidebar={
         <div className="p-4">
+          <p className="text-base font-semibold text-zinc-950 dark:text-white mb-4 px-2">Promptbiblioteket</p>
           <NavbarItem current={activeTab === 'katalog'} onClick={() => setActiveTab('katalog')}>
             <NavbarLabel>Katalog</NavbarLabel>
           </NavbarItem>
@@ -183,6 +193,7 @@ export default function App() {
           onRequireAuth={() => setShowLoginModal(true)}
           isLoggedIn={isLoggedIn}
           onToast={handleToast}
+          onView={(p) => setCatalogPrompt(p)}
         />
       ) : promptsLoading ? (
         <div className="text-center py-16">
@@ -258,6 +269,29 @@ export default function App() {
         onToggleFavorite={toggleFavorite}
         onTagClick={handleTagClick}
         onToast={handleToast}
+      />
+      <PromptModal
+        prompt={catalogPrompt ? { ...catalogPrompt, id: '', createdAt: '', updatedAt: '', isFavorite: false } : null}
+        onClose={() => setCatalogPrompt(null)}
+        onDelete={() => {}}
+        onUpdate={() => {}}
+        onToggleFavorite={() => {}}
+        onTagClick={handleTagClick}
+        onToast={handleToast}
+        readOnly
+        onAddToCollection={catalogPrompt ? () => {
+          if (!isLoggedIn) {
+            setShowLoginModal(true)
+            return
+          }
+          if (addedSourceIds.has(catalogPrompt.title)) {
+            handleToast('Allerede i din samling')
+            return
+          }
+          handleCatalogAdd({ ...catalogPrompt, sourceId: catalogPrompt.title })
+          handleToast(`"${catalogPrompt.title}" tilføjet til din samling`)
+          setCatalogPrompt(null)
+        } : undefined}
       />
       <Toast message={toast} onClose={() => setToast(null)} />
     </StackedLayout>

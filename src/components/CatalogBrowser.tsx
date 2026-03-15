@@ -28,9 +28,10 @@ interface CatalogBrowserProps {
   onRequireAuth?: () => void
   isLoggedIn: boolean
   onToast: (message: string) => void
+  onView: (prompt: { title: string; text: string; tags: string[]; category: string }) => void
 }
 
-export default function CatalogBrowser({ addedSourceIds, onAdd, onRequireAuth, isLoggedIn, onToast }: CatalogBrowserProps) {
+export default function CatalogBrowser({ addedSourceIds, onAdd, onRequireAuth, isLoggedIn, onToast, onView }: CatalogBrowserProps) {
   const [query, setQuery] = useState('')
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
 
@@ -120,7 +121,8 @@ export default function CatalogBrowser({ addedSourceIds, onAdd, onRequireAuth, i
           return (
             <div
               key={sourceId}
-              className="rounded-lg bg-white p-5 shadow-xs ring-1 ring-zinc-950/5 relative group dark:bg-zinc-900 dark:ring-white/10"
+              onClick={() => onView(p)}
+              className="rounded-lg bg-white p-5 shadow-xs ring-1 ring-zinc-950/5 relative group cursor-pointer hover:shadow-sm hover:ring-zinc-950/10 transition-all dark:bg-zinc-900 dark:ring-white/10"
             >
               <div className="mb-3">
                 <Badge color={CATEGORY_BADGE_COLORS[p.category] || 'zinc'}>
@@ -151,7 +153,7 @@ export default function CatalogBrowser({ addedSourceIds, onAdd, onRequireAuth, i
               )}
 
               <button
-                onClick={() => handleAdd(p)}
+                onClick={(e) => { e.stopPropagation(); handleAdd(p) }}
                 disabled={isAdded}
                 className={`absolute top-4 right-4 w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium transition-all cursor-pointer ${
                   isAdded
