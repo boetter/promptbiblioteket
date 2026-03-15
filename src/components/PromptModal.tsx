@@ -1,7 +1,32 @@
 import { useState, useEffect } from 'react'
 import type { Prompt } from '../types/prompt'
-import { CATEGORIES, CATEGORY_COLORS } from '../types/prompt'
+import { CATEGORIES } from '../types/prompt'
 import { openInPlatform, PLATFORM_INFO } from '../lib/openIn'
+import { Dialog, DialogTitle, DialogBody, DialogActions } from './catalyst/dialog'
+import { Field } from './catalyst/fieldset'
+import { Input } from './catalyst/input'
+import { Textarea } from './catalyst/textarea'
+import { Button } from './catalyst/button'
+import { Badge, BadgeButton } from './catalyst/badge'
+import { Text } from './catalyst/text'
+import { Divider } from './catalyst/divider'
+
+const CATEGORY_BADGE_COLORS: Record<string, 'blue' | 'emerald' | 'amber' | 'purple' | 'rose' | 'cyan' | 'zinc' | 'lime' | 'teal' | 'pink' | 'indigo' | 'violet' | 'orange' | 'sky'> = {
+  Skrivning: 'blue',
+  Kodning: 'emerald',
+  Analyse: 'amber',
+  Kreativitet: 'purple',
+  Læring: 'rose',
+  Strategi: 'cyan',
+  Ledelse: 'zinc',
+  Økonomi: 'lime',
+  HR: 'teal',
+  Marketing: 'pink',
+  Jura: 'indigo',
+  Tech: 'violet',
+  Projektledelse: 'orange',
+  Andet: 'zinc',
+}
 
 interface PromptModalProps {
   prompt: Prompt | null
@@ -86,209 +111,179 @@ export default function PromptModal({
   }
 
   return (
-    <div className="fixed inset-0 z-40 flex items-center justify-center p-4">
-      <div className="fixed inset-0 bg-black/40 backdrop-blur-sm" onClick={onClose} />
-      <div className="relative bg-white rounded-2xl shadow-xl w-full max-w-2xl max-h-[90vh] overflow-y-auto">
-        <div className="p-5">
-          {/* Header: metadata row + close */}
-          <div className="flex items-center justify-between mb-2">
-            <div className="flex items-center gap-2">
-              {isEditing ? (
-                <div className="flex flex-wrap gap-1.5">
-                  {CATEGORIES.map((cat) => (
-                    <button
-                      key={cat}
-                      onClick={() => setEditCategory(cat)}
-                      className={`px-2 py-0.5 rounded-md text-xs font-medium transition-all cursor-pointer ${
-                        editCategory === cat
-                          ? 'bg-indigo-600 text-white'
-                          : `${CATEGORY_COLORS[cat]} hover:opacity-80`
-                      }`}
-                    >
-                      {cat}
-                    </button>
-                  ))}
-                </div>
-              ) : (
-                <>
-                  <span
-                    className={`px-2.5 py-0.5 rounded-md text-xs font-medium ${CATEGORY_COLORS[prompt.category] || CATEGORY_COLORS['Andet']}`}
-                  >
-                    {prompt.category}
-                  </span>
-                  <button
-                    onClick={() => onToggleFavorite(prompt.id)}
-                    className={`text-base cursor-pointer ${prompt.isFavorite ? 'text-amber-500' : 'text-gray-300 hover:text-amber-400'}`}
-                    title={prompt.isFavorite ? 'Fjern fra favoritter' : 'Tilføj til favoritter'}
-                  >
-                    {prompt.isFavorite ? '★' : '☆'}
-                  </button>
-                </>
-              )}
-            </div>
-            <button
-              onClick={onClose}
-              className="text-gray-400 hover:text-gray-600 transition-colors cursor-pointer p-1"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
-
-          {/* Title */}
+    <Dialog open={!!prompt} onClose={onClose} size="2xl">
+      {/* Header: category + favorite */}
+      <div className="flex items-center justify-between mb-2">
+        <div className="flex items-center gap-2">
           {isEditing ? (
-            <input
-              type="text"
-              value={editTitle}
-              onChange={(e) => setEditTitle(e.target.value)}
-              className="w-full text-lg font-semibold text-gray-900 mb-3 px-3 py-2 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
-              autoFocus
-            />
-          ) : (
-            <h2 className="text-lg font-semibold text-gray-900 mb-3">{prompt.title}</h2>
-          )}
-
-          {/* Prompt text – the main focus */}
-          {isEditing ? (
-            <textarea
-              value={editText}
-              onChange={(e) => setEditText(e.target.value)}
-              rows={8}
-              className="w-full px-3 py-3 bg-gray-50 border border-gray-200 rounded-xl text-base text-gray-700 leading-relaxed focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent resize-y mb-2"
-            />
-          ) : (
-            <div className="bg-gray-50/80 rounded-xl px-4 py-3 mb-2">
-              <pre className="text-sm text-gray-700 whitespace-pre-wrap font-sans leading-relaxed">
-                {prompt.text}
-              </pre>
-            </div>
-          )}
-
-          {/* Tags – tight to prompt */}
-          {isEditing ? (
-            <div className="mb-3">
-              <div className="flex flex-wrap gap-1.5 mb-2">
-                {editTags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="inline-flex items-center gap-1 bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-md text-xs font-medium"
-                  >
-                    #{tag}
-                    <button
-                      onClick={() => setEditTags(editTags.filter((t) => t !== tag))}
-                      className="hover:text-indigo-900 cursor-pointer"
-                    >
-                      ×
-                    </button>
-                  </span>
-                ))}
-              </div>
-              <input
-                type="text"
-                value={editTagInput}
-                onChange={(e) => setEditTagInput(e.target.value)}
-                onKeyDown={handleTagKeyDown}
-                placeholder="Tilføj tags (tryk Enter)..."
-                className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
-              />
+            <div className="flex flex-wrap gap-1.5">
+              {CATEGORIES.map((cat) => (
+                <BadgeButton
+                  key={cat}
+                  color={editCategory === cat ? 'indigo' : 'zinc'}
+                  onClick={() => setEditCategory(cat)}
+                >
+                  {cat}
+                </BadgeButton>
+              ))}
             </div>
           ) : (
-            prompt.tags.length > 0 && (
-              <div className="flex flex-wrap gap-1.5 mb-3">
-                {prompt.tags.map((tag) => (
-                  <button
-                    key={tag}
-                    onClick={() => {
-                      onTagClick(tag)
-                      onClose()
-                    }}
-                    className="text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded-md hover:bg-indigo-50 hover:text-indigo-600 transition-colors cursor-pointer"
-                  >
-                    #{tag}
-                  </button>
-                ))}
-              </div>
-            )
+            <>
+              <Badge color={CATEGORY_BADGE_COLORS[prompt.category] || 'zinc'}>
+                {prompt.category}
+              </Badge>
+              <button
+                onClick={() => onToggleFavorite(prompt.id)}
+                className={`text-base cursor-pointer ${prompt.isFavorite ? 'text-amber-500' : 'text-zinc-300 hover:text-amber-400 dark:text-zinc-600'}`}
+              >
+                {prompt.isFavorite ? '★' : '☆'}
+              </button>
+            </>
           )}
-
-          {/* Platform buttons – visually secondary */}
-          {!isEditing && (
-            <div className="mb-3">
-              <p className="text-[11px] font-medium text-gray-400 uppercase tracking-wide mb-2">
-                Åbn i
-              </p>
-              <div className="flex gap-2">
-                {(Object.entries(PLATFORM_INFO) as [string, { name: string; color: string; icon: string }][]).map(
-                  ([key, info]) => (
-                    <button
-                      key={key}
-                      onClick={() => handleOpenIn(key as 'chatgpt' | 'claude' | 'mistral')}
-                      className={`flex items-center gap-1.5 px-3 py-1.5 ${info.color} text-white rounded-lg text-xs font-medium transition-colors cursor-pointer`}
-                    >
-                      {info.name}
-                      <span className="opacity-70">{info.icon}</span>
-                    </button>
-                  ),
-                )}
-              </div>
-            </div>
-          )}
-
-          {/* Action bar */}
-          <div className="flex items-center pt-3 border-t border-gray-100">
-            {isEditing ? (
-              <>
-                <button
-                  onClick={handleSaveEdit}
-                  disabled={!editTitle.trim() || !editText.trim()}
-                  className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-sm font-medium hover:bg-indigo-700 transition-colors disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
-                >
-                  Gem ændringer
-                </button>
-                <button
-                  onClick={() => {
-                    setEditTitle(prompt.title)
-                    setEditText(prompt.text)
-                    setEditCategory(prompt.category)
-                    setEditTags([...prompt.tags])
-                    setIsEditing(false)
-                  }}
-                  className="ml-2 px-4 py-2 bg-gray-100 text-gray-600 rounded-xl text-sm font-medium hover:bg-gray-200 transition-colors cursor-pointer"
-                >
-                  Annuller
-                </button>
-              </>
-            ) : (
-              <>
-                <button
-                  onClick={handleCopy}
-                  className="px-4 py-2 bg-gray-100 text-gray-700 rounded-xl text-sm font-medium hover:bg-gray-200 transition-colors cursor-pointer"
-                >
-                  Kopiér prompt
-                </button>
-                <button
-                  onClick={() => setIsEditing(true)}
-                  className="ml-2 px-4 py-2 text-gray-500 hover:bg-gray-100 rounded-xl text-sm font-medium transition-colors cursor-pointer"
-                >
-                  Rediger
-                </button>
-                <div className="flex-1" />
-                <button
-                  onClick={handleDelete}
-                  className={`px-4 py-2 rounded-xl text-sm font-medium transition-colors cursor-pointer ${
-                    confirmDelete
-                      ? 'bg-red-600 text-white hover:bg-red-700'
-                      : 'text-red-400 hover:bg-red-50 hover:text-red-500'
-                  }`}
-                >
-                  {confirmDelete ? 'Bekræft sletning' : 'Slet'}
-                </button>
-              </>
-            )}
-          </div>
         </div>
       </div>
-    </div>
+
+      {/* Title */}
+      {isEditing ? (
+        <Field>
+          <Input
+            type="text"
+            value={editTitle}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEditTitle(e.target.value)}
+            autoFocus
+          />
+        </Field>
+      ) : (
+        <DialogTitle className="mt-1">{prompt.title}</DialogTitle>
+      )}
+
+      <DialogBody>
+        {/* Prompt text */}
+        {isEditing ? (
+          <Textarea
+            value={editText}
+            onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => setEditText(e.target.value)}
+            rows={8}
+          />
+        ) : (
+          <div className="rounded-lg bg-zinc-950/2.5 px-4 py-3 dark:bg-white/5">
+            <pre className="text-sm/6 text-zinc-700 whitespace-pre-wrap font-sans dark:text-zinc-300">
+              {prompt.text}
+            </pre>
+          </div>
+        )}
+
+        {/* Tags */}
+        {isEditing ? (
+          <div className="mt-4">
+            <div className="flex flex-wrap gap-1.5 mb-2">
+              {editTags.map((tag) => (
+                <span
+                  key={tag}
+                  className="inline-flex items-center gap-1 bg-indigo-500/15 text-indigo-700 px-2 py-0.5 rounded-md text-xs/5 font-medium dark:text-indigo-400"
+                >
+                  #{tag}
+                  <button
+                    onClick={() => setEditTags(editTags.filter((t) => t !== tag))}
+                    className="hover:text-indigo-900 cursor-pointer dark:hover:text-indigo-200"
+                  >
+                    ×
+                  </button>
+                </span>
+              ))}
+            </div>
+            <Input
+              type="text"
+              value={editTagInput}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEditTagInput(e.target.value)}
+              onKeyDown={handleTagKeyDown}
+              placeholder="Tilføj tags (tryk Enter)..."
+            />
+          </div>
+        ) : (
+          prompt.tags.length > 0 && (
+            <div className="flex flex-wrap gap-1.5 mt-3">
+              {prompt.tags.map((tag) => (
+                <button
+                  key={tag}
+                  onClick={() => {
+                    onTagClick(tag)
+                    onClose()
+                  }}
+                  className="text-xs bg-zinc-950/5 text-zinc-500 px-2 py-0.5 rounded-md hover:bg-indigo-500/10 hover:text-indigo-600 transition-colors cursor-pointer dark:bg-white/5 dark:text-zinc-400"
+                >
+                  #{tag}
+                </button>
+              ))}
+            </div>
+          )
+        )}
+
+        {/* Platform buttons */}
+        {!isEditing && (
+          <div className="mt-4">
+            <Divider soft />
+            <Text className="mt-3 mb-2 text-xs font-medium uppercase tracking-wide">Åbn i</Text>
+            <div className="flex gap-2">
+              {(Object.entries(PLATFORM_INFO) as [string, { name: string; color: string; icon: string }][]).map(
+                ([key, info]) => (
+                  <button
+                    key={key}
+                    onClick={() => handleOpenIn(key as 'chatgpt' | 'claude' | 'mistral')}
+                    className={`flex items-center gap-1.5 px-3 py-1.5 ${info.color} text-white rounded-lg text-xs font-medium transition-colors cursor-pointer`}
+                  >
+                    {info.name}
+                    <span className="opacity-70">{info.icon}</span>
+                  </button>
+                ),
+              )}
+            </div>
+          </div>
+        )}
+      </DialogBody>
+
+      {/* Actions */}
+      <DialogActions>
+        {isEditing ? (
+          <>
+            <Button plain onClick={() => {
+              setEditTitle(prompt.title)
+              setEditText(prompt.text)
+              setEditCategory(prompt.category)
+              setEditTags([...prompt.tags])
+              setIsEditing(false)
+            }}>
+              Annuller
+            </Button>
+            <Button
+              color="indigo"
+              onClick={handleSaveEdit}
+              disabled={!editTitle.trim() || !editText.trim()}
+            >
+              Gem ændringer
+            </Button>
+          </>
+        ) : (
+          <>
+            {confirmDelete ? (
+              <Button color="red" onClick={handleDelete}>
+                Bekræft sletning
+              </Button>
+            ) : (
+              <Button plain onClick={handleDelete}>
+                Slet
+              </Button>
+            )}
+            <div className="flex-1" />
+            <Button plain onClick={() => setIsEditing(true)}>
+              Rediger
+            </Button>
+            <Button outline onClick={handleCopy}>
+              Kopiér prompt
+            </Button>
+          </>
+        )}
+      </DialogActions>
+    </Dialog>
   )
 }

@@ -1,5 +1,10 @@
 import { useState } from 'react'
 import { useAuth } from '../contexts/AuthContext'
+import { Dialog, DialogTitle, DialogDescription, DialogBody, DialogActions } from './catalyst/dialog'
+import { Field, Label } from './catalyst/fieldset'
+import { Input } from './catalyst/input'
+import { Button } from './catalyst/button'
+import { Text } from './catalyst/text'
 
 interface LoginModalProps {
   isOpen: boolean
@@ -12,8 +17,6 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
   const [sent, setSent] = useState(false)
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
-
-  if (!isOpen) return null
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -40,70 +43,60 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-      <div className="fixed inset-0 bg-black/40 backdrop-blur-sm" onClick={handleClose} />
-      <div className="relative bg-white rounded-2xl shadow-xl w-full max-w-sm">
-        <div className="p-6">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-lg font-semibold text-gray-900">Log ind for at gemme</h2>
+    <Dialog open={isOpen} onClose={handleClose} size="sm">
+      <DialogTitle>Log ind for at gemme</DialogTitle>
+      <DialogDescription>
+        Opret din gratis konto for at gemme prompts i din egen samling. Vi sender et login-link til din email.
+      </DialogDescription>
+
+      <DialogBody>
+        {sent ? (
+          <div className="text-center py-4">
+            <div className="text-4xl mb-3">✉️</div>
+            <p className="text-base/6 font-semibold text-zinc-950 mb-2 dark:text-white">Tjek din indbakke</p>
+            <Text>
+              Vi har sendt et login-link til <strong className="font-medium text-zinc-950 dark:text-white">{email}</strong>. Klik på linket for at logge ind.
+            </Text>
             <button
-              onClick={handleClose}
-              className="text-gray-400 hover:text-gray-600 transition-colors cursor-pointer"
+              onClick={() => { setSent(false); setEmail('') }}
+              className="mt-4 text-sm text-indigo-600 hover:text-indigo-700 font-medium cursor-pointer"
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
+              Prøv en anden email
             </button>
           </div>
-
-          <p className="text-gray-500 text-sm mb-5">
-            Opret din gratis konto for at gemme prompts i din egen samling. Vi sender et login-link til din email.
-          </p>
-
-          {sent ? (
-            <div className="text-center py-4">
-              <div className="text-4xl mb-3">✉️</div>
-              <h3 className="text-base font-semibold text-gray-900 mb-2">Tjek din indbakke</h3>
-              <p className="text-gray-500 text-sm">
-                Vi har sendt et login-link til <strong>{email}</strong>. Klik på linket for at logge ind.
-              </p>
-              <button
-                onClick={() => { setSent(false); setEmail('') }}
-                className="mt-4 text-sm text-indigo-600 hover:text-indigo-700 font-medium cursor-pointer"
-              >
-                Prøv en anden email
-              </button>
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit}>
-              <label className="block text-sm font-medium text-gray-700 mb-1.5">
-                Email
-              </label>
-              <input
+        ) : (
+          <form onSubmit={handleSubmit}>
+            <Field>
+              <Label>Email</Label>
+              <Input
                 type="email"
                 value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEmail(e.target.value)}
                 placeholder="din@email.dk"
-                className="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 autoFocus
                 required
               />
+            </Field>
 
-              {error && (
-                <p className="text-red-500 text-sm mt-2">{error}</p>
-              )}
+            {error && (
+              <p className="text-sm text-red-600 mt-3 dark:text-red-500">{error}</p>
+            )}
 
-              <button
+            <DialogActions>
+              <Button plain onClick={handleClose}>
+                Annuller
+              </Button>
+              <Button
                 type="submit"
+                color="indigo"
                 disabled={loading || !email.trim()}
-                className="w-full mt-4 px-4 py-2.5 bg-indigo-600 text-white rounded-xl text-sm font-medium hover:bg-indigo-700 transition-colors disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
               >
                 {loading ? 'Sender...' : 'Send login-link'}
-              </button>
-            </form>
-          )}
-        </div>
-      </div>
-    </div>
+              </Button>
+            </DialogActions>
+          </form>
+        )}
+      </DialogBody>
+    </Dialog>
   )
 }

@@ -1,7 +1,26 @@
 import { useState, useMemo, useCallback } from 'react'
 import { DEFAULT_PROMPTS } from '../data/defaultPrompts'
-import { CATEGORIES, CATEGORY_COLORS } from '../types/prompt'
+import { CATEGORIES } from '../types/prompt'
 import SearchBar from './SearchBar'
+import { Badge, BadgeButton } from './catalyst/badge'
+import { Text } from './catalyst/text'
+
+const CATEGORY_BADGE_COLORS: Record<string, 'blue' | 'emerald' | 'amber' | 'purple' | 'rose' | 'cyan' | 'zinc' | 'lime' | 'teal' | 'pink' | 'indigo' | 'violet' | 'orange' | 'sky'> = {
+  Skrivning: 'blue',
+  Kodning: 'emerald',
+  Analyse: 'amber',
+  Kreativitet: 'purple',
+  Læring: 'rose',
+  Strategi: 'cyan',
+  Ledelse: 'zinc',
+  Økonomi: 'lime',
+  HR: 'teal',
+  Marketing: 'pink',
+  Jura: 'indigo',
+  Tech: 'violet',
+  Projektledelse: 'orange',
+  Andet: 'zinc',
+}
 
 interface CatalogBrowserProps {
   addedSourceIds: Set<string>
@@ -64,43 +83,35 @@ export default function CatalogBrowser({ addedSourceIds, onAdd, onRequireAuth, i
         <SearchBar query={query} onChange={setQuery} placeholder="Søg i kataloget..." />
 
         <div className="flex flex-wrap gap-2">
-          <button
+          <BadgeButton
+            color={activeCategory === null ? 'indigo' : 'zinc'}
             onClick={() => setActiveCategory(null)}
-            className={`px-3.5 py-1.5 rounded-lg text-sm font-medium transition-all cursor-pointer ${
-              activeCategory === null ? 'bg-indigo-600 text-white shadow-sm' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-            }`}
           >
-            Alle
-            <span className="ml-1.5 opacity-70">{DEFAULT_PROMPTS.length}</span>
-          </button>
+            Alle {DEFAULT_PROMPTS.length}
+          </BadgeButton>
           {CATEGORIES.map((cat) => {
             const count = categoryCounts[cat] || 0
             if (count === 0) return null
             return (
-              <button
+              <BadgeButton
                 key={cat}
+                color={activeCategory === cat ? 'indigo' : (CATEGORY_BADGE_COLORS[cat] || 'zinc')}
                 onClick={() => setActiveCategory(activeCategory === cat ? null : cat)}
-                className={`px-3.5 py-1.5 rounded-lg text-sm font-medium transition-all cursor-pointer ${
-                  activeCategory === cat
-                    ? 'bg-indigo-600 text-white shadow-sm'
-                    : `${CATEGORY_COLORS[cat]} hover:opacity-80`
-                }`}
               >
-                {cat}
-                <span className="ml-1.5 opacity-70">{count}</span>
-              </button>
+                {cat} {count}
+              </BadgeButton>
             )
           })}
         </div>
       </div>
 
-      {query || activeCategory ? (
-        <p className="text-sm text-gray-500 mb-4">
+      {(query || activeCategory) && (
+        <Text className="mb-4">
           {filtered.length} {filtered.length === 1 ? 'prompt fundet' : 'prompts fundet'}
           {activeCategory && ` i "${activeCategory}"`}
           {query && ` for "${query}"`}
-        </p>
-      ) : null}
+        </Text>
+      )}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {filtered.map((p) => {
@@ -109,32 +120,32 @@ export default function CatalogBrowser({ addedSourceIds, onAdd, onRequireAuth, i
           return (
             <div
               key={sourceId}
-              className="bg-white border border-gray-200 rounded-xl p-5 relative group"
+              className="rounded-lg bg-white p-5 shadow-xs ring-1 ring-zinc-950/5 relative group dark:bg-zinc-900 dark:ring-white/10"
             >
-              <div className="flex items-start gap-3 mb-3">
-                <span
-                  className={`px-2.5 py-0.5 rounded-md text-xs font-medium ${CATEGORY_COLORS[p.category] || CATEGORY_COLORS['Andet']}`}
-                >
+              <div className="mb-3">
+                <Badge color={CATEGORY_BADGE_COLORS[p.category] || 'zinc'}>
                   {p.category}
-                </span>
+                </Badge>
               </div>
 
-              <h3 className="font-semibold text-gray-900 mb-2 pr-10 line-clamp-1">{p.title}</h3>
+              <h3 className="font-semibold text-zinc-950 mb-2 pr-10 line-clamp-1 text-base/6 sm:text-sm/6 dark:text-white">
+                {p.title}
+              </h3>
 
-              <p className="text-sm text-gray-500 line-clamp-3 mb-3 leading-relaxed">{p.text}</p>
+              <p className="text-sm/6 text-zinc-500 line-clamp-3 mb-3 dark:text-zinc-400">{p.text}</p>
 
               {p.tags.length > 0 && (
                 <div className="flex flex-wrap gap-1.5 mb-3">
                   {p.tags.slice(0, 3).map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs bg-gray-50 text-gray-500 px-2 py-0.5 rounded-md"
+                      className="text-xs text-zinc-500 px-2 py-0.5 rounded-md bg-zinc-950/5 dark:bg-white/5 dark:text-zinc-400"
                     >
                       #{tag}
                     </span>
                   ))}
                   {p.tags.length > 3 && (
-                    <span className="text-xs text-gray-400">+{p.tags.length - 3}</span>
+                    <span className="text-xs text-zinc-400">+{p.tags.length - 3}</span>
                   )}
                 </div>
               )}
@@ -144,8 +155,8 @@ export default function CatalogBrowser({ addedSourceIds, onAdd, onRequireAuth, i
                 disabled={isAdded}
                 className={`absolute top-4 right-4 w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium transition-all cursor-pointer ${
                   isAdded
-                    ? 'bg-green-100 text-green-600'
-                    : 'bg-indigo-50 text-indigo-600 hover:bg-indigo-100 opacity-0 group-hover:opacity-100'
+                    ? 'bg-green-500/15 text-green-700 dark:text-green-400'
+                    : 'bg-indigo-500/15 text-indigo-700 hover:bg-indigo-500/25 opacity-0 group-hover:opacity-100 dark:text-indigo-400'
                 }`}
                 title={isAdded ? 'Allerede tilføjet' : 'Tilføj til min samling'}
               >
@@ -158,7 +169,7 @@ export default function CatalogBrowser({ addedSourceIds, onAdd, onRequireAuth, i
 
       {filtered.length === 0 && (
         <div className="text-center py-16">
-          <p className="text-gray-500">Ingen prompts matcher din søgning.</p>
+          <Text>Ingen prompts matcher din søgning.</Text>
         </div>
       )}
     </div>
