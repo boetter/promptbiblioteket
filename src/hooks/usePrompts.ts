@@ -1,28 +1,52 @@
 import { useState, useCallback, useEffect } from 'react'
-import { v4 as uuidv4 } from 'uuid'
 import type { Prompt } from '../types/prompt'
-import { loadPrompts, savePrompts, resetToDefaults, clearAll } from '../lib/storage'
+import * as api from '../lib/api'
 import { categorizePrompt } from '../lib/categorize'
 
 export function usePrompts() {
-  const [prompts, setPrompts] = useState<Prompt[]>(() => loadPrompts())
+  const [prompts, setPrompts] = useState<Prompt[]>([])
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    savePrompts(prompts)
-  }, [prompts])
+    api
+      .fetchPrompts()
+      .then(({ prompts }) =>
+        setPrompts(
+          prompts.map((p) => ({
+            id: p.id,
+            title: p.title,
+            text: p.text,
+            tags: p.tags,
+            category: p.category,
+            createdAt: p.createdAt,
+            updatedAt: p.updatedAt,
+            isFavorite: p.isFavorite,
+          })),
+        ),
+      )
+      .catch(() => setPrompts([]))
+      .finally(() => setLoading(false))
+  }, [])
 
   const addPrompt = useCallback(
-    (data: { title: string; text: string; tags: string[]; category?: string }) => {
-      const now = new Date().toISOString()
-      const newPrompt: Prompt = {
-        id: uuidv4(),
+    async (data: { title: string; text: string; tags: string[]; category?: string; sourceId?: string }) => {
+      const category = data.category || categorizePrompt(data.text)
+      const { prompt: p } = await api.createPrompt({
         title: data.title,
         text: data.text,
         tags: data.tags,
-        category: data.category || categorizePrompt(data.text),
-        createdAt: now,
-        updatedAt: now,
-        isFavorite: false,
+        category,
+        sourceId: data.sourceId,
+      })
+      const newPrompt: Prompt = {
+        id: p.id,
+        title: p.title,
+        text: p.text,
+        tags: p.tags,
+        category: p.category,
+        createdAt: p.createdAt,
+        updatedAt: p.updatedAt,
+        isFavorite: p.isFavorite,
       }
       setPrompts((prev) => [newPrompt, ...prev])
       return newPrompt
@@ -31,35 +55,34 @@ export function usePrompts() {
   )
 
   const updatePrompt = useCallback(
-    (id: string, data: Partial<Pick<Prompt, 'title' | 'text' | 'tags' | 'category'>>) => {
+    async (id: string, data: Partial<Pick<Prompt, 'title' | 'text' | 'tags' | 'category'>>) => {
+      const current = prompts.find((p) => p.id === id)
+      if (!current) return
+
+      const updated = {
+        title: data.title ?? current.title,
+        text: data.text ?? current.text,
+        tags: data.tags ?? current.tags,
+        category: data.category ?? current.category,
+      }
+
+      await api.updatePrompt(id, updated)
       setPrompts((prev) =>
-        prev.map((p) =>
-          p.id === id ? { ...p, ...data, updatedAt: new Date().toISOString() } : p,
-        ),
+        prev.map((p) => (p.id === id ? { ...p, ...updated, updatedAt: new Date().toISOString() } : p)),
       )
     },
-    [],
+    [prompts],
   )
 
-  const deletePrompt = useCallback((id: string) => {
+  const deletePrompt = useCallback(async (id: string) => {
+    await api.deletePrompt(id)
     setPrompts((prev) => prev.filter((p) => p.id !== id))
   }, [])
 
-  const toggleFavorite = useCallback((id: string) => {
-    setPrompts((prev) =>
-      prev.map((p) => (p.id === id ? { ...p, isFavorite: !p.isFavorite } : p)),
-    )
+  const toggleFavorite = useCallback(async (id: string) => {
+    await api.toggleFavorite(id)
+    setPrompts((prev) => prev.map((p) => (p.id === id ? { ...p, isFavorite: !p.isFavorite } : p)))
   }, [])
 
-  const resetAll = useCallback(() => {
-    clearAll()
-    setPrompts([])
-  }, [])
-
-  const restoreDefaults = useCallback(() => {
-    const defaults = resetToDefaults()
-    setPrompts(defaults)
-  }, [])
-
-  return { prompts, addPrompt, updatePrompt, deletePrompt, toggleFavorite, resetAll, restoreDefaults }
+  return { prompts, loading, addPrompt, updatePrompt, deletePrompt, toggleFavorite }
 }
